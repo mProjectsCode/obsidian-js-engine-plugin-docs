@@ -1,0 +1,3 @@
+[submodule "obsidian-js-engine-plugin"]
+	path = obsidian-js-engine-plugin
+	url = https://github.com/mProjectsCode/obsidian-js-engine-plugin
