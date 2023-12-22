@@ -12,8 +12,10 @@
   "dependencies": {
     "@astrojs/starlight": "^0.15.0",
     "astro": "^4.0.0",
+    "rehype-mathjax": "^6.0.0",
+    "remark-math": "^6.0.0",
     "sharp": "^0.33.0",
-    "starlight-typedoc": "^0.6.0",
+    "starlight-typedoc": "^0.7.0",
     "typedoc": "^0.25.4",
     "typedoc-plugin-markdown": "^4.0.0-next.37",
     "typedoc-plugin-mdn-links": "^3.1.8"

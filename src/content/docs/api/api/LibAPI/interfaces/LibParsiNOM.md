@@ -9,57 +9,69 @@ title: "LibParsiNOM"
 
 ### P
 
-> **P**: *typeof* `P`
+```ts
+P: *typeof* P;
+```
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/LibAPI.ts#L10)
+[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L10)
 
 ***
 
 ### P\_UTILS
 
-> **P\_UTILS**: *typeof* `P_UTILS`
+```ts
+P_UTILS: *typeof* P_UTILS;
+```
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/LibAPI.ts#L11)
+[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L11)
 
 ***
 
 ### Parser
 
-> **Parser**: *typeof* `Parser`
+```ts
+Parser: *typeof* Parser;
+```
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/LibAPI.ts#L12)
+[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L12)
 
 ***
 
 ### ParserContext
 
-> **ParserContext**: *typeof* `ParserContext`
+```ts
+ParserContext: *typeof* ParserContext;
+```
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/LibAPI.ts#L15)
+[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L15)
 
 ***
 
 ### ParsingError
 
-> **ParsingError**: *typeof* `ParsingError`
+```ts
+ParsingError: *typeof* ParsingError;
+```
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/LibAPI.ts#L14)
+[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L14)
 
 ***
 
 ### createParsingErrorMessage
 
-> **createParsingErrorMessage**: (`str`, `parseFailure`, `verbose`) => `string`
+```ts
+createParsingErrorMessage: (str, parseFailure, verbose) => string;
+```
 
 Generate an error message string for a parse failure on a specific string.
 
@@ -77,7 +89,7 @@ Generate an error message string for a parse failure on a specific string.
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/LibAPI.ts#L13)
+[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L13)
 
 ***
 

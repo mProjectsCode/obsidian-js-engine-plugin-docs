@@ -5,11 +5,11 @@ prev: false
 title: "api/markdown/MarkdownBuilder"
 ---
 
-## Index
+## References
 
-### Classes
+### MarkdownBuilder
 
-- [MarkdownBuilder](/api/api/markdown/markdownbuilder/classes/markdownbuilder/)
+Re-exports [MarkdownBuilder](/obsidian-js-engine-plugin-docs/api/api/markdown/markdownbuilder/classes/markdownbuilder/)
 
 ***
 

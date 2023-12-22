@@ -9,7 +9,9 @@ title: "Engine"
 
 ### new Engine(app, plugin)
 
-> **new Engine**(`app`, `plugin`): [`Engine`](/api/engine/engine/classes/engine/)
+```ts
+new Engine(app, plugin): Engine
+```
 
 #### Parameters
 
@@ -20,53 +22,51 @@ title: "Engine"
 
 #### Returns
 
-[`Engine`](/api/engine/engine/classes/engine/)
+[`Engine`](/obsidian-js-engine-plugin-docs/api/engine/engine/classes/engine/)
 
 #### Source
 
-[jsEngine/engine/Engine.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/engine/Engine.ts#L15)
-
-## Properties
-
-### activeExecutions
-
-> **activeExecutions**: [`Map`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map )\<`string`, [`JsExecution`](/api/engine/jsexecution/classes/jsexecution/)\>
-
-#### Source
-
-[jsEngine/engine/Engine.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/engine/Engine.ts#L13)
+[jsEngine/engine/Engine.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/Engine.ts#L39)
 
 ## Methods
 
 ### execute()
 
-> **execute**(`params`): [`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<[`JsExecution`](/api/engine/jsexecution/classes/jsexecution/)\>
+```ts
+execute(params): Promise<JsExecution>
+```
+
+Execute JavaScript code.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`EngineExecutionParams`](/api/engine/engine/type-aliases/engineexecutionparams/) |
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `params` | [`EngineExecutionParams`](/obsidian-js-engine-plugin-docs/api/engine/engine/interfaces/engineexecutionparams/) |  |
 
 #### Returns
 
-[`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<[`JsExecution`](/api/engine/jsexecution/classes/jsexecution/)\>
+[`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<[`JsExecution`](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/classes/jsexecution/)\>
 
 #### Source
 
-[jsEngine/engine/Engine.ts:23](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/engine/Engine.ts#L23)
+[jsEngine/engine/Engine.ts:52](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/Engine.ts#L52)
 
 ***
 
 ### openExecutionStatsModal()
 
-> **openExecutionStatsModal**(`jsExecution`): `void`
+```ts
+openExecutionStatsModal(jsExecution): void
+```
+
+Open the execution stats modal for a given [JsExecution](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/classes/jsexecution/).
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `jsExecution` | [`JsExecution`](/api/engine/jsexecution/classes/jsexecution/) |
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `jsExecution` | [`JsExecution`](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/classes/jsexecution/) |  |
 
 #### Returns
 
@@ -74,7 +74,19 @@ title: "Engine"
 
 #### Source
 
-[jsEngine/engine/Engine.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/engine/Engine.ts#L38)
+[jsEngine/engine/Engine.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/Engine.ts#L72)
+
+## Properties
+
+### activeExecutions
+
+```ts
+readonly activeExecutions: Map<string, JsExecution>;
+```
+
+#### Source
+
+[jsEngine/engine/Engine.ts:37](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/Engine.ts#L37)
 
 ***
 

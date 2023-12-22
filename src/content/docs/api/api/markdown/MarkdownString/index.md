@@ -9,7 +9,7 @@ title: "api/markdown/MarkdownString"
 
 ### Classes
 
-- [MarkdownString](/api/api/markdown/markdownstring/classes/markdownstring/)
+- [MarkdownString](/obsidian-js-engine-plugin-docs/api/api/markdown/markdownstring/classes/markdownstring/)
 
 ***
 

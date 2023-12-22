@@ -9,7 +9,7 @@ title: "api/reactive/ReactiveComponent"
 
 ### Classes
 
-- [ReactiveComponent](/api/api/reactive/reactivecomponent/classes/reactivecomponent/)
+- [ReactiveComponent](/obsidian-js-engine-plugin-docs/api/api/reactive/reactivecomponent/classes/reactivecomponent/)
 
 ***
 

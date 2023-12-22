@@ -9,7 +9,7 @@ title: "api/MessageAPI"
 
 ### Classes
 
-- [MessageAPI](/api/api/messageapi/classes/messageapi/)
+- [MessageAPI](/obsidian-js-engine-plugin-docs/api/api/messageapi/classes/messageapi/)
 
 ***
 

@@ -11,84 +11,101 @@ The internal API provides access to some of js engines internals.
 
 ### new InternalAPI(apiInstance)
 
-> **new InternalAPI**(`apiInstance`): [`InternalAPI`](/api/api/internal/classes/internalapi/)
+```ts
+new InternalAPI(apiInstance): InternalAPI
+```
 
 #### Parameters
 
 | Parameter | Type |
 | :------ | :------ |
-| `apiInstance` | [`API`](/api/api/api/classes/api/) |
+| `apiInstance` | [`API`](/obsidian-js-engine-plugin-docs/api/api/api/classes/api/) |
 
 #### Returns
 
-[`InternalAPI`](/api/api/internal/classes/internalapi/)
+[`InternalAPI`](/obsidian-js-engine-plugin-docs/api/api/internal/classes/internalapi/)
 
 #### Source
 
-[jsEngine/api/Internal.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/Internal.ts#L13)
+[jsEngine/api/Internal.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/Internal.ts#L13)
 
 ## Methods
 
 ### createRenderer()
 
-> **createRenderer**(`container`, `sourcePath`, `component`): `ResultRenderer`
+```ts
+createRenderer(
+   container, 
+   sourcePath, 
+   component): ResultRenderer
+```
+
+Creates a result renderer.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `container` | [`HTMLElement`]( https://developer.mozilla.org/docs/Web/API/HTMLElement ) |
-| `sourcePath` | `string` |
-| `component` | `Component` |
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `container` | [`HTMLElement`]( https://developer.mozilla.org/docs/Web/API/HTMLElement ) |  |
+| `sourcePath` | `string` |  |
+| `component` | `Component` |  |
 
 #### Returns
 
-`ResultRenderer`
+[`ResultRenderer`](/obsidian-js-engine-plugin-docs/api/engine/resultrenderer/classes/resultrenderer/)
 
 #### Source
 
-[jsEngine/api/Internal.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/Internal.ts#L21)
+[jsEngine/api/Internal.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/Internal.ts#L33)
 
 ***
 
 ### execute()
 
-> **execute**(`params`): [`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<[`JsExecution`](/api/engine/jsexecution/classes/jsexecution/)\>
+```ts
+execute(params): Promise<JsExecution>
+```
+
+Executes the given code.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`EngineExecutionParams`](/api/engine/engine/type-aliases/engineexecutionparams/) |
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `params` | [`EngineExecutionParams`](/obsidian-js-engine-plugin-docs/api/engine/engine/interfaces/engineexecutionparams/) |  |
 
 #### Returns
 
-[`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<[`JsExecution`](/api/engine/jsexecution/classes/jsexecution/)\>
+[`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<[`JsExecution`](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/classes/jsexecution/)\>
 
 #### Source
 
-[jsEngine/api/Internal.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/Internal.ts#L17)
+[jsEngine/api/Internal.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/Internal.ts#L22)
 
 ***
 
 ### executeFile()
 
-> **executeFile**(`path`, `params`): [`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<[`JsExecution`](/api/engine/jsexecution/classes/jsexecution/)\>
+```ts
+executeFile(path, params): Promise<JsExecution>
+```
+
+Load and execute the given file.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `params` | [`Omit`]( https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys )\<[`EngineExecutionParams`](/api/engine/engine/type-aliases/engineexecutionparams/), `"code"`\> |
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` |  |
+| `params` | [`Omit`]( https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys )\<[`EngineExecutionParams`](/obsidian-js-engine-plugin-docs/api/engine/engine/interfaces/engineexecutionparams/), `"code"`\> |  |
 
 #### Returns
 
-[`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<[`JsExecution`](/api/engine/jsexecution/classes/jsexecution/)\>
+[`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<[`JsExecution`](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/classes/jsexecution/)\>
 
 #### Source
 
-[jsEngine/api/Internal.ts:25](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/Internal.ts#L25)
+[jsEngine/api/Internal.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/Internal.ts#L43)
 
 ***
 

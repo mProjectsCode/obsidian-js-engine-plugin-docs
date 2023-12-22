@@ -9,7 +9,7 @@ title: "api/MarkdownAPI"
 
 ### Classes
 
-- [MarkdownAPI](/api/api/markdownapi/classes/markdownapi/)
+- [MarkdownAPI](/obsidian-js-engine-plugin-docs/api/api/markdownapi/classes/markdownapi/)
 
 ***
 

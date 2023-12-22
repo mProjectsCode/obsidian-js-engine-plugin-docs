@@ -9,11 +9,11 @@ title: "engine/Engine"
 
 ### Classes
 
-- [Engine](/api/engine/engine/classes/engine/)
+- [Engine](/obsidian-js-engine-plugin-docs/api/engine/engine/classes/engine/)
 
-### Type Aliases
+### Interfaces
 
-- [EngineExecutionParams](/api/engine/engine/type-aliases/engineexecutionparams/)
+- [EngineExecutionParams](/obsidian-js-engine-plugin-docs/api/engine/engine/interfaces/engineexecutionparams/)
 
 ***
 

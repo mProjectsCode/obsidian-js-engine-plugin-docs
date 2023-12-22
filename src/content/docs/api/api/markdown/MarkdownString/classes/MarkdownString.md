@@ -5,11 +5,15 @@ prev: false
 title: "MarkdownString"
 ---
 
+A string that should be rendered as markdown by the plugin.
+
 ## Constructors
 
 ### new MarkdownString(content)
 
-> **new MarkdownString**(`content`): [`MarkdownString`](/api/api/markdown/markdownstring/classes/markdownstring/)
+```ts
+new MarkdownString(content): MarkdownString
+```
 
 #### Parameters
 
@@ -19,43 +23,23 @@ title: "MarkdownString"
 
 #### Returns
 
-[`MarkdownString`](/api/api/markdown/markdownstring/classes/markdownstring/)
+[`MarkdownString`](/obsidian-js-engine-plugin-docs/api/api/markdown/markdownstring/classes/markdownstring/)
 
 #### Source
 
-[jsEngine/api/markdown/MarkdownString.ts:6](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/markdown/MarkdownString.ts#L6)
+[jsEngine/api/markdown/MarkdownString.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/markdown/MarkdownString.ts#L9)
 
 ## Properties
 
 ### content
 
-> **content**: `string`
+```ts
+readonly content: string;
+```
 
 #### Source
 
-[jsEngine/api/markdown/MarkdownString.ts:4](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/markdown/MarkdownString.ts#L4)
-
-## Methods
-
-### render()
-
-> **render**(`element`, `sourcePath`, `component`): [`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<`void`\>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `element` | [`HTMLElement`]( https://developer.mozilla.org/docs/Web/API/HTMLElement ) |
-| `sourcePath` | `string` |
-| `component` | `Component` |
-
-#### Returns
-
-[`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<`void`\>
-
-#### Source
-
-[jsEngine/api/markdown/MarkdownString.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/markdown/MarkdownString.ts#L10)
+[jsEngine/api/markdown/MarkdownString.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/markdown/MarkdownString.ts#L7)
 
 ***
 

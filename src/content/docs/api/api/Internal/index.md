@@ -9,7 +9,7 @@ title: "api/Internal"
 
 ### Classes
 
-- [InternalAPI](/api/api/internal/classes/internalapi/)
+- [InternalAPI](/obsidian-js-engine-plugin-docs/api/api/internal/classes/internalapi/)
 
 ***
 

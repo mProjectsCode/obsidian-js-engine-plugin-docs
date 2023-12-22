@@ -9,15 +9,17 @@ title: "engine/JsExecution"
 
 ### Classes
 
-- [JsExecution](/api/engine/jsexecution/classes/jsexecution/)
-
-### Interfaces
-
-- [JsExecutionParams](/api/engine/jsexecution/interfaces/jsexecutionparams/)
+- [JsExecution](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/classes/jsexecution/)
 
 ### Type Aliases
 
-- [JsFunc](/api/engine/jsexecution/type-aliases/jsfunc/)
+- [JsFunc](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/type-aliases/jsfunc/)
+
+### Interfaces
+
+- [JsExecutionContext](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/interfaces/jsexecutioncontext/)
+- [JsExecutionGlobals](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/interfaces/jsexecutionglobals/)
+- [JsExecutionParams](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/interfaces/jsexecutionparams/)
 
 ***
 

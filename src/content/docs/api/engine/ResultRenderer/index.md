@@ -2,14 +2,14 @@
 editUrl: false
 next: false
 prev: false
-title: "engine/ExecutionStatsModal"
+title: "engine/ResultRenderer"
 ---
 
 ## Index
 
 ### Classes
 
-- [ExecutionStatsModal](/api/engine/executionstatsmodal/classes/executionstatsmodal/)
+- [ResultRenderer](/obsidian-js-engine-plugin-docs/api/engine/resultrenderer/classes/resultrenderer/)
 
 ***
 

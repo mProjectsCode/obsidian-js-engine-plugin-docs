@@ -5,82 +5,49 @@ prev: false
 title: "ReactiveComponent"
 ---
 
+A reactive component is a component that can be refreshed.
+This is useful for rendering dynamic content.
+
+See API.reactive
+
 ## Constructors
 
 ### new ReactiveComponent(_render, initialArgs)
 
-> **new ReactiveComponent**(`_render`, `initialArgs`): [`ReactiveComponent`](/api/api/reactive/reactivecomponent/classes/reactivecomponent/)
+```ts
+new ReactiveComponent(_render, initialArgs): ReactiveComponent
+```
 
 #### Parameters
 
 | Parameter | Type |
 | :------ | :------ |
-| `_render` | [`JsFunc`](/api/engine/jsexecution/type-aliases/jsfunc/) |
+| `_render` | [`JsFunc`](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/type-aliases/jsfunc/) |
 | `initialArgs` | `unknown`[] |
 
 #### Returns
 
-[`ReactiveComponent`](/api/api/reactive/reactivecomponent/classes/reactivecomponent/)
+[`ReactiveComponent`](/obsidian-js-engine-plugin-docs/api/api/reactive/reactivecomponent/classes/reactivecomponent/)
 
 #### Source
 
-[jsEngine/api/reactive/ReactiveComponent.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/reactive/ReactiveComponent.ts#L9)
-
-## Properties
-
-### \_render
-
-> **`readonly`** **\_render**: [`JsFunc`](/api/engine/jsexecution/type-aliases/jsfunc/)
-
-#### Source
-
-[jsEngine/api/reactive/ReactiveComponent.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/reactive/ReactiveComponent.ts#L5)
-
-***
-
-### initialArgs
-
-> **`readonly`** **initialArgs**: `unknown`[]
-
-#### Source
-
-[jsEngine/api/reactive/ReactiveComponent.ts:6](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/reactive/ReactiveComponent.ts#L6)
-
-***
-
-### renderer
-
-> **renderer**: `undefined` \| `ResultRenderer`
-
-#### Source
-
-[jsEngine/api/reactive/ReactiveComponent.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/reactive/ReactiveComponent.ts#L7)
+[jsEngine/api/reactive/ReactiveComponent.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/reactive/ReactiveComponent.ts#L18)
 
 ## Methods
 
-### initialRender()
-
-> **initialRender**(): `void`
-
-#### Returns
-
-`void`
-
-#### Source
-
-[jsEngine/api/reactive/ReactiveComponent.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/reactive/ReactiveComponent.ts#L18)
-
-***
-
 ### refresh()
 
-> **refresh**(...`args`): [`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<`void`\>
+```ts
+refresh(...args): Promise<void>
+```
+
+Refreshes the component by rerunning the render function with the arguments passed into this function.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| ...`args` | `unknown`[] |
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| ...`args` | `unknown`[] |  |
 
 #### Returns
 
@@ -88,27 +55,7 @@ title: "ReactiveComponent"
 
 #### Source
 
-[jsEngine/api/reactive/ReactiveComponent.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/reactive/ReactiveComponent.ts#L14)
-
-***
-
-### setRenderer()
-
-> **setRenderer**(`renderer`): `void`
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `renderer` | `ResultRenderer` |
-
-#### Returns
-
-`void`
-
-#### Source
-
-[jsEngine/api/reactive/ReactiveComponent.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/api/reactive/ReactiveComponent.ts#L22)
+[jsEngine/api/reactive/ReactiveComponent.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/reactive/ReactiveComponent.ts#L28)
 
 ***
 

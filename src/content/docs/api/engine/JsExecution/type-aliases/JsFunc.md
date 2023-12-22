@@ -5,7 +5,11 @@ prev: false
 title: "JsFunc"
 ---
 
-> **JsFunc**: (...`args`) => [`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<`unknown`\>
+```ts
+type JsFunc: (...args) => Promise<unknown>;
+```
+
+An async JavaScript function.
 
 ## Parameters
 
@@ -19,7 +23,7 @@ title: "JsFunc"
 
 ## Source
 
-[jsEngine/engine/JsExecution.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/6478290/jsEngine/engine/JsExecution.ts#L10)
+[jsEngine/engine/JsExecution.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L14)
 
 ***
 

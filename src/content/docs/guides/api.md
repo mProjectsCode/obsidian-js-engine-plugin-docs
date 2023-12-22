@@ -5,12 +5,10 @@ description: A guide on the JS Engine API.
 
 ## Global Variables
 
-The following global variables are available in `js-engine` code blocks.
+The global variables available in code blocks can be found [here](/obsidian-js-engine-plugin-docs/api/engine/jsexecution/interfaces/jsexecutionglobals/).
 
-| Name      | Type                                                             |
-| --------- |------------------------------------------------------------------|
-| app       | `App` (Obsidian)                                                 |
-| engine    | [`API`](/obsidian-js-engine-plugin-docs/api/api/api/classes/api) |
-| context   | `ExecutionContext` (this plugin) or `undefined`                  |
-| component | `Component` (Obsidian)                                           |
-| container | `HTMLElement`                                                    |
+## API
+
+JS Engine provides an API that can be used to do a lot of useful things.
+Documentation for the API can be found [here](/obsidian-js-engine-plugin-docs/api/api/api/classes/api/).
+

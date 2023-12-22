@@ -9,7 +9,7 @@ title: "api/API"
 
 ### Classes
 
-- [API](/api/api/api/classes/api/)
+- [API](/obsidian-js-engine-plugin-docs/api/api/api/classes/api/)
 
 ***
 

@@ -9,11 +9,11 @@ title: "api/LibAPI"
 
 ### Classes
 
-- [LibAPI](/api/api/libapi/classes/libapi/)
+- [LibAPI](/obsidian-js-engine-plugin-docs/api/api/libapi/classes/libapi/)
 
 ### Interfaces
 
-- [LibParsiNOM](/api/api/libapi/interfaces/libparsinom/)
+- [LibParsiNOM](/obsidian-js-engine-plugin-docs/api/api/libapi/interfaces/libparsinom/)
 
 ***
 
