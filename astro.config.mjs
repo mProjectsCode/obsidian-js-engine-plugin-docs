@@ -29,7 +29,7 @@ export default defineConfig({
 				themes: ['dracula', 'github-light'],
 				useStarlightUiThemeColors: true,
 			},
-			plugins: process.env.CI ? [] : [
+			plugins: [
 				starlightTypeDoc({
 					entryPoints: [
 						// 'obsidian-js-engine-plugin/JsEngine.d.ts',
@@ -70,6 +70,7 @@ export default defineConfig({
 
 						plugin: ['typedoc-plugin-mdn-links'],
 					},
+					output: 'api',
 					tsconfig: 'obsidian-js-engine-plugin/tsconfig.json',
 					sidebar: {
 						label: 'API Reference',
