@@ -25,6 +25,7 @@ jobs:
         run: |
           cd obsidian-js-engine-plugin
           bun install --frozen-lockfile
+          cd ..
       - name: Install, build, and upload your site
         uses:
           withastro/action@v1
