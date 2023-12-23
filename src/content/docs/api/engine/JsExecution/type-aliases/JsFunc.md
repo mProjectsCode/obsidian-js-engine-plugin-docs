@@ -23,7 +23,7 @@ An async JavaScript function.
 
 ## Source
 
-[jsEngine/engine/JsExecution.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L14)
+[jsEngine/engine/JsExecution.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/JsExecution.ts#L14)
 
 ***
 

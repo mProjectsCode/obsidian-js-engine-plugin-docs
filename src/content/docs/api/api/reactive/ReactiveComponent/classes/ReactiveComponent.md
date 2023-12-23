@@ -31,7 +31,7 @@ new ReactiveComponent(_render, initialArgs): ReactiveComponent
 
 #### Source
 
-[jsEngine/api/reactive/ReactiveComponent.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/reactive/ReactiveComponent.ts#L18)
+[jsEngine/api/reactive/ReactiveComponent.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/reactive/ReactiveComponent.ts#L18)
 
 ## Methods
 
@@ -55,7 +55,7 @@ Refreshes the component by rerunning the render function with the arguments pass
 
 #### Source
 
-[jsEngine/api/reactive/ReactiveComponent.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/reactive/ReactiveComponent.ts#L28)
+[jsEngine/api/reactive/ReactiveComponent.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/reactive/ReactiveComponent.ts#L28)
 
 ***
 

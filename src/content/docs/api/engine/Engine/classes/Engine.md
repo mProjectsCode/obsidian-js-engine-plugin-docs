@@ -26,7 +26,7 @@ new Engine(app, plugin): Engine
 
 #### Source
 
-[jsEngine/engine/Engine.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/Engine.ts#L39)
+[jsEngine/engine/Engine.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/Engine.ts#L39)
 
 ## Methods
 
@@ -50,7 +50,7 @@ Execute JavaScript code.
 
 #### Source
 
-[jsEngine/engine/Engine.ts:52](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/Engine.ts#L52)
+[jsEngine/engine/Engine.ts:52](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/Engine.ts#L52)
 
 ***
 
@@ -74,7 +74,7 @@ Open the execution stats modal for a given [JsExecution](/obsidian-js-engine-plu
 
 #### Source
 
-[jsEngine/engine/Engine.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/Engine.ts#L72)
+[jsEngine/engine/Engine.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/Engine.ts#L72)
 
 ## Properties
 
@@ -86,7 +86,7 @@ readonly activeExecutions: Map<string, JsExecution>;
 
 #### Source
 
-[jsEngine/engine/Engine.ts:37](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/Engine.ts#L37)
+[jsEngine/engine/Engine.ts:37](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/Engine.ts#L37)
 
 ***
 

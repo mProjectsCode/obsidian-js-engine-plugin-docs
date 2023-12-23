@@ -25,7 +25,7 @@ new MessageAPI(apiInstance): MessageAPI
 
 #### Source
 
-[jsEngine/api/MessageAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MessageAPI.ts#L8)
+[jsEngine/api/MessageAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MessageAPI.ts#L8)
 
 ## Methods
 
@@ -54,7 +54,7 @@ createMessage(
 
 #### Source
 
-[jsEngine/api/MessageAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MessageAPI.ts#L13)
+[jsEngine/api/MessageAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MessageAPI.ts#L13)
 
 ***
 
@@ -76,7 +76,7 @@ getMessageById(id): undefined | MessageWrapper
 
 #### Source
 
-[jsEngine/api/MessageAPI.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MessageAPI.ts#L17)
+[jsEngine/api/MessageAPI.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MessageAPI.ts#L17)
 
 ***
 
@@ -92,7 +92,7 @@ getMessagesForInstance(): MessageWrapper[]
 
 #### Source
 
-[jsEngine/api/MessageAPI.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MessageAPI.ts#L21)
+[jsEngine/api/MessageAPI.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MessageAPI.ts#L21)
 
 ## Properties
 
@@ -104,7 +104,7 @@ readonly apiInstance: API;
 
 #### Source
 
-[jsEngine/api/MessageAPI.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MessageAPI.ts#L5)
+[jsEngine/api/MessageAPI.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MessageAPI.ts#L5)
 
 ***
 
@@ -116,7 +116,7 @@ readonly messageManager: MessageManager;
 
 #### Source
 
-[jsEngine/api/MessageAPI.ts:6](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MessageAPI.ts#L6)
+[jsEngine/api/MessageAPI.ts:6](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MessageAPI.ts#L6)
 
 ***
 

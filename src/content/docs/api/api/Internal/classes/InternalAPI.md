@@ -27,7 +27,7 @@ new InternalAPI(apiInstance): InternalAPI
 
 #### Source
 
-[jsEngine/api/Internal.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/Internal.ts#L13)
+[jsEngine/api/Internal.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/Internal.ts#L13)
 
 ## Methods
 
@@ -56,7 +56,7 @@ Creates a result renderer.
 
 #### Source
 
-[jsEngine/api/Internal.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/Internal.ts#L33)
+[jsEngine/api/Internal.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/Internal.ts#L33)
 
 ***
 
@@ -80,7 +80,7 @@ Executes the given code.
 
 #### Source
 
-[jsEngine/api/Internal.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/Internal.ts#L22)
+[jsEngine/api/Internal.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/Internal.ts#L22)
 
 ***
 
@@ -105,7 +105,7 @@ Load and execute the given file.
 
 #### Source
 
-[jsEngine/api/Internal.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/Internal.ts#L43)
+[jsEngine/api/Internal.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/Internal.ts#L43)
 
 ***
 

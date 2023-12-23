@@ -15,7 +15,7 @@ P: *typeof* P;
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L10)
+[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/LibAPI.ts#L10)
 
 ***
 
@@ -27,7 +27,7 @@ P_UTILS: *typeof* P_UTILS;
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L11)
+[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/LibAPI.ts#L11)
 
 ***
 
@@ -39,7 +39,7 @@ Parser: *typeof* Parser;
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L12)
+[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/LibAPI.ts#L12)
 
 ***
 
@@ -51,7 +51,7 @@ ParserContext: *typeof* ParserContext;
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L15)
+[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/LibAPI.ts#L15)
 
 ***
 
@@ -63,7 +63,7 @@ ParsingError: *typeof* ParsingError;
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L14)
+[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/LibAPI.ts#L14)
 
 ***
 
@@ -89,7 +89,7 @@ Generate an error message string for a parse failure on a specific string.
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L13)
+[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/LibAPI.ts#L13)
 
 ***
 

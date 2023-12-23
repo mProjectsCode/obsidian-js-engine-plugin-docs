@@ -27,7 +27,7 @@ new MarkdownString(content): MarkdownString
 
 #### Source
 
-[jsEngine/api/markdown/MarkdownString.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/markdown/MarkdownString.ts#L9)
+[jsEngine/api/markdown/MarkdownString.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/markdown/MarkdownString.ts#L9)
 
 ## Properties
 
@@ -39,7 +39,7 @@ readonly content: string;
 
 #### Source
 
-[jsEngine/api/markdown/MarkdownString.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/markdown/MarkdownString.ts#L7)
+[jsEngine/api/markdown/MarkdownString.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/markdown/MarkdownString.ts#L7)
 
 ***
 

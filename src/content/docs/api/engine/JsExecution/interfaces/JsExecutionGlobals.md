@@ -15,9 +15,11 @@ Global variables provided to a [JsExecution](/obsidian-js-engine-plugin-docs/api
 app: App;
 ```
 
+Reference to the obsidian [app](https://docs.obsidian.md/Reference/TypeScript+API/App) (obsidian API).
+
 #### Source
 
-[jsEngine/engine/JsExecution.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L29)
+[jsEngine/engine/JsExecution.ts:41](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/JsExecution.ts#L41)
 
 ***
 
@@ -27,9 +29,11 @@ app: App;
 component: Component;
 ```
 
+Obsidian [component](https://docs.obsidian.md/Reference/TypeScript+API/Component) for lifecycle management.
+
 #### Source
 
-[jsEngine/engine/JsExecution.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L31)
+[jsEngine/engine/JsExecution.ts:49](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/JsExecution.ts#L49)
 
 ***
 
@@ -39,9 +43,11 @@ component: Component;
 container: undefined | HTMLElement;
 ```
 
+The container element that the execution can render to. This can be undefined.
+
 #### Source
 
-[jsEngine/engine/JsExecution.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L33)
+[jsEngine/engine/JsExecution.ts:57](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/JsExecution.ts#L57)
 
 ***
 
@@ -51,9 +57,11 @@ container: undefined | HTMLElement;
 context: JsExecutionContext & Record<string, unknown>;
 ```
 
+The context provided. This can be undefined and extended by other properties.
+
 #### Source
 
-[jsEngine/engine/JsExecution.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L32)
+[jsEngine/engine/JsExecution.ts:53](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/JsExecution.ts#L53)
 
 ***
 
@@ -63,9 +71,11 @@ context: JsExecutionContext & Record<string, unknown>;
 engine: API;
 ```
 
+Reference to this plugins API.
+
 #### Source
 
-[jsEngine/engine/JsExecution.ts:30](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L30)
+[jsEngine/engine/JsExecution.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/JsExecution.ts#L45)
 
 ***
 
@@ -75,9 +85,11 @@ engine: API;
 obsidian: __module;
 ```
 
+The entire obsidian module, e.g. a notice can be constructed like this: `new obsidian.Notice('Hello World')`.
+
 #### Source
 
-[jsEngine/engine/JsExecution.ts:34](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L34)
+[jsEngine/engine/JsExecution.ts:61](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/JsExecution.ts#L61)
 
 ***
 

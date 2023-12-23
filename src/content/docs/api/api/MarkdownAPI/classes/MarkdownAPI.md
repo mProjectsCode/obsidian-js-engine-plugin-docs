@@ -27,7 +27,7 @@ new MarkdownAPI(apiInstance): MarkdownAPI
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L21)
+[jsEngine/api/MarkdownAPI.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L21)
 
 ## Methods
 
@@ -53,7 +53,7 @@ It only wraps it in an object, so that the plugin can recognize and render it as
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L39)
+[jsEngine/api/MarkdownAPI.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L39)
 
 ***
 
@@ -71,7 +71,7 @@ Creates a new markdown block quote element.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:110](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L110)
+[jsEngine/api/MarkdownAPI.ts:110](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L110)
 
 ***
 
@@ -95,7 +95,7 @@ Creates a new markdown text element with bold formatting.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:57](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L57)
+[jsEngine/api/MarkdownAPI.ts:57](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L57)
 
 ***
 
@@ -113,7 +113,7 @@ Creates a markdown builder.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L28)
+[jsEngine/api/MarkdownAPI.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L28)
 
 ***
 
@@ -142,7 +142,7 @@ Creates a new markdown callout element.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:121](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L121)
+[jsEngine/api/MarkdownAPI.ts:121](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L121)
 
 ***
 
@@ -166,7 +166,7 @@ Creates a new markdown code element.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:84](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L84)
+[jsEngine/api/MarkdownAPI.ts:84](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L84)
 
 ***
 
@@ -191,7 +191,7 @@ Creates a new markdown code block element.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:131](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L131)
+[jsEngine/api/MarkdownAPI.ts:131](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L131)
 
 ***
 
@@ -215,7 +215,7 @@ Creates a new markdown text element with cursive formatting.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:66](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L66)
+[jsEngine/api/MarkdownAPI.ts:66](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L66)
 
 ***
 
@@ -240,7 +240,7 @@ Creates a new markdown heading element.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:103](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L103)
+[jsEngine/api/MarkdownAPI.ts:103](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L103)
 
 ***
 
@@ -264,7 +264,7 @@ Creates a new markdown paragraph element.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L93)
+[jsEngine/api/MarkdownAPI.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L93)
 
 ***
 
@@ -289,7 +289,7 @@ Creates a new markdown table element.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:141](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L141)
+[jsEngine/api/MarkdownAPI.ts:141](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L141)
 
 ***
 
@@ -313,7 +313,7 @@ Creates a new markdown text element.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:48](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L48)
+[jsEngine/api/MarkdownAPI.ts:48](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L48)
 
 ***
 
@@ -337,7 +337,7 @@ Creates a new markdown text element with underline formatting.
 
 #### Source
 
-[jsEngine/api/MarkdownAPI.ts:75](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/MarkdownAPI.ts#L75)
+[jsEngine/api/MarkdownAPI.ts:75](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/MarkdownAPI.ts#L75)
 
 ***
 

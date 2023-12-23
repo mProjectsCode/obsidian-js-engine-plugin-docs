@@ -30,7 +30,7 @@ new API(
 
 #### Source
 
-[jsEngine/api/API.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L38)
+[jsEngine/api/API.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L38)
 
 ## Methods
 
@@ -54,7 +54,7 @@ Gets a plugin by its id. A plugin id can be found by looking at its manifest.
 
 #### Source
 
-[jsEngine/api/API.ts:70](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L70)
+[jsEngine/api/API.ts:70](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L70)
 
 ***
 
@@ -78,7 +78,7 @@ Loads an ECMAScript module from a vault relative path.
 
 #### Source
 
-[jsEngine/api/API.ts:54](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L54)
+[jsEngine/api/API.ts:54](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L54)
 
 ***
 
@@ -104,7 +104,7 @@ Reactive components are useful for creating dynamic content.
 
 #### Source
 
-[jsEngine/api/API.ts:81](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L81)
+[jsEngine/api/API.ts:81](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L81)
 
 ## Properties
 
@@ -118,7 +118,7 @@ Reference to the obsidian app.
 
 #### Source
 
-[jsEngine/api/API.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L15)
+[jsEngine/api/API.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L15)
 
 ***
 
@@ -130,7 +130,7 @@ readonly instanceId: InstanceId;
 
 #### Source
 
-[jsEngine/api/API.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L20)
+[jsEngine/api/API.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L20)
 
 ***
 
@@ -144,7 +144,7 @@ API to interact with js engines internals.
 
 #### Source
 
-[jsEngine/api/API.ts:36](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L36)
+[jsEngine/api/API.ts:36](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L36)
 
 ***
 
@@ -158,7 +158,7 @@ API to interact with packaged libraries.
 
 #### Source
 
-[jsEngine/api/API.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L32)
+[jsEngine/api/API.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L32)
 
 ***
 
@@ -172,7 +172,7 @@ API to interact with markdown.
 
 #### Source
 
-[jsEngine/api/API.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L24)
+[jsEngine/api/API.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L24)
 
 ***
 
@@ -186,7 +186,7 @@ API to interact with the plugins message system.
 
 #### Source
 
-[jsEngine/api/API.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L28)
+[jsEngine/api/API.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L28)
 
 ***
 
@@ -200,7 +200,7 @@ Reference the JS Engine plugin.
 
 #### Source
 
-[jsEngine/api/API.ts:19](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/API.ts#L19)
+[jsEngine/api/API.ts:19](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/API.ts#L19)
 
 ***
 

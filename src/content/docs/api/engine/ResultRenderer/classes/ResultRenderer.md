@@ -35,7 +35,7 @@ new ResultRenderer(
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:19](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/ResultRenderer.ts#L19)
+[jsEngine/engine/ResultRenderer.ts:19](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/ResultRenderer.ts#L19)
 
 ## Methods
 
@@ -62,7 +62,7 @@ The simple object.
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:87](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/ResultRenderer.ts#L87)
+[jsEngine/engine/ResultRenderer.ts:87](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/ResultRenderer.ts#L87)
 
 ***
 
@@ -86,7 +86,7 @@ Renders the given value to the container.
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/ResultRenderer.ts#L31)
+[jsEngine/engine/ResultRenderer.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/ResultRenderer.ts#L31)
 
 ## Properties
 
@@ -98,7 +98,7 @@ readonly component: Component;
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/ResultRenderer.ts#L17)
+[jsEngine/engine/ResultRenderer.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/ResultRenderer.ts#L17)
 
 ***
 
@@ -110,7 +110,7 @@ readonly container: HTMLElement;
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/ResultRenderer.ts#L15)
+[jsEngine/engine/ResultRenderer.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/ResultRenderer.ts#L15)
 
 ***
 
@@ -122,7 +122,7 @@ readonly plugin: default;
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/ResultRenderer.ts#L14)
+[jsEngine/engine/ResultRenderer.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/ResultRenderer.ts#L14)
 
 ***
 
@@ -134,7 +134,7 @@ readonly sourcePath: string;
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/ResultRenderer.ts#L16)
+[jsEngine/engine/ResultRenderer.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/ResultRenderer.ts#L16)
 
 ***
 

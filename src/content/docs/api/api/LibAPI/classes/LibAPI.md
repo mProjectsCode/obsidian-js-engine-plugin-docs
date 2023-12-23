@@ -27,7 +27,7 @@ new LibAPI(apiInstance): LibAPI
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L24)
+[jsEngine/api/LibAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/LibAPI.ts#L24)
 
 ## Methods
 
@@ -45,7 +45,7 @@ Get the [itertools-ts](https://github.com/Smoren/itertools-ts) library.
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L45)
+[jsEngine/api/LibAPI.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/LibAPI.ts#L45)
 
 ***
 
@@ -63,7 +63,7 @@ Get the [ParsiNOM](https://github.com/mProjectsCode/parsiNOM) library.
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/api/LibAPI.ts#L31)
+[jsEngine/api/LibAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/api/LibAPI.ts#L31)
 
 ***
 

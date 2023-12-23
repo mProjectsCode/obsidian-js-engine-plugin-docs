@@ -15,9 +15,11 @@ Context provided to a [JsExecution](/obsidian-js-engine-plugin-docs/api/engine/j
 file: TFile;
 ```
 
+The file that the execution was triggered from.
+
 #### Source
 
-[jsEngine/engine/JsExecution.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L20)
+[jsEngine/engine/JsExecution.ts:23](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/JsExecution.ts#L23)
 
 ***
 
@@ -27,9 +29,11 @@ file: TFile;
 line: number;
 ```
 
+Currently unused.
+
 #### Source
 
-[jsEngine/engine/JsExecution.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L22)
+[jsEngine/engine/JsExecution.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/JsExecution.ts#L31)
 
 ***
 
@@ -39,9 +43,11 @@ line: number;
 metadata: null | CachedMetadata;
 ```
 
+The metadata of the file that the execution was triggered from.
+
 #### Source
 
-[jsEngine/engine/JsExecution.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/0278a4c/jsEngine/engine/JsExecution.ts#L21)
+[jsEngine/engine/JsExecution.ts:27](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b447776/jsEngine/engine/JsExecution.ts#L27)
 
 ***
 

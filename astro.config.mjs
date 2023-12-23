@@ -25,6 +25,10 @@ export default defineConfig({
 				},
 				typeDocSidebarGroup,
 			],
+			expressiveCode: {
+				themes: ['dracula', 'github-light'],
+				useStarlightUiThemeColors: true,
+			},
 			plugins: [
 				starlightTypeDoc({
 					entryPoints: [
