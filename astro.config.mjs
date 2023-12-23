@@ -29,7 +29,7 @@ export default defineConfig({
 				themes: ['dracula', 'github-light'],
 				useStarlightUiThemeColors: true,
 			},
-			plugins: [
+			plugins: process.env.CI ? [] : [
 				starlightTypeDoc({
 					entryPoints: [
 						// 'obsidian-js-engine-plugin/JsEngine.d.ts',
