@@ -33,21 +33,9 @@ export default defineConfig({
 				starlightTypeDoc({
 					entryPoints: [
 						// 'obsidian-js-engine-plugin/JsEngine.d.ts',
-						'obsidian-js-engine-plugin/jsEngine/api/API.ts',
-						'obsidian-js-engine-plugin/jsEngine/api/Internal.ts',
-						'obsidian-js-engine-plugin/jsEngine/api/LibAPI.ts',
-						'obsidian-js-engine-plugin/jsEngine/api/MarkdownAPI.ts',
-						'obsidian-js-engine-plugin/jsEngine/api/MessageAPI.ts',
-						'obsidian-js-engine-plugin/jsEngine/api/reactive/ReactiveComponent.ts',
-						'obsidian-js-engine-plugin/jsEngine/api/markdown/MarkdownString.ts',
-						'obsidian-js-engine-plugin/jsEngine/api/markdown/MarkdownBuilder.ts',
-						'obsidian-js-engine-plugin/jsEngine/api/markdown/MarkdownBuilder.ts',
-						'obsidian-js-engine-plugin/jsEngine/engine/Engine.ts',
-						'obsidian-js-engine-plugin/jsEngine/engine/JsExecution.ts',
-						'obsidian-js-engine-plugin/jsEngine/engine/ResultRenderer.ts',
+						'obsidian-js-engine-plugin/jsEngine/index.ts',
 					],
 					typeDoc: {
-						entryPointStrategy: 'resolve',
 						parametersFormat: 'table',
 						propertiesFormat: 'list',
 						enumMembersFormat: 'table',
@@ -56,17 +44,6 @@ export default defineConfig({
 						excludeProtected: true,
 						excludeInternal: true,
 						useCodeBlocks: true,
-						groupOrder: [
-							"Classes",
-							"Functions",
-							"Variables",
-							"Type Aliases",
-							"Interfaces",
-							"Modules",
-							"Namespaces",
-						],
-						categorizeByGroup: true,
-						outputFileStrategy: 'members',
 
 						plugin: ['typedoc-plugin-mdn-links'],
 					},
@@ -74,7 +51,7 @@ export default defineConfig({
 					tsconfig: 'obsidian-js-engine-plugin/tsconfig.json',
 					sidebar: {
 						label: 'API Reference',
-						collapsed: false,
+						collapsed: true,
 					},
 				})
 			]

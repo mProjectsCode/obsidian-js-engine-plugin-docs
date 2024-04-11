@@ -12,7 +12,7 @@ return str;
 
 > \*test\*
 
-With the [`engine.markdown.create`](/obsidian-js-engine-plugin-docs/api/api/markdownapi/classes/markdownapi/#create) function, you can render strings as markdown.
+With the [`engine.markdown.create`](/obsidian-js-engine-plugin-docs/api/classes/markdownapi/#create) function, you can render strings as markdown.
 
 ```js
 let str = '*test*';

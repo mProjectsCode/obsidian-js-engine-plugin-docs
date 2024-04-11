@@ -3,7 +3,7 @@ title: Importing JS
 description: Examples of importing JavaScript files.
 ---
 
-You can import JavaScript files using the [`engine.importJs`](/obsidian-js-engine-plugin-docs/api/api/api/classes/api/#importjs) function.
+You can import JavaScript files using the [`engine.importJs`](/obsidian-js-engine-plugin-docs/api/classes/api/#importjs) function.
 
 ```js
 let lib = await engine.importJs('lib.js');

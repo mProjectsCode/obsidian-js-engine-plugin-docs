@@ -16,7 +16,7 @@ return str;
 
 > \*test\*
 
-We can use the [`engine.markdown.create`](/obsidian-js-engine-plugin-docs/api/api/markdownapi/classes/markdownapi/#create) function to render the string as markdown.
+We can use the [`engine.markdown.create`](/obsidian-js-engine-plugin-docs/api/classes/markdownapi/#create) function to render the string as markdown.
 
 ```js
 let str = '*test*';
