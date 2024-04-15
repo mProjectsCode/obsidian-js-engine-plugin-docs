@@ -12,13 +12,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 ### new ResultRenderer(plugin, container, sourcePath, component)
 
-```ts
-new ResultRenderer(
-   plugin, 
-   container, 
-   sourcePath, 
-   component): ResultRenderer
-```
+> **new ResultRenderer**(`plugin`, `container`, `sourcePath`, `component`): [`ResultRenderer`](/obsidian-js-engine-plugin-docs/api/classes/resultrenderer/)
 
 #### Parameters
 
@@ -31,67 +25,57 @@ new ResultRenderer(
 
 #### Returns
 
-[`ResultRenderer`](ResultRenderer.md)
+[`ResultRenderer`](/obsidian-js-engine-plugin-docs/api/classes/resultrenderer/)
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:19](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/ResultRenderer.ts#L19)
+[jsEngine/engine/ResultRenderer.ts:19](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/ResultRenderer.ts#L19)
 
 ## Properties
 
 ### component
 
-```ts
-readonly component: Component;
-```
+> **`readonly`** **component**: `Component`
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/ResultRenderer.ts#L17)
+[jsEngine/engine/ResultRenderer.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/ResultRenderer.ts#L17)
 
 ***
 
 ### container
 
-```ts
-readonly container: HTMLElement;
-```
+> **`readonly`** **container**: [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement)
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/ResultRenderer.ts#L15)
+[jsEngine/engine/ResultRenderer.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/ResultRenderer.ts#L15)
 
 ***
 
 ### plugin
 
-```ts
-readonly plugin: default;
-```
+> **`readonly`** **plugin**: `default`
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/ResultRenderer.ts#L14)
+[jsEngine/engine/ResultRenderer.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/ResultRenderer.ts#L14)
 
 ***
 
 ### sourcePath
 
-```ts
-readonly sourcePath: string;
-```
+> **`readonly`** **sourcePath**: `string`
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/ResultRenderer.ts#L16)
+[jsEngine/engine/ResultRenderer.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/ResultRenderer.ts#L16)
 
 ## Methods
 
 ### convertToSimpleObject()
 
-```ts
-convertToSimpleObject(value): unknown
-```
+> **convertToSimpleObject**(`value`): `unknown`
 
 Converts the given value to a simple object.
 E.g. a [MarkdownBuilder](../../../../../obsidian-js-engine-plugin-docs/api/classes/markdownbuilder) will be converted to a string.
@@ -110,15 +94,13 @@ The simple object.
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:87](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/ResultRenderer.ts#L87)
+[jsEngine/engine/ResultRenderer.ts:87](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/ResultRenderer.ts#L87)
 
 ***
 
 ### render()
 
-```ts
-render(value): Promise<void>
-```
+> **render**(`value`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
 Renders the given value to the container.
 
@@ -134,4 +116,4 @@ Renders the given value to the container.
 
 #### Source
 
-[jsEngine/engine/ResultRenderer.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/ResultRenderer.ts#L31)
+[jsEngine/engine/ResultRenderer.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/ResultRenderer.ts#L31)

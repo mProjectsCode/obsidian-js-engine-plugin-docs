@@ -11,31 +11,27 @@ The lib API provides in interface to some external libraries packaged into js en
 
 ### new LibAPI(apiInstance)
 
-```ts
-new LibAPI(apiInstance): LibAPI
-```
+> **new LibAPI**(`apiInstance`): [`LibAPI`](/obsidian-js-engine-plugin-docs/api/classes/libapi/)
 
 #### Parameters
 
 | Parameter | Type |
 | :------ | :------ |
-| `apiInstance` | [`API`](API.md) |
+| `apiInstance` | [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/) |
 
 #### Returns
 
-[`LibAPI`](LibAPI.md)
+[`LibAPI`](/obsidian-js-engine-plugin-docs/api/classes/libapi/)
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/LibAPI.ts#L24)
+[jsEngine/api/LibAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L24)
 
 ## Methods
 
 ### itertools()
 
-```ts
-itertools(): __module
-```
+> **itertools**(): `__module`
 
 Get the [itertools-ts](https://github.com/Smoren/itertools-ts) library.
 
@@ -45,22 +41,20 @@ Get the [itertools-ts](https://github.com/Smoren/itertools-ts) library.
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/LibAPI.ts#L45)
+[jsEngine/api/LibAPI.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L45)
 
 ***
 
 ### parsinom()
 
-```ts
-parsinom(): LibParsiNOM
-```
+> **parsinom**(): [`LibParsiNOM`](/obsidian-js-engine-plugin-docs/api/interfaces/libparsinom/)
 
 Get the [ParsiNOM](https://github.com/mProjectsCode/parsiNOM) library.
 
 #### Returns
 
-[`LibParsiNOM`](../interfaces/LibParsiNOM.md)
+[`LibParsiNOM`](/obsidian-js-engine-plugin-docs/api/interfaces/libparsinom/)
 
 #### Source
 
-[jsEngine/api/LibAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/LibAPI.ts#L31)
+[jsEngine/api/LibAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L31)

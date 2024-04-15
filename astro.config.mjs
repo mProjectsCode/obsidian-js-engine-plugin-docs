@@ -43,18 +43,17 @@ export default defineConfig({
 						excludePrivate: true,
 						excludeProtected: true,
 						excludeInternal: true,
-						useCodeBlocks: true,
+						// useCodeBlocks: true,
 
 						plugin: ['typedoc-plugin-mdn-links'],
 					},
-					output: 'api',
 					tsconfig: 'obsidian-js-engine-plugin/tsconfig.json',
 					sidebar: {
 						label: 'API Reference',
 						collapsed: true,
 					},
-				})
-			]
+				}),
+			],
 		}),
 	],
 	markdown: {
@@ -62,7 +61,7 @@ export default defineConfig({
 			remarkMath,
 		],
 		rehypePlugins: [
-			rehypeMathjax
-		]
-	}
+			rehypeMathjax,
+		],
+	},
 });

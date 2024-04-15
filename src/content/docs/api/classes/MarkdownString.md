@@ -11,9 +11,7 @@ A string that should be rendered as markdown by the plugin.
 
 ### new MarkdownString(content)
 
-```ts
-new MarkdownString(content): MarkdownString
-```
+> **new MarkdownString**(`content`): [`MarkdownString`](/obsidian-js-engine-plugin-docs/api/classes/markdownstring/)
 
 #### Parameters
 
@@ -23,20 +21,18 @@ new MarkdownString(content): MarkdownString
 
 #### Returns
 
-[`MarkdownString`](MarkdownString.md)
+[`MarkdownString`](/obsidian-js-engine-plugin-docs/api/classes/markdownstring/)
 
 #### Source
 
-[jsEngine/api/markdown/MarkdownString.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/markdown/MarkdownString.ts#L9)
+[jsEngine/api/markdown/MarkdownString.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/MarkdownString.ts#L9)
 
 ## Properties
 
 ### content
 
-```ts
-readonly content: string;
-```
+> **`readonly`** **content**: `string`
 
 #### Source
 
-[jsEngine/api/markdown/MarkdownString.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/markdown/MarkdownString.ts#L7)
+[jsEngine/api/markdown/MarkdownString.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/MarkdownString.ts#L7)

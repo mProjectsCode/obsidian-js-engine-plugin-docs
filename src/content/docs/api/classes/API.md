@@ -9,12 +9,7 @@ title: "API"
 
 ### new API(app, plugin, instanceId)
 
-```ts
-new API(
-   app, 
-   plugin, 
-   instanceId): API
-```
+> **new API**(`app`, `plugin`, `instanceId`): [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
 
 #### Parameters
 
@@ -22,119 +17,103 @@ new API(
 | :------ | :------ |
 | `app` | `App` |
 | `plugin` | `default` |
-| `instanceId` | [`InstanceId`](InstanceId.md) |
+| `instanceId` | [`InstanceId`](/obsidian-js-engine-plugin-docs/api/classes/instanceid/) |
 
 #### Returns
 
-[`API`](API.md)
+[`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
 
 #### Source
 
-[jsEngine/api/API.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L38)
+[jsEngine/api/API.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L38)
 
 ## Properties
 
 ### app
 
-```ts
-readonly app: App;
-```
+> **`readonly`** **app**: `App`
 
 Reference to the obsidian app.
 
 #### Source
 
-[jsEngine/api/API.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L15)
+[jsEngine/api/API.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L15)
 
 ***
 
 ### instanceId
 
-```ts
-readonly instanceId: InstanceId;
-```
+> **`readonly`** **instanceId**: [`InstanceId`](/obsidian-js-engine-plugin-docs/api/classes/instanceid/)
 
 #### Source
 
-[jsEngine/api/API.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L20)
+[jsEngine/api/API.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L20)
 
 ***
 
 ### internal
 
-```ts
-readonly internal: InternalAPI;
-```
+> **`readonly`** **internal**: [`InternalAPI`](/obsidian-js-engine-plugin-docs/api/classes/internalapi/)
 
 API to interact with js engines internals.
 
 #### Source
 
-[jsEngine/api/API.ts:36](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L36)
+[jsEngine/api/API.ts:36](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L36)
 
 ***
 
 ### lib
 
-```ts
-readonly lib: LibAPI;
-```
+> **`readonly`** **lib**: [`LibAPI`](/obsidian-js-engine-plugin-docs/api/classes/libapi/)
 
 API to interact with packaged libraries.
 
 #### Source
 
-[jsEngine/api/API.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L32)
+[jsEngine/api/API.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L32)
 
 ***
 
 ### markdown
 
-```ts
-readonly markdown: MarkdownAPI;
-```
+> **`readonly`** **markdown**: [`MarkdownAPI`](/obsidian-js-engine-plugin-docs/api/classes/markdownapi/)
 
 API to interact with markdown.
 
 #### Source
 
-[jsEngine/api/API.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L24)
+[jsEngine/api/API.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L24)
 
 ***
 
 ### message
 
-```ts
-readonly message: MessageAPI;
-```
+> **`readonly`** **message**: [`MessageAPI`](/obsidian-js-engine-plugin-docs/api/classes/messageapi/)
 
 API to interact with the plugins message system.
 
 #### Source
 
-[jsEngine/api/API.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L28)
+[jsEngine/api/API.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L28)
 
 ***
 
 ### plugin
 
-```ts
-readonly plugin: default;
-```
+> **`readonly`** **plugin**: `default`
 
 Reference the JS Engine plugin.
 
 #### Source
 
-[jsEngine/api/API.ts:19](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L19)
+[jsEngine/api/API.ts:19](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L19)
 
 ## Methods
 
 ### getPlugin()
 
-```ts
-getPlugin(pluginId): Plugin
-```
+> **getPlugin**(`pluginId`): `Plugin`
 
 Gets a plugin by its id. A plugin id can be found by looking at its manifest.
 
@@ -150,15 +129,13 @@ Gets a plugin by its id. A plugin id can be found by looking at its manifest.
 
 #### Source
 
-[jsEngine/api/API.ts:70](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L70)
+[jsEngine/api/API.ts:70](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L70)
 
 ***
 
 ### importJs()
 
-```ts
-importJs(path): Promise<unknown>
-```
+> **importJs**(`path`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`unknown`\>
 
 Loads an ECMAScript module from a vault relative path.
 
@@ -174,15 +151,13 @@ Loads an ECMAScript module from a vault relative path.
 
 #### Source
 
-[jsEngine/api/API.ts:54](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L54)
+[jsEngine/api/API.ts:54](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L54)
 
 ***
 
 ### reactive()
 
-```ts
-reactive(fn, ...initialArgs): ReactiveComponent
-```
+> **reactive**(`fn`, ...`initialArgs`): [`ReactiveComponent`](/obsidian-js-engine-plugin-docs/api/classes/reactivecomponent/)
 
 Creates a reactive component.
 Reactive components are useful for creating dynamic content.
@@ -191,13 +166,13 @@ Reactive components are useful for creating dynamic content.
 
 | Parameter | Type | Description |
 | :------ | :------ | :------ |
-| `fn` | [`JsFunc`](../type-aliases/JsFunc.md) | the function to rerun. It's return value will be rendered. |
+| `fn` | [`JsFunc`](/obsidian-js-engine-plugin-docs/api/type-aliases/jsfunc/) | the function to rerun. It's return value will be rendered. |
 | ...`initialArgs` | `unknown`[] | the initial arguments (for the first render) to pass to the function. |
 
 #### Returns
 
-[`ReactiveComponent`](ReactiveComponent.md)
+[`ReactiveComponent`](/obsidian-js-engine-plugin-docs/api/classes/reactivecomponent/)
 
 #### Source
 
-[jsEngine/api/API.ts:81](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/API.ts#L81)
+[jsEngine/api/API.ts:81](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/API.ts#L81)

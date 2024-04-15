@@ -11,139 +11,117 @@ Models the execution of a JavaScript string.
 
 ### new JsExecution(params)
 
-```ts
-new JsExecution(params): JsExecution
-```
+> **new JsExecution**(`params`): [`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)
 
 #### Parameters
 
 | Parameter | Type |
 | :------ | :------ |
-| `params` | [`JsExecutionParams`](../interfaces/JsExecutionParams.md) |
+| `params` | [`JsExecutionParams`](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionparams/) |
 
 #### Returns
 
-[`JsExecution`](JsExecution.md)
+[`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:98](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L98)
+[jsEngine/engine/JsExecution.ts:98](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L98)
 
 ## Properties
 
 ### app
 
-```ts
-readonly app: App;
-```
+> **`readonly`** **app**: `App`
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:79](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L79)
+[jsEngine/engine/JsExecution.ts:79](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L79)
 
 ***
 
 ### code
 
-```ts
-readonly code: string;
-```
+> **`readonly`** **code**: `string`
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:89](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L89)
+[jsEngine/engine/JsExecution.ts:89](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L89)
 
 ***
 
 ### functionBuildError
 
-```ts
-functionBuildError: undefined | Error;
-```
+> **functionBuildError**: `undefined` \| [`Error`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error )
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:92](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L92)
+[jsEngine/engine/JsExecution.ts:92](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L92)
 
 ***
 
 ### functionBuildTime
 
-```ts
-functionBuildTime: undefined | number;
-```
+> **functionBuildTime**: `undefined` \| `number`
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:95](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L95)
+[jsEngine/engine/JsExecution.ts:95](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L95)
 
 ***
 
 ### functionRunError
 
-```ts
-functionRunError: undefined | Error;
-```
+> **functionRunError**: `undefined` \| [`Error`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error )
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L93)
+[jsEngine/engine/JsExecution.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L93)
 
 ***
 
 ### functionRunTime
 
-```ts
-functionRunTime: undefined | number;
-```
+> **functionRunTime**: `undefined` \| `number`
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:96](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L96)
+[jsEngine/engine/JsExecution.ts:96](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L96)
 
 ***
 
 ### plugin
 
-```ts
-readonly plugin: default;
-```
+> **`readonly`** **plugin**: `default`
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:80](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L80)
+[jsEngine/engine/JsExecution.ts:80](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L80)
 
 ***
 
 ### result
 
-```ts
-result: unknown;
-```
+> **result**: `unknown`
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:90](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L90)
+[jsEngine/engine/JsExecution.ts:90](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L90)
 
 ***
 
 ### uuid
 
-```ts
-readonly uuid: string;
-```
+> **`readonly`** **uuid**: `string`
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:88](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L88)
+[jsEngine/engine/JsExecution.ts:88](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L88)
 
 ## Methods
 
 ### buildFunction()
 
-```ts
-buildFunction(): void
-```
+> **buildFunction**(): `void`
 
 Creates the function from the code provided in the constructor.
 
@@ -153,15 +131,13 @@ Creates the function from the code provided in the constructor.
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:124](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L124)
+[jsEngine/engine/JsExecution.ts:124](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L124)
 
 ***
 
 ### getMessages()
 
-```ts
-getMessages(): MessageWrapper[]
-```
+> **getMessages**(): `MessageWrapper`[]
 
 Returns the messages generated by the function.
 
@@ -171,15 +147,13 @@ Returns the messages generated by the function.
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:197](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L197)
+[jsEngine/engine/JsExecution.ts:197](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L197)
 
 ***
 
 ### isSuccessful()
 
-```ts
-isSuccessful(): boolean
-```
+> **isSuccessful**(): `boolean`
 
 Returns true if the function was built and run without errors.
 
@@ -189,15 +163,13 @@ Returns true if the function was built and run without errors.
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:190](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L190)
+[jsEngine/engine/JsExecution.ts:190](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L190)
 
 ***
 
 ### openStatsModal()
 
-```ts
-openStatsModal(): void
-```
+> **openStatsModal**(): `void`
 
 Opens the execution stats modal for this execution.
 
@@ -207,15 +179,13 @@ Opens the execution stats modal for this execution.
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:204](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L204)
+[jsEngine/engine/JsExecution.ts:204](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L204)
 
 ***
 
 ### runFunction()
 
-```ts
-runFunction(): Promise<void>
-```
+> **runFunction**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
 Runs the function created by [JsExecution.buildFunction](../../../../../obsidian-js-engine-plugin-docs/api/classes/jsexecution/#buildfunction).
 
@@ -225,4 +195,4 @@ Runs the function created by [JsExecution.buildFunction](../../../../../obsidian
 
 #### Source
 
-[jsEngine/engine/JsExecution.ts:153](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/engine/JsExecution.ts#L153)
+[jsEngine/engine/JsExecution.ts:153](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L153)

@@ -14,36 +14,29 @@ See [API.reactive](../../../../../obsidian-js-engine-plugin-docs/api/classes/api
 
 ### new ReactiveComponent(api, _render, initialArgs)
 
-```ts
-new ReactiveComponent(
-   api, 
-   _render, 
-   initialArgs): ReactiveComponent
-```
+> **new ReactiveComponent**(`api`, `_render`, `initialArgs`): [`ReactiveComponent`](/obsidian-js-engine-plugin-docs/api/classes/reactivecomponent/)
 
 #### Parameters
 
 | Parameter | Type |
 | :------ | :------ |
-| `api` | [`API`](API.md) |
-| `_render` | [`JsFunc`](../type-aliases/JsFunc.md) |
+| `api` | [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/) |
+| `_render` | [`JsFunc`](/obsidian-js-engine-plugin-docs/api/type-aliases/jsfunc/) |
 | `initialArgs` | `unknown`[] |
 
 #### Returns
 
-[`ReactiveComponent`](ReactiveComponent.md)
+[`ReactiveComponent`](/obsidian-js-engine-plugin-docs/api/classes/reactivecomponent/)
 
 #### Source
 
-[jsEngine/api/reactive/ReactiveComponent.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/reactive/ReactiveComponent.ts#L21)
+[jsEngine/api/reactive/ReactiveComponent.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/reactive/ReactiveComponent.ts#L21)
 
 ## Methods
 
 ### refresh()
 
-```ts
-refresh(...args): Promise<void>
-```
+> **refresh**(...`args`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
 Refreshes the component by rerunning the render function with the arguments passed into this function.
 
@@ -59,4 +52,4 @@ Refreshes the component by rerunning the render function with the arguments pass
 
 #### Source
 
-[jsEngine/api/reactive/ReactiveComponent.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/ed3359bafa6ca5667a1f852b3d8e87476c86ce23/jsEngine/api/reactive/ReactiveComponent.ts#L32)
+[jsEngine/api/reactive/ReactiveComponent.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/reactive/ReactiveComponent.ts#L32)
