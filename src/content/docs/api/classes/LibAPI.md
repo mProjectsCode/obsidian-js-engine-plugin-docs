@@ -9,23 +9,38 @@ The lib API provides in interface to some external libraries packaged into js en
 
 ## Constructors
 
-### new LibAPI(apiInstance)
+### new LibAPI()
 
 > **new LibAPI**(`apiInstance`): [`LibAPI`](/obsidian-js-engine-plugin-docs/api/classes/libapi/)
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `apiInstance` | [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/) |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`apiInstance`
+
+</td>
+<td>
+
+[`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 [`LibAPI`](/obsidian-js-engine-plugin-docs/api/classes/libapi/)
 
-#### Source
+#### Defined in
 
-[jsEngine/api/LibAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L24)
+[jsEngine/api/LibAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L24)
 
 ## Methods
 
@@ -39,9 +54,9 @@ Get the [itertools-ts](https://github.com/Smoren/itertools-ts) library.
 
 `__module`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/LibAPI.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L45)
+[jsEngine/api/LibAPI.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L45)
 
 ***
 
@@ -55,6 +70,6 @@ Get the [ParsiNOM](https://github.com/mProjectsCode/parsiNOM) library.
 
 [`LibParsiNOM`](/obsidian-js-engine-plugin-docs/api/interfaces/libparsinom/)
 
-#### Source
+#### Defined in
 
-[jsEngine/api/LibAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L31)
+[jsEngine/api/LibAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L31)

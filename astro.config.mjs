@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightTypeDoc, { typeDocSidebarGroup } from 'starlight-typedoc';
+import starlightLinksValidator from 'starlight-links-validator';
 import remarkMath from 'remark-math';
 import rehypeMathjax from 'rehype-mathjax';
 
@@ -13,6 +14,10 @@ export default defineConfig({
 			title: 'JS Engine Docs',
 			social: {
 				github: 'https://github.com/mProjectsCode/obsidian-js-engine-plugin',
+			},
+			components: {
+				TableOfContents: './src/components/TableOfContents.astro',
+				SocialIcons: './src/components/SocialIcons.astro',
 			},
 			sidebar: [
 				{
@@ -30,20 +35,23 @@ export default defineConfig({
 				useStarlightUiThemeColors: true,
 			},
 			plugins: [
+				starlightLinksValidator({
+					errorOnRelativeLinks: false,
+					exclude: ['/obsidian-js-engine-plugin-docs/api/**/*'],
+				}),
 				starlightTypeDoc({
 					entryPoints: [
 						// 'obsidian-js-engine-plugin/JsEngine.d.ts',
 						'obsidian-js-engine-plugin/jsEngine/index.ts',
 					],
 					typeDoc: {
-						parametersFormat: 'table',
+						parametersFormat: 'htmlTable',
 						propertiesFormat: 'list',
-						enumMembersFormat: 'table',
+						enumMembersFormat: 'htmlTable',
 						typeDeclarationFormat: 'table',
 						excludePrivate: true,
 						excludeProtected: true,
 						excludeInternal: true,
-						// useCodeBlocks: true,
 
 						plugin: ['typedoc-plugin-mdn-links'],
 					},
@@ -57,11 +65,7 @@ export default defineConfig({
 		}),
 	],
 	markdown: {
-		remarkPlugins: [
-			remarkMath,
-		],
-		rehypePlugins: [
-			rehypeMathjax,
-		],
+		remarkPlugins: [remarkMath],
+		rehypePlugins: [rehypeMathjax],
 	},
 });

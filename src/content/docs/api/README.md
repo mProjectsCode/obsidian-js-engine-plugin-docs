@@ -28,6 +28,8 @@ title: "obsidian-js-engine-plugin"
 - [MarkdownString](/obsidian-js-engine-plugin-docs/api/classes/markdownstring/)
 - [MessageAPI](/obsidian-js-engine-plugin-docs/api/classes/messageapi/)
 - [ParagraphElement](/obsidian-js-engine-plugin-docs/api/classes/paragraphelement/)
+- [PromptAPI](/obsidian-js-engine-plugin-docs/api/classes/promptapi/)
+- [QueryAPI](/obsidian-js-engine-plugin-docs/api/classes/queryapi/)
 - [ReactiveComponent](/obsidian-js-engine-plugin-docs/api/classes/reactivecomponent/)
 - [ResultRenderer](/obsidian-js-engine-plugin-docs/api/classes/resultrenderer/)
 - [TableElement](/obsidian-js-engine-plugin-docs/api/classes/tableelement/)
@@ -36,11 +38,18 @@ title: "obsidian-js-engine-plugin"
 ## Interfaces
 
 - [Block](/obsidian-js-engine-plugin-docs/api/interfaces/block/)
+- [ButtonPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/buttonpromptoptions/)
+- [ConfirmPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/confirmpromptoptions/)
 - [EngineExecutionParams](/obsidian-js-engine-plugin-docs/api/interfaces/engineexecutionparams/)
+- [InputPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/inputpromptoptions/)
 - [JsExecutionContext](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutioncontext/)
 - [JsExecutionGlobals](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobals/)
 - [JsExecutionParams](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionparams/)
 - [LibParsiNOM](/obsidian-js-engine-plugin-docs/api/interfaces/libparsinom/)
+- [ModalPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/modalpromptoptions/)
+- [SuggesterOption](/obsidian-js-engine-plugin-docs/api/interfaces/suggesteroption/)
+- [SuggesterPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/suggesterpromptoptions/)
+- [YesNoPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/yesnopromptoptions/)
 
 ## Type Aliases
 

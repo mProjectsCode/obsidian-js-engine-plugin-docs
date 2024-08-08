@@ -13,16 +13,42 @@ Represents a markdown table.
 
 ## Constructors
 
-### new TableElement(header, body)
+### new TableElement()
 
 > **new TableElement**(`header`, `body`): [`TableElement`](/obsidian-js-engine-plugin-docs/api/classes/tableelement/)
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `header` | `string`[] |
-| `body` | `string`[][] |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`header`
+
+</td>
+<td>
+
+`string`[]
+
+</td>
+</tr>
+<tr>
+<td>
+
+`body`
+
+</td>
+<td>
+
+`string`[][]
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -32,9 +58,9 @@ Represents a markdown table.
 
 `AbstractMarkdownLiteral.constructor`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:182](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L182)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:182](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L182)
 
 ## Properties
 
@@ -42,9 +68,9 @@ Represents a markdown table.
 
 > **body**: `string`[][]
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:180](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L180)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:180](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L180)
 
 ***
 
@@ -52,29 +78,11 @@ Represents a markdown table.
 
 > **header**: `string`[]
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:179](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L179)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:179](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L179)
 
 ## Methods
-
-### getType()
-
-> **getType**(): `MarkdownElementType`
-
-#### Returns
-
-`MarkdownElementType`
-
-#### Inherited from
-
-`AbstractMarkdownLiteral.getType`
-
-#### Source
-
-[jsEngine/api/markdown/AbstractMarkdownLiteral.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownLiteral.ts#L8)
-
-***
 
 ### toMarkdown()
 
@@ -90,15 +98,17 @@ Converts the element to a [MarkdownString](../../../../../obsidian-js-engine-plu
 
 `AbstractMarkdownLiteral.toMarkdown`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElement.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElement.ts#L21)
+[jsEngine/api/markdown/AbstractMarkdownElement.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElement.ts#L21)
 
 ***
 
 ### toString()
 
 > **toString**(): `string`
+
+Converts the element to a string.
 
 #### Returns
 
@@ -108,6 +118,6 @@ Converts the element to a [MarkdownString](../../../../../obsidian-js-engine-plu
 
 `AbstractMarkdownLiteral.toString`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:189](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L189)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:189](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L189)

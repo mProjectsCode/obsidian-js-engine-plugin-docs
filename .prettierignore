@@ -1,0 +1,9 @@
+/lib
+node_modules
+package-lock.json
+dist
+.idea
+.vscode
+
+/obsidian-js-engine-plugin
+/src/content/docs/api

@@ -7,43 +7,58 @@ title: "MessageAPI"
 
 ## Constructors
 
-### new MessageAPI(apiInstance)
+### new MessageAPI()
 
 > **new MessageAPI**(`apiInstance`): [`MessageAPI`](/obsidian-js-engine-plugin-docs/api/classes/messageapi/)
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `apiInstance` | [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/) |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`apiInstance`
+
+</td>
+<td>
+
+[`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 [`MessageAPI`](/obsidian-js-engine-plugin-docs/api/classes/messageapi/)
 
-#### Source
+#### Defined in
 
-[jsEngine/api/MessageAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/MessageAPI.ts#L8)
+[jsEngine/api/MessageAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/MessageAPI.ts#L8)
 
 ## Properties
 
 ### apiInstance
 
-> **`readonly`** **apiInstance**: [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
+> `readonly` **apiInstance**: [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
 
-#### Source
+#### Defined in
 
-[jsEngine/api/MessageAPI.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/MessageAPI.ts#L5)
+[jsEngine/api/MessageAPI.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/MessageAPI.ts#L5)
 
 ***
 
 ### messageManager
 
-> **`readonly`** **messageManager**: `MessageManager`
+> `readonly` **messageManager**: `MessageManager`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/MessageAPI.ts:6](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/MessageAPI.ts#L6)
+[jsEngine/api/MessageAPI.ts:6](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/MessageAPI.ts#L6)
 
 ## Methods
 
@@ -53,20 +68,89 @@ title: "MessageAPI"
 
 #### Parameters
 
-| Parameter | Type | Default value |
-| :------ | :------ | :------ |
-| `type` | `MessageType` | `undefined` |
-| `title` | `string` | `undefined` |
-| `content` | `string` | `undefined` |
-| `code` | `string` | `''` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Default value</th>
+</tr>
+<tr>
+<td>
+
+`type`
+
+</td>
+<td>
+
+`MessageType`
+
+</td>
+<td>
+
+`undefined`
+
+</td>
+</tr>
+<tr>
+<td>
+
+`title`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+`undefined`
+
+</td>
+</tr>
+<tr>
+<td>
+
+`content`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+`undefined`
+
+</td>
+</tr>
+<tr>
+<td>
+
+`code`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+`''`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 `MessageWrapper`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/MessageAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/MessageAPI.ts#L13)
+[jsEngine/api/MessageAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/MessageAPI.ts#L13)
 
 ***
 
@@ -76,17 +160,32 @@ title: "MessageAPI"
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `id` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`id`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 `undefined` \| `MessageWrapper`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/MessageAPI.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/MessageAPI.ts#L17)
+[jsEngine/api/MessageAPI.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/MessageAPI.ts#L17)
 
 ***
 
@@ -98,6 +197,6 @@ title: "MessageAPI"
 
 `MessageWrapper`[]
 
-#### Source
+#### Defined in
 
-[jsEngine/api/MessageAPI.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/MessageAPI.ts#L21)
+[jsEngine/api/MessageAPI.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/MessageAPI.ts#L21)

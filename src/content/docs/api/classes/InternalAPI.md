@@ -9,23 +9,38 @@ The internal API provides access to some of js engines internals.
 
 ## Constructors
 
-### new InternalAPI(apiInstance)
+### new InternalAPI()
 
 > **new InternalAPI**(`apiInstance`): [`InternalAPI`](/obsidian-js-engine-plugin-docs/api/classes/internalapi/)
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `apiInstance` | [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/) |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`apiInstance`
+
+</td>
+<td>
+
+[`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 [`InternalAPI`](/obsidian-js-engine-plugin-docs/api/classes/internalapi/)
 
-#### Source
+#### Defined in
 
-[jsEngine/api/Internal.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/Internal.ts#L13)
+[jsEngine/api/Internal.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/Internal.ts#L13)
 
 ## Methods
 
@@ -37,19 +52,66 @@ Creates a result renderer.
 
 #### Parameters
 
-| Parameter | Type | Description |
-| :------ | :------ | :------ |
-| `container` | [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement) |  |
-| `sourcePath` | `string` |  |
-| `component` | `Component` |  |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+
+`container`
+
+</td>
+<td>
+
+[`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement)
+
+</td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td>
+
+`sourcePath`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td>
+
+`component`
+
+</td>
+<td>
+
+`Component`
+
+</td>
+<td>
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 [`ResultRenderer`](/obsidian-js-engine-plugin-docs/api/classes/resultrenderer/)
 
-#### Source
+#### Defined in
 
-[jsEngine/api/Internal.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/Internal.ts#L33)
+[jsEngine/api/Internal.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/Internal.ts#L33)
 
 ***
 
@@ -61,17 +123,36 @@ Executes the given code.
 
 #### Parameters
 
-| Parameter | Type | Description |
-| :------ | :------ | :------ |
-| `params` | [`EngineExecutionParams`](/obsidian-js-engine-plugin-docs/api/interfaces/engineexecutionparams/) |  |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+
+`params`
+
+</td>
+<td>
+
+[`EngineExecutionParams`](/obsidian-js-engine-plugin-docs/api/interfaces/engineexecutionparams/)
+
+</td>
+<td>
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)\>
 
-#### Source
+#### Defined in
 
-[jsEngine/api/Internal.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/Internal.ts#L22)
+[jsEngine/api/Internal.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/Internal.ts#L22)
 
 ***
 
@@ -83,18 +164,51 @@ Load and execute the given file.
 
 #### Parameters
 
-| Parameter | Type | Description |
-| :------ | :------ | :------ |
-| `path` | `string` |  |
-| `params` | [`Omit`](https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys)\<[`EngineExecutionParams`](/obsidian-js-engine-plugin-docs/api/interfaces/engineexecutionparams/), `"code"`\> |  |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+
+`path`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td>
+
+`params`
+
+</td>
+<td>
+
+[`Omit`](https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys)\<[`EngineExecutionParams`](/obsidian-js-engine-plugin-docs/api/interfaces/engineexecutionparams/), `"code"`\>
+
+</td>
+<td>
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)\>
 
-#### Source
+#### Defined in
 
-[jsEngine/api/Internal.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/Internal.ts#L43)
+[jsEngine/api/Internal.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/Internal.ts#L43)
 
 ***
 
@@ -108,18 +222,51 @@ The component for the execution is created and destroyed automatically.
 
 #### Parameters
 
-| Parameter | Type | Description |
-| :------ | :------ | :------ |
-| `path` | `string` |  |
-| `params`? | [`Omit`](https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys)\<[`EngineExecutionParams`](/obsidian-js-engine-plugin-docs/api/interfaces/engineexecutionparams/), `"code"` \| `"component"`\> |  |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+
+`path`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td>
+
+`params`?
+
+</td>
+<td>
+
+[`Omit`](https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys)\<[`EngineExecutionParams`](/obsidian-js-engine-plugin-docs/api/interfaces/engineexecutionparams/), `"code"` \| `"component"`\>
+
+</td>
+<td>
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)\>
 
-#### Source
+#### Defined in
 
-[jsEngine/api/Internal.ts:61](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/Internal.ts#L61)
+[jsEngine/api/Internal.ts:61](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/Internal.ts#L61)
 
 ***
 
@@ -127,16 +274,37 @@ The component for the execution is created and destroyed automatically.
 
 > **getContextForFile**(`path`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`JsExecutionContext`](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutioncontext/)\>
 
+Gets the execution context for a specific file, throws when the file does not exist.
+
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `path` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+
+`path`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`JsExecutionContext`](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutioncontext/)\>
 
-#### Source
+#### Defined in
 
-[jsEngine/api/Internal.ts:71](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/Internal.ts#L71)
+[jsEngine/api/Internal.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/Internal.ts#L76)

@@ -11,9 +11,9 @@ title: "LibParsiNOM"
 
 > **P**: *typeof* `P`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L10)
+[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L10)
 
 ***
 
@@ -21,9 +21,9 @@ title: "LibParsiNOM"
 
 > **P\_UTILS**: *typeof* `P_UTILS`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L11)
+[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L11)
 
 ***
 
@@ -31,9 +31,9 @@ title: "LibParsiNOM"
 
 > **Parser**: *typeof* `Parser`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L12)
+[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L12)
 
 ***
 
@@ -41,9 +41,9 @@ title: "LibParsiNOM"
 
 > **ParserContext**: *typeof* `ParserContext`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L15)
+[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L15)
 
 ***
 
@@ -51,9 +51,9 @@ title: "LibParsiNOM"
 
 > **ParsingError**: *typeof* `ParsingError`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L14)
+[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L14)
 
 ***
 
@@ -65,16 +65,69 @@ Generate an error message string for a parse failure on a specific string.
 
 #### Parameters
 
-| Parameter | Type | Description |
-| :------ | :------ | :------ |
-| `str` | `string` | the input string that the parse failure occurred on |
-| `parseFailure` | `ParseFailure` | the failure to generate the error message for |
-| `verbose` | `boolean` | will underline the failure position in the input string, if set to true |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+
+`str`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+the input string that the parse failure occurred on
+
+</td>
+</tr>
+<tr>
+<td>
+
+`parseFailure`
+
+</td>
+<td>
+
+`ParseFailure`
+
+</td>
+<td>
+
+the failure to generate the error message for
+
+</td>
+</tr>
+<tr>
+<td>
+
+`verbose`
+
+</td>
+<td>
+
+`boolean`
+
+</td>
+<td>
+
+will underline the failure position in the input string, if set to true
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 `string`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/LibAPI.ts#L13)
+[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L13)

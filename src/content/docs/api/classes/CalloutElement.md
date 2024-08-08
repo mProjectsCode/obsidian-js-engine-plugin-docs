@@ -13,17 +13,54 @@ Represents a markdown callout.
 
 ## Constructors
 
-### new CalloutElement(title, type, args)
+### new CalloutElement()
 
 > **new CalloutElement**(`title`, `type`, `args`): [`CalloutElement`](/obsidian-js-engine-plugin-docs/api/classes/calloutelement/)
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `title` | `string` |
-| `type` | `string` |
-| `args` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`title`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+<tr>
+<td>
+
+`type`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+<tr>
+<td>
+
+`args`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -33,9 +70,9 @@ Represents a markdown callout.
 
 `AbstractMarkdownElementContainer.constructor`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:342](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L342)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:342](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L342)
 
 ## Properties
 
@@ -43,9 +80,9 @@ Represents a markdown callout.
 
 > **args**: `string`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:340](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L340)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:340](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L340)
 
 ***
 
@@ -57,9 +94,9 @@ Represents a markdown callout.
 
 `AbstractMarkdownElementContainer.markdownElements`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L9)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L9)
 
 ***
 
@@ -67,9 +104,9 @@ Represents a markdown callout.
 
 > **title**: `string`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:338](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L338)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:338](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L338)
 
 ***
 
@@ -77,9 +114,9 @@ Represents a markdown callout.
 
 > **type**: `string`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:339](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L339)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:339](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L339)
 
 ## Methods
 
@@ -89,9 +126,24 @@ Represents a markdown callout.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `text` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`text`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -101,9 +153,9 @@ Represents a markdown callout.
 
 `AbstractMarkdownElementContainer.addBoldText`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:46](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L46)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:46](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L46)
 
 ***
 
@@ -113,9 +165,24 @@ Represents a markdown callout.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `text` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`text`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -125,9 +192,9 @@ Represents a markdown callout.
 
 `AbstractMarkdownElementContainer.addCode`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:64](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L64)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:64](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L64)
 
 ***
 
@@ -137,9 +204,24 @@ Represents a markdown callout.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `text` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`text`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -149,9 +231,9 @@ Represents a markdown callout.
 
 `AbstractMarkdownElementContainer.addCursiveText`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:52](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L52)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:52](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L52)
 
 ***
 
@@ -163,25 +245,44 @@ Adds a child element to the container.
 
 #### Parameters
 
-| Parameter | Type | Description |
-| :------ | :------ | :------ |
-| `element` | `AbstractMarkdownElement` |  |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+
+`element`
+
+</td>
+<td>
+
+`AbstractMarkdownElement`
+
+</td>
+<td>
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
 `void`
 
-#### Inherited from
-
-`AbstractMarkdownElementContainer.addElement`
-
 #### Throws
 
 Error if the element is not allowed in the container.
 
-#### Source
+#### Inherited from
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L32)
+`AbstractMarkdownElementContainer.addElement`
+
+#### Defined in
+
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L32)
 
 ***
 
@@ -191,9 +292,24 @@ Error if the element is not allowed in the container.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `text` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`text`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -203,9 +319,9 @@ Error if the element is not allowed in the container.
 
 `AbstractMarkdownElementContainer.addText`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L40)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L40)
 
 ***
 
@@ -215,9 +331,24 @@ Error if the element is not allowed in the container.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `text` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`text`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -227,33 +358,9 @@ Error if the element is not allowed in the container.
 
 `AbstractMarkdownElementContainer.addUnderlinedText`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:58](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L58)
-
-***
-
-### allowElement()
-
-> **allowElement**(`_`): `boolean`
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `_` | `AbstractMarkdownElement` |
-
-#### Returns
-
-`boolean`
-
-#### Overrides
-
-`AbstractMarkdownElementContainer.allowElement`
-
-#### Source
-
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:350](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L350)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:58](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L58)
 
 ***
 
@@ -269,9 +376,9 @@ Error if the element is not allowed in the container.
 
 `AbstractMarkdownElementContainer.createBlockQuote`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:82](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L82)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:82](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L82)
 
 ***
 
@@ -281,11 +388,64 @@ Error if the element is not allowed in the container.
 
 #### Parameters
 
-| Parameter | Type | Default value |
-| :------ | :------ | :------ |
-| `title` | `string` | `undefined` |
-| `type` | `string` | `undefined` |
-| `args` | `string` | `''` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Default value</th>
+</tr>
+<tr>
+<td>
+
+`title`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+`undefined`
+
+</td>
+</tr>
+<tr>
+<td>
+
+`type`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+`undefined`
+
+</td>
+</tr>
+<tr>
+<td>
+
+`args`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+`''`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -295,9 +455,9 @@ Error if the element is not allowed in the container.
 
 `AbstractMarkdownElementContainer.createCallout`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:88](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L88)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:88](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L88)
 
 ***
 
@@ -307,10 +467,36 @@ Error if the element is not allowed in the container.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `language` | `string` |
-| `content` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`language`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+<tr>
+<td>
+
+`content`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -320,9 +506,9 @@ Error if the element is not allowed in the container.
 
 `AbstractMarkdownElementContainer.createCodeBlock`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:94](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L94)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:94](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L94)
 
 ***
 
@@ -332,10 +518,36 @@ Error if the element is not allowed in the container.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `level` | `number` |
-| `content` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`level`
+
+</td>
+<td>
+
+`number`
+
+</td>
+</tr>
+<tr>
+<td>
+
+`content`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -345,9 +557,9 @@ Error if the element is not allowed in the container.
 
 `AbstractMarkdownElementContainer.createHeading`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L76)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L76)
 
 ***
 
@@ -357,9 +569,24 @@ Error if the element is not allowed in the container.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `ordered` | `boolean` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`ordered`
+
+</td>
+<td>
+
+`boolean`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -369,9 +596,9 @@ Error if the element is not allowed in the container.
 
 `AbstractMarkdownElementContainer.createList`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:106](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L106)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:106](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L106)
 
 ***
 
@@ -381,9 +608,24 @@ Error if the element is not allowed in the container.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `content` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`content`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -393,9 +635,9 @@ Error if the element is not allowed in the container.
 
 `AbstractMarkdownElementContainer.createParagraph`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:70](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L70)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:70](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L70)
 
 ***
 
@@ -405,10 +647,36 @@ Error if the element is not allowed in the container.
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `header` | `string`[] |
-| `body` | `string`[][] |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`header`
+
+</td>
+<td>
+
+`string`[]
+
+</td>
+</tr>
+<tr>
+<td>
+
+`body`
+
+</td>
+<td>
+
+`string`[][]
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -418,27 +686,9 @@ Error if the element is not allowed in the container.
 
 `AbstractMarkdownElementContainer.createTable`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:100](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L100)
-
-***
-
-### getType()
-
-> **getType**(): `MarkdownElementType`
-
-#### Returns
-
-`MarkdownElementType`
-
-#### Inherited from
-
-`AbstractMarkdownElementContainer.getType`
-
-#### Source
-
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L22)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:100](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L100)
 
 ***
 
@@ -456,15 +706,17 @@ Converts the element to a [MarkdownString](../../../../../obsidian-js-engine-plu
 
 `AbstractMarkdownElementContainer.toMarkdown`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElement.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElement.ts#L21)
+[jsEngine/api/markdown/AbstractMarkdownElement.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElement.ts#L21)
 
 ***
 
 ### toString()
 
 > **toString**(): `string`
+
+Converts the element to a string.
 
 #### Returns
 
@@ -474,6 +726,6 @@ Converts the element to a [MarkdownString](../../../../../obsidian-js-engine-plu
 
 `AbstractMarkdownElementContainer.toString`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:354](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L354)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:354](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L354)

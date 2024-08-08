@@ -13,15 +13,30 @@ Represents an inline markdown code block.
 
 ## Constructors
 
-### new CodeElement(content)
+### new CodeElement()
 
 > **new CodeElement**(`content`): [`CodeElement`](/obsidian-js-engine-plugin-docs/api/classes/codeelement/)
 
 #### Parameters
 
-| Parameter | Type |
-| :------ | :------ |
-| `content` | `string` |
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>
+
+`content`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</table>
 
 #### Returns
 
@@ -31,9 +46,9 @@ Represents an inline markdown code block.
 
 `AbstractMarkdownLiteral.constructor`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:164](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L164)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:164](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L164)
 
 ## Properties
 
@@ -41,29 +56,11 @@ Represents an inline markdown code block.
 
 > **content**: `string`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:162](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L162)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:162](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L162)
 
 ## Methods
-
-### getType()
-
-> **getType**(): `MarkdownElementType`
-
-#### Returns
-
-`MarkdownElementType`
-
-#### Inherited from
-
-`AbstractMarkdownLiteral.getType`
-
-#### Source
-
-[jsEngine/api/markdown/AbstractMarkdownLiteral.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownLiteral.ts#L8)
-
-***
 
 ### toMarkdown()
 
@@ -79,15 +76,17 @@ Converts the element to a [MarkdownString](../../../../../obsidian-js-engine-plu
 
 `AbstractMarkdownLiteral.toMarkdown`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElement.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElement.ts#L21)
+[jsEngine/api/markdown/AbstractMarkdownElement.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElement.ts#L21)
 
 ***
 
 ### toString()
 
 > **toString**(): `string`
+
+Converts the element to a string.
 
 #### Returns
 
@@ -97,6 +96,6 @@ Converts the element to a [MarkdownString](../../../../../obsidian-js-engine-plu
 
 `AbstractMarkdownLiteral.toString`
 
-#### Source
+#### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:170](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L170)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:170](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L170)

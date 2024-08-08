@@ -11,9 +11,9 @@ title: "Block"
 
 > **from**: `number`
 
-#### Source
+#### Defined in
 
-[jsEngine/engine/JsExecution.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L33)
+[jsEngine/engine/JsExecution.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/engine/JsExecution.ts#L33)
 
 ***
 
@@ -21,6 +21,6 @@ title: "Block"
 
 > **to**: `number`
 
-#### Source
+#### Defined in
 
-[jsEngine/engine/JsExecution.ts:34](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/9978dd39a18406d0dee0b76dd4311dc0c6857428/jsEngine/engine/JsExecution.ts#L34)
+[jsEngine/engine/JsExecution.ts:34](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/engine/JsExecution.ts#L34)
