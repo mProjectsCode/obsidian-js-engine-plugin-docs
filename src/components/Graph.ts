@@ -2,6 +2,52 @@ import * as d3 from 'd3';
 import { Application, Container, Graphics, Text } from 'pixi.js';
 import { testData } from './TestData';
 
+interface AnimatedValues {
+    zoom: number;
+    zoomX: number;
+    zoomY: number;
+}
+
+class Animator<Key extends string> {
+    private values: Record<Key, number>;
+    private targetValues: Record<Key, number>;
+    private durations: Record<Key, number>;
+
+    constructor(initialValues: Record<Key, number>, durations: Record<Key, number>) {
+        this.values = initialValues;
+        this.targetValues = {... initialValues };
+        this.durations = durations;
+    }
+
+    public setTarget(key: Key, value: number) {
+        this.targetValues[key] = value;
+    }
+
+    public update(delta: number) {
+        for (const key in this.values) {
+            this.values[key] += (this.targetValues[key] - this.values[key]) * (1.0 - Math.exp(- this.durations[key] * delta));
+        }
+    }
+
+    public get(key: Key) {
+        return this.values[key];
+    }
+
+    public isAnimating(key: Key) {
+        return Math.pow(this.values[key] - this.targetValues[key], 2) > 0.0000001;
+    }
+}
+
+const animator = new Animator<keyof AnimatedValues>({
+    zoom: 1,
+    zoomX: 0,
+    zoomY: 0,
+}, {
+    zoom: 0.3,
+    zoomX: 0.3,
+    zoomY: 0.3,
+});
+
 const width = 400;
 const height = 400;
 const element = document.getElementById('graph-mount-point')!;
@@ -83,18 +129,28 @@ d3.select(app.canvas).call(
 	// @ts-ignore
 	d3.zoom().on('zoom', ({ transform }: { transform: d3.ZoomTransform }) => {
 		zoom = transform;
-		app.stage.updateTransform({
-			scaleX: transform.k,
-			scaleY: transform.k,
-			x: transform.x,
-			y: transform.y,
-		});
+        animator.setTarget('zoom', transform.k);
+        animator.setTarget('zoomX', transform.x);
+        animator.setTarget('zoomY', transform.y);
 	}),
 );
 
-app.ticker.add(() => {
+app.ticker.add((ticker) => {
+    animator.update(ticker.deltaTime);
+
+    if (animator.isAnimating('zoom') || animator.isAnimating('zoomX') || animator.isAnimating('zoomY')) {
+        console.log('Animating');
+        
+        app.stage.updateTransform({
+            scaleX: animator.get('zoom'),
+            scaleY: animator.get('zoom'),
+            x: animator.get('zoomX'),
+            y: animator.get('zoomY'),
+        });
+    }
+
 	for (const node of simulation.nodes()) {
-		node.text!.scale.set(1 / zoom.k);
+		node.text!.scale.set(1 / animator.get('zoom'));
 		node.text!.position.set(0, 10);
 	}
 
@@ -114,7 +170,7 @@ app.ticker.add(() => {
 			.fill()
 			.stroke({
 				color: 0xffffff,
-				width: 1 / zoom.k,
+				width: 1 / animator.get('zoom'),
 			});
 	}
 });
@@ -135,8 +191,8 @@ function dragstarted(event: any) {
 function dragged(event: any) {
 	if (!event.subject) return;
 
-	dragX += event.dx / zoom.k;
-	dragY += event.dy / zoom.k;
+	dragX += event.dx / animator.get('zoom');
+	dragY += event.dy / animator.get('zoom');
 
 	event.subject.fx = dragX;
 	event.subject.fy = dragY;
@@ -149,3 +205,4 @@ function dragended(event: any) {
 	event.subject.fx = null;
 	event.subject.fy = null;
 }
+
