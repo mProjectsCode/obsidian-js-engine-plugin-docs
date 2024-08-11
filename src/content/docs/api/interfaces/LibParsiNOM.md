@@ -13,7 +13,7 @@ title: "LibParsiNOM"
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L10)
+[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/LibAPI.ts#L10)
 
 ***
 
@@ -23,7 +23,7 @@ title: "LibParsiNOM"
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L11)
+[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/LibAPI.ts#L11)
 
 ***
 
@@ -33,7 +33,7 @@ title: "LibParsiNOM"
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L12)
+[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/LibAPI.ts#L12)
 
 ***
 
@@ -43,7 +43,7 @@ title: "LibParsiNOM"
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L15)
+[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/LibAPI.ts#L15)
 
 ***
 
@@ -53,7 +53,7 @@ title: "LibParsiNOM"
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L14)
+[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/LibAPI.ts#L14)
 
 ***
 
@@ -130,4 +130,4 @@ will underline the failure position in the input string, if set to true
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/LibAPI.ts#L13)
+[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/LibAPI.ts#L13)

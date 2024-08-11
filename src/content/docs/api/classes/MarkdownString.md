@@ -40,7 +40,7 @@ A string that should be rendered as markdown by the plugin.
 
 #### Defined in
 
-[jsEngine/api/markdown/MarkdownString.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/MarkdownString.ts#L9)
+[jsEngine/api/markdown/MarkdownString.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/markdown/MarkdownString.ts#L9)
 
 ## Properties
 
@@ -50,4 +50,4 @@ A string that should be rendered as markdown by the plugin.
 
 #### Defined in
 
-[jsEngine/api/markdown/MarkdownString.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/10197bef1eb83a7d7334445d888ca7cb0cfc5bff/jsEngine/api/markdown/MarkdownString.ts#L7)
+[jsEngine/api/markdown/MarkdownString.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/markdown/MarkdownString.ts#L7)

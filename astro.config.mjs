@@ -4,6 +4,8 @@ import starlightTypeDoc, { typeDocSidebarGroup } from 'starlight-typedoc';
 import starlightLinksValidator from 'starlight-links-validator';
 import remarkMath from 'remark-math';
 import rehypeMathjax from 'rehype-mathjax';
+import starlightSiteGraph from 'starlight-site-graph';
+import svelte from '@astrojs/svelte';
 
 // https://astro.build/config
 export default defineConfig({
@@ -22,11 +24,15 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Guides',
-					autogenerate: { directory: 'guides' },
+					autogenerate: {
+						directory: 'guides',
+					},
 				},
 				{
 					label: 'Examples',
-					autogenerate: { directory: 'examples' },
+					autogenerate: {
+						directory: 'examples',
+					},
 				},
 				typeDocSidebarGroup,
 			],
@@ -52,7 +58,6 @@ export default defineConfig({
 						excludePrivate: true,
 						excludeProtected: true,
 						excludeInternal: true,
-
 						plugin: ['typedoc-plugin-mdn-links'],
 					},
 					tsconfig: 'obsidian-js-engine-plugin/tsconfig.json',
@@ -61,8 +66,11 @@ export default defineConfig({
 						collapsed: true,
 					},
 				}),
+				// starlightSiteGraph({}),
 			],
+			customCss: ['./src/styles/custom.css'],
 		}),
+		svelte(),
 	],
 	markdown: {
 		remarkPlugins: [remarkMath],
