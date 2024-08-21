@@ -14,10 +14,13 @@ title: "PromptAPI"
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -30,6 +33,7 @@ title: "PromptAPI"
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -38,7 +42,7 @@ title: "PromptAPI"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:74](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L74)
+[jsEngine/api/PromptAPI.ts:74](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L74)
 
 ## Properties
 
@@ -48,7 +52,7 @@ title: "PromptAPI"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L72)
+[jsEngine/api/PromptAPI.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L72)
 
 ## Methods
 
@@ -62,9 +66,12 @@ Returns the value of the button that was clicked, or undefined if the modal was 
 #### Type Parameters
 
 <table>
+<thead>
 <tr>
 <th>Type Parameter</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -72,15 +79,19 @@ Returns the value of the button that was clicked, or undefined if the modal was 
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -93,6 +104,7 @@ Returns the value of the button that was clicked, or undefined if the modal was 
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -125,7 +137,7 @@ const ret = await engine.prompt.button({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:105](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L105)
+[jsEngine/api/PromptAPI.ts:105](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L105)
 
 ***
 
@@ -139,10 +151,13 @@ Returns true if the user confirms, false if the user cancels or otherwise closes
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -155,6 +170,7 @@ Returns true if the user confirms, false if the user cancels or otherwise closes
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -174,7 +190,7 @@ const ret = await engine.prompt.confirm({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:142](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L142)
+[jsEngine/api/PromptAPI.ts:142](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L142)
 
 ***
 
@@ -188,10 +204,13 @@ Returns the value of the input field, or undefined if the user closes the modal.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -204,6 +223,7 @@ Returns the value of the input field, or undefined if the user closes the modal.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -223,7 +243,7 @@ const ret = await engine.prompt.text({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:316](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L316)
+[jsEngine/api/PromptAPI.ts:316](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L316)
 
 ***
 
@@ -237,9 +257,12 @@ Returns the value of the selected option, or undefined if the user closes the mo
 #### Type Parameters
 
 <table>
+<thead>
 <tr>
 <th>Type Parameter</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -247,15 +270,19 @@ Returns the value of the selected option, or undefined if the user closes the mo
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -268,6 +295,7 @@ Returns the value of the selected option, or undefined if the user closes the mo
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -294,7 +322,7 @@ const ret = await engine.prompt.suggester({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:215](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L215)
+[jsEngine/api/PromptAPI.ts:215](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L215)
 
 ***
 
@@ -308,10 +336,13 @@ Returns the value of the input field, or undefined if the user closes the modal.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -324,6 +355,7 @@ Returns the value of the input field, or undefined if the user closes the modal.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -343,7 +375,7 @@ const ret = await engine.prompt.text({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:239](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L239)
+[jsEngine/api/PromptAPI.ts:239](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L239)
 
 ***
 
@@ -357,10 +389,13 @@ Returns the value of the input field, or undefined if the user closes the modal.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -373,6 +408,7 @@ Returns the value of the input field, or undefined if the user closes the modal.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -393,7 +429,7 @@ const ret = await engine.prompt.textarea({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:278](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L278)
+[jsEngine/api/PromptAPI.ts:278](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L278)
 
 ***
 
@@ -407,10 +443,13 @@ Returns true if the user selects yes, false if the user selects no, and undefine
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -423,6 +462,7 @@ Returns true if the user selects yes, false if the user selects no, and undefine
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -442,4 +482,4 @@ const ret = await engine.prompt.yesNo({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:176](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L176)
+[jsEngine/api/PromptAPI.ts:176](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L176)

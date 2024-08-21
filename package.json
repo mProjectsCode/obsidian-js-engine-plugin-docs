@@ -11,21 +11,19 @@
 		"format": "prettier --plugin prettier-plugin-astro --plugin prettier-plugin-svelte --write ."
 	},
 	"dependencies": {
-		"@astrojs/starlight": "0.25.4",
+		"@astrojs/starlight": "0.26.1",
 		"@astrojs/svelte": "^5.7.0",
-		"astro": "4.13.2",
-		"d3": "^7.9.0",
-		"pixi.js": "^8.3.2",
+		"astro": "4.14.2",
 		"rehype-mathjax": "^6.0.0",
 		"remark-math": "^6.0.0",
-		"sharp": "^0.33.4",
+		"sharp": "^0.33.5",
 		"starlight-links-validator": "^0.9.1",
-		"starlight-site-graph": "^0.0.1",
+		"starlight-site-graph": "0.0.13",
 		"starlight-typedoc": "^0.14.0",
 		"svelte": "5.0.0-next.210",
-		"typedoc": "^0.26.5",
-		"typedoc-plugin-markdown": "^4.2.3",
-		"typedoc-plugin-mdn-links": "^3.2.7",
+		"typedoc": "^0.26.6",
+		"typedoc-plugin-markdown": "^4.2.5",
+		"typedoc-plugin-mdn-links": "^3.2.9",
 		"typescript": "^5.5.4"
 	},
 	"devDependencies": {

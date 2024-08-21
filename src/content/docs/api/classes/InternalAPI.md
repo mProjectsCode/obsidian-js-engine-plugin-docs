@@ -16,10 +16,13 @@ The internal API provides access to some of js engines internals.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -32,6 +35,7 @@ The internal API provides access to some of js engines internals.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -40,7 +44,7 @@ The internal API provides access to some of js engines internals.
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/Internal.ts#L13)
+[jsEngine/api/Internal.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L13)
 
 ## Methods
 
@@ -53,11 +57,14 @@ Creates a result renderer.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -103,6 +110,7 @@ Creates a result renderer.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -111,7 +119,7 @@ Creates a result renderer.
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/Internal.ts#L33)
+[jsEngine/api/Internal.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L33)
 
 ***
 
@@ -124,11 +132,14 @@ Executes the given code.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -144,6 +155,7 @@ Executes the given code.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -152,7 +164,7 @@ Executes the given code.
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/Internal.ts#L22)
+[jsEngine/api/Internal.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L22)
 
 ***
 
@@ -165,11 +177,14 @@ Load and execute the given file.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -200,6 +215,7 @@ Load and execute the given file.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -208,7 +224,7 @@ Load and execute the given file.
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/Internal.ts#L43)
+[jsEngine/api/Internal.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L43)
 
 ***
 
@@ -223,11 +239,14 @@ The component for the execution is created and destroyed automatically.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -258,6 +277,7 @@ The component for the execution is created and destroyed automatically.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -266,7 +286,7 @@ The component for the execution is created and destroyed automatically.
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:61](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/Internal.ts#L61)
+[jsEngine/api/Internal.ts:61](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L61)
 
 ***
 
@@ -279,11 +299,14 @@ Gets the execution context for a specific file, throws when the file does not ex
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -299,6 +322,7 @@ Gets the execution context for a specific file, throws when the file does not ex
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -307,4 +331,4 @@ Gets the execution context for a specific file, throws when the file does not ex
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/Internal.ts#L76)
+[jsEngine/api/Internal.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L76)

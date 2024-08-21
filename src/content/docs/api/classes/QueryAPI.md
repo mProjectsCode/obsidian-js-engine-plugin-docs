@@ -14,10 +14,13 @@ title: "QueryAPI"
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -30,6 +33,7 @@ title: "QueryAPI"
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -38,7 +42,7 @@ title: "QueryAPI"
 
 #### Defined in
 
-[jsEngine/api/QueryAPI.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/QueryAPI.ts#L7)
+[jsEngine/api/QueryAPI.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/QueryAPI.ts#L7)
 
 ## Properties
 
@@ -48,7 +52,7 @@ title: "QueryAPI"
 
 #### Defined in
 
-[jsEngine/api/QueryAPI.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/QueryAPI.ts#L5)
+[jsEngine/api/QueryAPI.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/QueryAPI.ts#L5)
 
 ## Methods
 
@@ -61,9 +65,12 @@ This function will run the `query` callback on every markdown file in the vault 
 #### Type Parameters
 
 <table>
+<thead>
 <tr>
 <th>Type Parameter</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -71,15 +78,19 @@ This function will run the `query` callback on every markdown file in the vault 
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -92,6 +103,7 @@ This function will run the `query` callback on every markdown file in the vault 
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -112,7 +124,7 @@ const fileNames = engine.query.files(file => file.path.startsWith("Foo/") ? file
 
 #### Defined in
 
-[jsEngine/api/QueryAPI.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/QueryAPI.ts#L26)
+[jsEngine/api/QueryAPI.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/QueryAPI.ts#L26)
 
 ***
 
@@ -125,9 +137,12 @@ This function functions similarly tp [QueryAPI.files](../../../../../obsidian-js
 #### Type Parameters
 
 <table>
+<thead>
 <tr>
 <th>Type Parameter</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -135,15 +150,19 @@ This function functions similarly tp [QueryAPI.files](../../../../../obsidian-js
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -156,6 +175,7 @@ This function functions similarly tp [QueryAPI.files](../../../../../obsidian-js
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -171,4 +191,4 @@ const paths = engine.query.filesWithMetadata((file, cache, tags) => tags.include
 
 #### Defined in
 
-[jsEngine/api/QueryAPI.ts:42](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/QueryAPI.ts#L42)
+[jsEngine/api/QueryAPI.ts:42](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/QueryAPI.ts#L42)

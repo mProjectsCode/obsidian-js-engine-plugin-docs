@@ -16,10 +16,13 @@ The markdown API provides utilities for creating markdown using js.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -32,6 +35,7 @@ The markdown API provides utilities for creating markdown using js.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -40,7 +44,7 @@ The markdown API provides utilities for creating markdown using js.
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L22)
+[jsEngine/api/MarkdownAPI.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L22)
 
 ## Methods
 
@@ -55,11 +59,14 @@ It only wraps it in an object, so that the plugin can recognize and render it as
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -77,6 +84,7 @@ the string to wrap
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -85,7 +93,7 @@ the string to wrap
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L40)
+[jsEngine/api/MarkdownAPI.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L40)
 
 ***
 
@@ -101,7 +109,7 @@ Creates a new markdown block quote element.
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:111](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L111)
+[jsEngine/api/MarkdownAPI.ts:111](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L111)
 
 ***
 
@@ -114,11 +122,14 @@ Creates a new markdown text element with bold formatting.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -134,6 +145,7 @@ Creates a new markdown text element with bold formatting.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -142,7 +154,7 @@ Creates a new markdown text element with bold formatting.
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:58](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L58)
+[jsEngine/api/MarkdownAPI.ts:58](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L58)
 
 ***
 
@@ -158,7 +170,7 @@ Creates a markdown builder.
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L29)
+[jsEngine/api/MarkdownAPI.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L29)
 
 ***
 
@@ -171,12 +183,15 @@ Creates a new markdown callout element.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Default value</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -243,6 +258,7 @@ the callout args, optional
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -251,7 +267,7 @@ the callout args, optional
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:122](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L122)
+[jsEngine/api/MarkdownAPI.ts:122](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L122)
 
 ***
 
@@ -264,11 +280,14 @@ Creates a new markdown code element.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -284,6 +303,7 @@ Creates a new markdown code element.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -292,7 +312,7 @@ Creates a new markdown code element.
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:85](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L85)
+[jsEngine/api/MarkdownAPI.ts:85](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L85)
 
 ***
 
@@ -305,11 +325,14 @@ Creates a new markdown code block element.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -344,6 +367,7 @@ the content of the code block
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -352,7 +376,7 @@ the content of the code block
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:132](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L132)
+[jsEngine/api/MarkdownAPI.ts:132](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L132)
 
 ***
 
@@ -365,11 +389,14 @@ Creates a new markdown text element with cursive formatting.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -385,6 +412,7 @@ Creates a new markdown text element with cursive formatting.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -393,7 +421,7 @@ Creates a new markdown text element with cursive formatting.
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:67](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L67)
+[jsEngine/api/MarkdownAPI.ts:67](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L67)
 
 ***
 
@@ -406,11 +434,14 @@ Creates a new markdown heading element.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -445,6 +476,7 @@ the text of the heading
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -453,7 +485,7 @@ the text of the heading
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:104](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L104)
+[jsEngine/api/MarkdownAPI.ts:104](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L104)
 
 ***
 
@@ -466,11 +498,14 @@ Creates a new markdown list element.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -488,6 +523,7 @@ whether the list should be ordered or not (use 1. or -)
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -496,7 +532,7 @@ whether the list should be ordered or not (use 1. or -)
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:151](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L151)
+[jsEngine/api/MarkdownAPI.ts:151](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L151)
 
 ***
 
@@ -509,11 +545,14 @@ Creates a new markdown paragraph element.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -529,6 +568,7 @@ Creates a new markdown paragraph element.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -537,7 +577,7 @@ Creates a new markdown paragraph element.
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:94](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L94)
+[jsEngine/api/MarkdownAPI.ts:94](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L94)
 
 ***
 
@@ -550,11 +590,14 @@ Creates a new markdown table element.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -589,6 +632,7 @@ the table body
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -597,7 +641,7 @@ the table body
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:142](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L142)
+[jsEngine/api/MarkdownAPI.ts:142](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L142)
 
 ***
 
@@ -610,11 +654,14 @@ Creates a new markdown text element.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -630,6 +677,7 @@ Creates a new markdown text element.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -638,7 +686,7 @@ Creates a new markdown text element.
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:49](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L49)
+[jsEngine/api/MarkdownAPI.ts:49](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L49)
 
 ***
 
@@ -651,11 +699,14 @@ Creates a new markdown text element with underline formatting.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -671,6 +722,7 @@ Creates a new markdown text element with underline formatting.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -679,4 +731,4 @@ Creates a new markdown text element with underline formatting.
 
 #### Defined in
 
-[jsEngine/api/MarkdownAPI.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/MarkdownAPI.ts#L76)
+[jsEngine/api/MarkdownAPI.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MarkdownAPI.ts#L76)

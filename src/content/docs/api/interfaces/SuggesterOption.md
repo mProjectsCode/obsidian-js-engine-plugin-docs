@@ -8,9 +8,12 @@ title: "SuggesterOption"
 ## Type Parameters
 
 <table>
+<thead>
 <tr>
 <th>Type Parameter</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -18,6 +21,7 @@ title: "SuggesterOption"
 
 </td>
 </tr>
+</tbody>
 </table>
 
 ## Properties
@@ -28,7 +32,7 @@ title: "SuggesterOption"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:57](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L57)
+[jsEngine/api/PromptAPI.ts:57](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L57)
 
 ***
 
@@ -38,4 +42,4 @@ title: "SuggesterOption"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:56](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L56)
+[jsEngine/api/PromptAPI.ts:56](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L56)

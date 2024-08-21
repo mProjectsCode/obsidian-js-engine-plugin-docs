@@ -5,7 +5,6 @@ import starlightLinksValidator from 'starlight-links-validator';
 import remarkMath from 'remark-math';
 import rehypeMathjax from 'rehype-mathjax';
 import starlightSiteGraph from 'starlight-site-graph';
-import svelte from '@astrojs/svelte';
 
 // https://astro.build/config
 export default defineConfig({
@@ -66,11 +65,22 @@ export default defineConfig({
 						collapsed: true,
 					},
 				}),
-				// starlightSiteGraph({}),
+				starlightSiteGraph({
+					graphConfig: {
+						depth: 5,
+						trackVisitedPages: false,
+					},
+					storageLocation: 'none',
+					contentRoot: './src/content/docs',
+					include_sitemap: ['./api/*/**/*.md'],
+					exclude_sitemap: ['**'],
+					show_graph: ['api/**'],
+					hide_graph: ['**', ''],
+				}),
 			],
 			customCss: ['./src/styles/custom.css'],
 		}),
-		svelte(),
+		// svelte(),
 	],
 	markdown: {
 		remarkPlugins: [remarkMath],

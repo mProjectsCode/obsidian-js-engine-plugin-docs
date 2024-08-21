@@ -17,10 +17,13 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -69,6 +72,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -77,7 +81,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:19](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/ResultRenderer.ts#L19)
+[jsEngine/engine/ResultRenderer.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/ResultRenderer.ts#L20)
 
 ## Properties
 
@@ -87,7 +91,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/ResultRenderer.ts#L17)
+[jsEngine/engine/ResultRenderer.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/ResultRenderer.ts#L18)
 
 ***
 
@@ -97,7 +101,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/ResultRenderer.ts#L15)
+[jsEngine/engine/ResultRenderer.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/ResultRenderer.ts#L16)
 
 ***
 
@@ -107,7 +111,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/ResultRenderer.ts#L14)
+[jsEngine/engine/ResultRenderer.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/ResultRenderer.ts#L15)
 
 ***
 
@@ -117,7 +121,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/ResultRenderer.ts#L16)
+[jsEngine/engine/ResultRenderer.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/ResultRenderer.ts#L17)
 
 ## Methods
 
@@ -131,11 +135,14 @@ E.g. a [MarkdownBuilder](../../../../../obsidian-js-engine-plugin-docs/api/class
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -153,6 +160,7 @@ The value to convert.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -163,7 +171,7 @@ The simple object.
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:87](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/ResultRenderer.ts#L87)
+[jsEngine/engine/ResultRenderer.ts:92](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/ResultRenderer.ts#L92)
 
 ***
 
@@ -176,11 +184,14 @@ Renders the given value to the container.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -198,6 +209,7 @@ The value to render.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -206,4 +218,4 @@ The value to render.
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/ResultRenderer.ts#L31)
+[jsEngine/engine/ResultRenderer.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/ResultRenderer.ts#L32)

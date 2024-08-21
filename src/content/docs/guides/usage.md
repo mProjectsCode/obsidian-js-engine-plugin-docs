@@ -3,9 +3,17 @@ title: Usage
 description: A guide in my new Starlight docs site.
 ---
 
-Start by creating a code block with the `js-engine` plugin.
+Start by creating a code block with `js-engine` as the code block language.
 Inside the code block you can write what ever JavaScript code that you want.
 The plugin will run the JavaScript and render the returned value in place of the code block.
+
+````md
+## This is a Note in Obsidian
+
+```js-engine
+return engine.markdown.create('*test*');
+```
+````
 
 The following example will render a simple plain text string.
 

@@ -14,10 +14,13 @@ title: "Engine"
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -42,6 +45,7 @@ title: "Engine"
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -50,7 +54,7 @@ title: "Engine"
 
 #### Defined in
 
-[jsEngine/engine/Engine.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/Engine.ts#L39)
+[jsEngine/engine/Engine.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/Engine.ts#L39)
 
 ## Properties
 
@@ -60,7 +64,7 @@ title: "Engine"
 
 #### Defined in
 
-[jsEngine/engine/Engine.ts:37](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/Engine.ts#L37)
+[jsEngine/engine/Engine.ts:37](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/Engine.ts#L37)
 
 ## Methods
 
@@ -73,11 +77,14 @@ Execute JavaScript code.
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -93,6 +100,7 @@ Execute JavaScript code.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -101,7 +109,7 @@ Execute JavaScript code.
 
 #### Defined in
 
-[jsEngine/engine/Engine.ts:52](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/Engine.ts#L52)
+[jsEngine/engine/Engine.ts:52](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/Engine.ts#L52)
 
 ***
 
@@ -114,11 +122,14 @@ Open the execution stats modal for a given [JsExecution](../../../../../obsidian
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -134,6 +145,7 @@ Open the execution stats modal for a given [JsExecution](../../../../../obsidian
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -142,4 +154,4 @@ Open the execution stats modal for a given [JsExecution](../../../../../obsidian
 
 #### Defined in
 
-[jsEngine/engine/Engine.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/engine/Engine.ts#L72)
+[jsEngine/engine/Engine.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/Engine.ts#L72)

@@ -19,10 +19,13 @@ See [API.reactive](../../../../../obsidian-js-engine-plugin-docs/api/classes/api
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -59,6 +62,7 @@ See [API.reactive](../../../../../obsidian-js-engine-plugin-docs/api/classes/api
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -67,7 +71,7 @@ See [API.reactive](../../../../../obsidian-js-engine-plugin-docs/api/classes/api
 
 #### Defined in
 
-[jsEngine/api/reactive/ReactiveComponent.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/reactive/ReactiveComponent.ts#L21)
+[jsEngine/api/reactive/ReactiveComponent.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/reactive/ReactiveComponent.ts#L21)
 
 ## Methods
 
@@ -80,11 +84,14 @@ Refreshes the component by rerunning the render function with the arguments pass
 #### Parameters
 
 <table>
+<thead>
 <tr>
 <th>Parameter</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -100,6 +107,7 @@ Refreshes the component by rerunning the render function with the arguments pass
 
 </td>
 </tr>
+</tbody>
 </table>
 
 #### Returns
@@ -108,4 +116,4 @@ Refreshes the component by rerunning the render function with the arguments pass
 
 #### Defined in
 
-[jsEngine/api/reactive/ReactiveComponent.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/reactive/ReactiveComponent.ts#L32)
+[jsEngine/api/reactive/ReactiveComponent.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/reactive/ReactiveComponent.ts#L32)

@@ -12,9 +12,12 @@ title: "ButtonPromptOptions"
 ## Type Parameters
 
 <table>
+<thead>
 <tr>
 <th>Type Parameter</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>
 
@@ -22,6 +25,7 @@ title: "ButtonPromptOptions"
 
 </td>
 </tr>
+</tbody>
 </table>
 
 ## Properties
@@ -34,7 +38,7 @@ A list of buttons to display in the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L29)
+[jsEngine/api/PromptAPI.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L29)
 
 ***
 
@@ -50,7 +54,7 @@ A list of CSS classes to apply to the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L18)
+[jsEngine/api/PromptAPI.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L18)
 
 ***
 
@@ -62,7 +66,7 @@ Text content to display in the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:25](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L25)
+[jsEngine/api/PromptAPI.ts:25](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L25)
 
 ***
 
@@ -78,4 +82,4 @@ The title of the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/c8107c135035ea9518f13c9859a322a46eebe15e/jsEngine/api/PromptAPI.ts#L14)
+[jsEngine/api/PromptAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L14)
