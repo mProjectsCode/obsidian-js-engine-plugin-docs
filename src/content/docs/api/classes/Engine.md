@@ -54,7 +54,7 @@ title: "Engine"
 
 #### Defined in
 
-[jsEngine/engine/Engine.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/Engine.ts#L39)
+[jsEngine/engine/Engine.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/Engine.ts#L40)
 
 ## Properties
 
@@ -64,7 +64,7 @@ title: "Engine"
 
 #### Defined in
 
-[jsEngine/engine/Engine.ts:37](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/Engine.ts#L37)
+[jsEngine/engine/Engine.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/Engine.ts#L38)
 
 ## Methods
 
@@ -109,7 +109,7 @@ Execute JavaScript code.
 
 #### Defined in
 
-[jsEngine/engine/Engine.ts:52](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/Engine.ts#L52)
+[jsEngine/engine/Engine.ts:53](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/Engine.ts#L53)
 
 ***
 
@@ -154,4 +154,4 @@ Open the execution stats modal for a given [JsExecution](../../../../../obsidian
 
 #### Defined in
 
-[jsEngine/engine/Engine.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/Engine.ts#L72)
+[jsEngine/engine/Engine.ts:73](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/Engine.ts#L73)

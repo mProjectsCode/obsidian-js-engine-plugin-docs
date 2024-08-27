@@ -17,7 +17,7 @@ Currently unused.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L29)
+[jsEngine/engine/JsExecution.ts:30](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L30)
 
 ***
 
@@ -29,7 +29,7 @@ The file that the execution was triggered from.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L21)
+[jsEngine/engine/JsExecution.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L22)
 
 ***
 
@@ -41,4 +41,4 @@ The metadata of the file that the execution was triggered from.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:25](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L25)
+[jsEngine/engine/JsExecution.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L26)

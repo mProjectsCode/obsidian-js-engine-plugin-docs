@@ -42,7 +42,7 @@ title: "MessageAPI"
 
 #### Defined in
 
-[jsEngine/api/MessageAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MessageAPI.ts#L8)
+[jsEngine/api/MessageAPI.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/MessageAPI.ts#L9)
 
 ## Properties
 
@@ -52,7 +52,7 @@ title: "MessageAPI"
 
 #### Defined in
 
-[jsEngine/api/MessageAPI.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MessageAPI.ts#L5)
+[jsEngine/api/MessageAPI.ts:6](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/MessageAPI.ts#L6)
 
 ***
 
@@ -62,7 +62,7 @@ title: "MessageAPI"
 
 #### Defined in
 
-[jsEngine/api/MessageAPI.ts:6](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MessageAPI.ts#L6)
+[jsEngine/api/MessageAPI.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/MessageAPI.ts#L7)
 
 ## Methods
 
@@ -158,7 +158,7 @@ title: "MessageAPI"
 
 #### Defined in
 
-[jsEngine/api/MessageAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MessageAPI.ts#L13)
+[jsEngine/api/MessageAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/MessageAPI.ts#L14)
 
 ***
 
@@ -197,7 +197,7 @@ title: "MessageAPI"
 
 #### Defined in
 
-[jsEngine/api/MessageAPI.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MessageAPI.ts#L17)
+[jsEngine/api/MessageAPI.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/MessageAPI.ts#L18)
 
 ***
 
@@ -211,4 +211,4 @@ title: "MessageAPI"
 
 #### Defined in
 
-[jsEngine/api/MessageAPI.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/MessageAPI.ts#L21)
+[jsEngine/api/MessageAPI.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/MessageAPI.ts#L22)

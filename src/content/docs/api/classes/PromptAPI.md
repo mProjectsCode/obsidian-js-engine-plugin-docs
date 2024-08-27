@@ -42,7 +42,7 @@ title: "PromptAPI"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:74](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L74)
+[jsEngine/api/PromptAPI.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L93)
 
 ## Properties
 
@@ -52,7 +52,7 @@ title: "PromptAPI"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L72)
+[jsEngine/api/PromptAPI.ts:91](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L91)
 
 ## Methods
 
@@ -137,7 +137,7 @@ const ret = await engine.prompt.button({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:105](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L105)
+[jsEngine/api/PromptAPI.ts:124](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L124)
 
 ***
 
@@ -190,7 +190,7 @@ const ret = await engine.prompt.confirm({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:142](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L142)
+[jsEngine/api/PromptAPI.ts:161](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L161)
 
 ***
 
@@ -200,6 +200,7 @@ const ret = await engine.prompt.confirm({
 
 Prompts the user with a number input dialog.
 Returns the value of the input field, or undefined if the user closes the modal.
+While the input field is focused, the user can use `enter` to submit the value and `esc` to cancel and close the modal.
 
 #### Parameters
 
@@ -219,7 +220,7 @@ Returns the value of the input field, or undefined if the user closes the modal.
 </td>
 <td>
 
-[`InputPromptOptions`](/obsidian-js-engine-plugin-docs/api/interfaces/inputpromptoptions/)
+[`NumberInputPromptOptions`](/obsidian-js-engine-plugin-docs/api/interfaces/numberinputpromptoptions/)
 
 </td>
 </tr>
@@ -243,7 +244,7 @@ const ret = await engine.prompt.text({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:316](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L316)
+[jsEngine/api/PromptAPI.ts:338](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L338)
 
 ***
 
@@ -322,7 +323,7 @@ const ret = await engine.prompt.suggester({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:215](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L215)
+[jsEngine/api/PromptAPI.ts:234](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L234)
 
 ***
 
@@ -332,6 +333,7 @@ const ret = await engine.prompt.suggester({
 
 Prompts the user with a text input dialog.
 Returns the value of the input field, or undefined if the user closes the modal.
+While the input field is focused, the user can use `enter` to submit the value and `esc` to cancel and close the modal.
 
 #### Parameters
 
@@ -375,7 +377,7 @@ const ret = await engine.prompt.text({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:239](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L239)
+[jsEngine/api/PromptAPI.ts:259](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L259)
 
 ***
 
@@ -385,6 +387,7 @@ const ret = await engine.prompt.text({
 
 Prompts the user with a textarea input dialog.
 Returns the value of the input field, or undefined if the user closes the modal.
+While the input field is focused, the user can use `esc` to cancel and close the modal.
 
 #### Parameters
 
@@ -429,7 +432,7 @@ const ret = await engine.prompt.textarea({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:278](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L278)
+[jsEngine/api/PromptAPI.ts:299](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L299)
 
 ***
 
@@ -482,4 +485,4 @@ const ret = await engine.prompt.yesNo({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:176](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L176)
+[jsEngine/api/PromptAPI.ts:195](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L195)

@@ -13,7 +13,7 @@ title: "Block"
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L33)
+[jsEngine/engine/JsExecution.ts:34](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L34)
 
 ***
 
@@ -23,4 +23,4 @@ title: "Block"
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:34](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L34)
+[jsEngine/engine/JsExecution.ts:35](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L35)

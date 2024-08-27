@@ -88,7 +88,7 @@ Represents a piece of pure markdown text.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:126](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L126)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:126](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L126)
 
 ## Properties
 
@@ -98,7 +98,7 @@ Represents a piece of pure markdown text.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:122](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L122)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:122](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L122)
 
 ***
 
@@ -108,7 +108,7 @@ Represents a piece of pure markdown text.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:121](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L121)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:121](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L121)
 
 ***
 
@@ -118,7 +118,7 @@ Represents a piece of pure markdown text.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:123](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L123)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:123](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L123)
 
 ***
 
@@ -128,7 +128,7 @@ Represents a piece of pure markdown text.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:124](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L124)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:124](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L124)
 
 ## Methods
 
@@ -148,7 +148,7 @@ Converts the element to a [MarkdownString](../../../../../obsidian-js-engine-plu
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElement.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/markdown/AbstractMarkdownElement.ts#L21)
+[jsEngine/api/markdown/AbstractMarkdownElement.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/markdown/AbstractMarkdownElement.ts#L21)
 
 ***
 
@@ -168,4 +168,4 @@ Converts the element to a string.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:135](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L135)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:135](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L135)

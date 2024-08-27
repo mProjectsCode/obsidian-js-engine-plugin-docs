@@ -44,9 +44,54 @@ The internal API provides access to some of js engines internals.
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L13)
+[jsEngine/api/Internal.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/Internal.ts#L14)
 
 ## Methods
+
+### createExecutionGlobals()
+
+> **createExecutionGlobals**(`options`): [`JsExecutionGlobals`](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobals/)
+
+Creates execution globals.
+
+#### Parameters
+
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+`options`
+
+</td>
+<td>
+
+[`JsExecutionGlobalsConstructionOptions`](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobalsconstructionoptions/)
+
+</td>
+<td>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+#### Returns
+
+[`JsExecutionGlobals`](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobals/)
+
+#### Defined in
+
+[jsEngine/api/Internal.ts:97](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/Internal.ts#L97)
+
+***
 
 ### createRenderer()
 
@@ -119,7 +164,7 @@ Creates a result renderer.
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L33)
+[jsEngine/api/Internal.ts:34](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/Internal.ts#L34)
 
 ***
 
@@ -164,7 +209,7 @@ Executes the given code.
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L22)
+[jsEngine/api/Internal.ts:23](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/Internal.ts#L23)
 
 ***
 
@@ -224,7 +269,7 @@ Load and execute the given file.
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L43)
+[jsEngine/api/Internal.ts:44](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/Internal.ts#L44)
 
 ***
 
@@ -286,7 +331,7 @@ The component for the execution is created and destroyed automatically.
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:61](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L61)
+[jsEngine/api/Internal.ts:62](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/Internal.ts#L62)
 
 ***
 
@@ -331,4 +376,4 @@ Gets the execution context for a specific file, throws when the file does not ex
 
 #### Defined in
 
-[jsEngine/api/Internal.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/Internal.ts#L76)
+[jsEngine/api/Internal.ts:77](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/Internal.ts#L77)

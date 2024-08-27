@@ -71,7 +71,7 @@ See [API.reactive](../../../../../obsidian-js-engine-plugin-docs/api/classes/api
 
 #### Defined in
 
-[jsEngine/api/reactive/ReactiveComponent.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/reactive/ReactiveComponent.ts#L21)
+[jsEngine/api/reactive/ReactiveComponent.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/reactive/ReactiveComponent.ts#L21)
 
 ## Methods
 
@@ -116,4 +116,4 @@ Refreshes the component by rerunning the render function with the arguments pass
 
 #### Defined in
 
-[jsEngine/api/reactive/ReactiveComponent.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/reactive/ReactiveComponent.ts#L32)
+[jsEngine/api/reactive/ReactiveComponent.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/reactive/ReactiveComponent.ts#L32)

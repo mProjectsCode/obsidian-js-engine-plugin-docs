@@ -44,7 +44,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:98](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L98)
+[jsEngine/engine/JsExecution.ts:122](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L122)
 
 ## Properties
 
@@ -54,7 +54,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:79](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L79)
+[jsEngine/engine/JsExecution.ts:103](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L103)
 
 ***
 
@@ -64,7 +64,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:89](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L89)
+[jsEngine/engine/JsExecution.ts:113](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L113)
 
 ***
 
@@ -74,7 +74,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:92](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L92)
+[jsEngine/engine/JsExecution.ts:116](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L116)
 
 ***
 
@@ -84,7 +84,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:95](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L95)
+[jsEngine/engine/JsExecution.ts:119](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L119)
 
 ***
 
@@ -94,7 +94,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L93)
+[jsEngine/engine/JsExecution.ts:117](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L117)
 
 ***
 
@@ -104,7 +104,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:96](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L96)
+[jsEngine/engine/JsExecution.ts:120](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L120)
 
 ***
 
@@ -114,7 +114,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:87](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L87)
+[jsEngine/engine/JsExecution.ts:111](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L111)
 
 ***
 
@@ -124,7 +124,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:80](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L80)
+[jsEngine/engine/JsExecution.ts:104](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L104)
 
 ***
 
@@ -134,7 +134,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:90](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L90)
+[jsEngine/engine/JsExecution.ts:114](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L114)
 
 ***
 
@@ -144,7 +144,7 @@ Models the execution of a JavaScript string.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:88](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L88)
+[jsEngine/engine/JsExecution.ts:112](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L112)
 
 ## Methods
 
@@ -160,7 +160,7 @@ Creates the function from the code provided in the constructor.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:124](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L124)
+[jsEngine/engine/JsExecution.ts:145](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L145)
 
 ***
 
@@ -176,7 +176,7 @@ Returns the messages generated by the function.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:197](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L197)
+[jsEngine/engine/JsExecution.ts:218](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L218)
 
 ***
 
@@ -192,7 +192,7 @@ Returns true if the function was built and run without errors.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:190](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L190)
+[jsEngine/engine/JsExecution.ts:211](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L211)
 
 ***
 
@@ -208,7 +208,7 @@ Opens the execution stats modal for this execution.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:204](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L204)
+[jsEngine/engine/JsExecution.ts:225](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L225)
 
 ***
 
@@ -224,4 +224,4 @@ Runs the function created by [JsExecution.buildFunction](../../../../../obsidian
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:153](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L153)
+[jsEngine/engine/JsExecution.ts:174](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L174)

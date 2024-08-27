@@ -2,45 +2,14 @@
 editUrl: false
 next: false
 prev: false
-title: "ButtonPromptOptions"
+title: "NumberInputPromptOptions"
 ---
 
 ## Extends
 
 - [`ModalPromptOptions`](/obsidian-js-engine-plugin-docs/api/interfaces/modalpromptoptions/)
 
-## Type Parameters
-
-<table>
-<thead>
-<tr>
-<th>Type Parameter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-
-`T`
-
-</td>
-</tr>
-</tbody>
-</table>
-
 ## Properties
-
-### buttons
-
-> **buttons**: `object`[]
-
-A list of buttons to display in the modal.
-
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L29)
-
-***
 
 ### classes?
 
@@ -66,7 +35,31 @@ Text content to display in the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:25](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L25)
+[jsEngine/api/PromptAPI.ts:79](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L79)
+
+***
+
+### initialValue?
+
+> `optional` **initialValue**: `number`
+
+The initial value of the input field that is pre-filled when the modal is opened.
+
+#### Defined in
+
+[jsEngine/api/PromptAPI.ts:87](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L87)
+
+***
+
+### placeholder?
+
+> `optional` **placeholder**: `string`
+
+The placeholder text for the input field. This will show when the input field is empty.
+
+#### Defined in
+
+[jsEngine/api/PromptAPI.ts:83](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L83)
 
 ***
 

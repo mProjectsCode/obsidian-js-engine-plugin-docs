@@ -23,7 +23,7 @@ A list of CSS classes to apply to the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L18)
+[jsEngine/api/PromptAPI.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L18)
 
 ***
 
@@ -35,7 +35,19 @@ Text content to display in the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:64](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L64)
+[jsEngine/api/PromptAPI.ts:64](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L64)
+
+***
+
+### initialValue?
+
+> `optional` **initialValue**: `string`
+
+The initial value of the input field that is pre-filled when the modal is opened.
+
+#### Defined in
+
+[jsEngine/api/PromptAPI.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L72)
 
 ***
 
@@ -43,11 +55,11 @@ Text content to display in the modal.
 
 > `optional` **placeholder**: `string`
 
-The placeholder text for the input field.
+The placeholder text for the input field. This will show when the input field is empty.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:68](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L68)
+[jsEngine/api/PromptAPI.ts:68](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L68)
 
 ***
 
@@ -63,4 +75,4 @@ The title of the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/PromptAPI.ts#L14)
+[jsEngine/api/PromptAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L14)

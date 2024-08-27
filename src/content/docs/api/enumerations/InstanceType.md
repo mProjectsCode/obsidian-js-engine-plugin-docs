@@ -29,7 +29,7 @@ title: "InstanceType"
 </td>
 <td>
 
-[jsEngine/api/InstanceId.ts:2](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/InstanceId.ts#L2)
+[jsEngine/api/InstanceId.ts:2](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/InstanceId.ts#L2)
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ title: "InstanceType"
 </td>
 <td>
 
-[jsEngine/api/InstanceId.ts:3](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/api/InstanceId.ts#L3)
+[jsEngine/api/InstanceId.ts:3](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/InstanceId.ts#L3)
 
 </td>
 </tr>

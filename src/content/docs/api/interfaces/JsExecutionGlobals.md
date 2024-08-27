@@ -17,7 +17,7 @@ Reference to the obsidian [app](https://docs.obsidian.md/Reference/TypeScript+AP
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:44](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L44)
+[jsEngine/engine/JsExecution.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L45)
 
 ***
 
@@ -29,7 +29,7 @@ Obsidian [component](https://docs.obsidian.md/Reference/TypeScript+API/Component
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:52](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L52)
+[jsEngine/engine/JsExecution.ts:53](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L53)
 
 ***
 
@@ -41,7 +41,7 @@ The container element that the execution can render to. This can be undefined.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:60](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L60)
+[jsEngine/engine/JsExecution.ts:61](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L61)
 
 ***
 
@@ -53,7 +53,7 @@ The context provided. This can be undefined and extended by other properties.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:56](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L56)
+[jsEngine/engine/JsExecution.ts:57](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L57)
 
 ***
 
@@ -65,7 +65,7 @@ Reference to this plugins API.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:48](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L48)
+[jsEngine/engine/JsExecution.ts:49](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L49)
 
 ***
 
@@ -77,4 +77,4 @@ The entire obsidian module, e.g. a notice can be constructed like this: `new obs
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:64](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/b03cdc5d89f9f492e8ccbc5d6a798fe7e18efd5e/jsEngine/engine/JsExecution.ts#L64)
+[jsEngine/engine/JsExecution.ts:65](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/JsExecution.ts#L65)
