@@ -42,7 +42,7 @@ title: "PromptAPI"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L93)
+[jsEngine/api/PromptAPI.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L93)
 
 ## Properties
 
@@ -52,7 +52,7 @@ title: "PromptAPI"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:91](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L91)
+[jsEngine/api/PromptAPI.ts:91](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L91)
 
 ## Methods
 
@@ -137,7 +137,7 @@ const ret = await engine.prompt.button({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:124](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L124)
+[jsEngine/api/PromptAPI.ts:124](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L124)
 
 ***
 
@@ -190,7 +190,7 @@ const ret = await engine.prompt.confirm({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:161](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L161)
+[jsEngine/api/PromptAPI.ts:161](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L161)
 
 ***
 
@@ -244,7 +244,7 @@ const ret = await engine.prompt.text({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:338](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L338)
+[jsEngine/api/PromptAPI.ts:342](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L342)
 
 ***
 
@@ -323,7 +323,7 @@ const ret = await engine.prompt.suggester({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:234](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L234)
+[jsEngine/api/PromptAPI.ts:234](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L234)
 
 ***
 
@@ -377,7 +377,7 @@ const ret = await engine.prompt.text({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:259](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L259)
+[jsEngine/api/PromptAPI.ts:259](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L259)
 
 ***
 
@@ -432,7 +432,7 @@ const ret = await engine.prompt.textarea({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:299](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L299)
+[jsEngine/api/PromptAPI.ts:301](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L301)
 
 ***
 
@@ -485,4 +485,4 @@ const ret = await engine.prompt.yesNo({
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:195](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/api/PromptAPI.ts#L195)
+[jsEngine/api/PromptAPI.ts:195](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L195)

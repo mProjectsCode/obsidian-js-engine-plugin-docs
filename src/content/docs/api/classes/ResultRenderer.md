@@ -81,7 +81,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/ResultRenderer.ts#L20)
+[jsEngine/engine/ResultRenderer.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/ResultRenderer.ts#L20)
 
 ## Properties
 
@@ -91,7 +91,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/ResultRenderer.ts#L18)
+[jsEngine/engine/ResultRenderer.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/ResultRenderer.ts#L18)
 
 ***
 
@@ -101,7 +101,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/ResultRenderer.ts#L16)
+[jsEngine/engine/ResultRenderer.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/ResultRenderer.ts#L16)
 
 ***
 
@@ -111,7 +111,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/ResultRenderer.ts#L15)
+[jsEngine/engine/ResultRenderer.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/ResultRenderer.ts#L15)
 
 ***
 
@@ -121,7 +121,7 @@ Used to render the result of a [JsExecution](../../../../../obsidian-js-engine-p
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/ResultRenderer.ts#L17)
+[jsEngine/engine/ResultRenderer.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/ResultRenderer.ts#L17)
 
 ## Methods
 
@@ -171,7 +171,7 @@ The simple object.
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:92](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/ResultRenderer.ts#L92)
+[jsEngine/engine/ResultRenderer.ts:92](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/ResultRenderer.ts#L92)
 
 ***
 
@@ -218,4 +218,4 @@ The value to render.
 
 #### Defined in
 
-[jsEngine/engine/ResultRenderer.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/e96ff61292c9e90d57d921fab05d7cb5220aa91b/jsEngine/engine/ResultRenderer.ts#L32)
+[jsEngine/engine/ResultRenderer.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/ResultRenderer.ts#L32)
