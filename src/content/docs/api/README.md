@@ -38,6 +38,7 @@ title: "obsidian-js-engine-plugin"
 ## Interfaces
 
 - [Block](/obsidian-js-engine-plugin-docs/api/interfaces/block/)
+- [ButtonPromptButtonOptions](/obsidian-js-engine-plugin-docs/api/interfaces/buttonpromptbuttonoptions/)
 - [ButtonPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/buttonpromptoptions/)
 - [ConfirmPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/confirmpromptoptions/)
 - [EngineExecutionParams](/obsidian-js-engine-plugin-docs/api/interfaces/engineexecutionparams/)

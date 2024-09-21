@@ -66,7 +66,7 @@ title: "API"
 
 #### Defined in
 
-[jsEngine/api/API.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L45)
+[jsEngine/api/API.ts:49](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L49)
 
 ## Properties
 
@@ -78,7 +78,7 @@ Reference to the obsidian app.
 
 #### Defined in
 
-[jsEngine/api/API.ts:17](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L17)
+[jsEngine/api/API.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L20)
 
 ***
 
@@ -88,7 +88,7 @@ Reference to the obsidian app.
 
 #### Defined in
 
-[jsEngine/api/API.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L22)
+[jsEngine/api/API.ts:25](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L25)
 
 ***
 
@@ -100,7 +100,7 @@ API to interact with js engines internals.
 
 #### Defined in
 
-[jsEngine/api/API.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L43)
+[jsEngine/api/API.ts:47](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L47)
 
 ***
 
@@ -112,7 +112,7 @@ API to interact with packaged libraries.
 
 #### Defined in
 
-[jsEngine/api/API.ts:34](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L34)
+[jsEngine/api/API.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L38)
 
 ***
 
@@ -124,7 +124,7 @@ API to interact with markdown.
 
 #### Defined in
 
-[jsEngine/api/API.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L26)
+[jsEngine/api/API.ts:30](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L30)
 
 ***
 
@@ -136,7 +136,7 @@ API to interact with the plugins message system.
 
 #### Defined in
 
-[jsEngine/api/API.ts:30](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L30)
+[jsEngine/api/API.ts:34](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L34)
 
 ***
 
@@ -148,7 +148,7 @@ Reference the JS Engine plugin.
 
 #### Defined in
 
-[jsEngine/api/API.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L21)
+[jsEngine/api/API.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L24)
 
 ***
 
@@ -158,7 +158,7 @@ Reference the JS Engine plugin.
 
 #### Defined in
 
-[jsEngine/api/API.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L39)
+[jsEngine/api/API.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L43)
 
 ***
 
@@ -170,7 +170,17 @@ API to query your vault with simple javascript functions.
 
 #### Defined in
 
-[jsEngine/api/API.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L38)
+[jsEngine/api/API.ts:42](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L42)
+
+***
+
+### validators
+
+> `readonly` **validators**: `Validators`
+
+#### Defined in
+
+[jsEngine/api/API.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L26)
 
 ## Methods
 
@@ -218,7 +228,7 @@ the id of the plugin.
 
 #### Defined in
 
-[jsEngine/api/API.ts:85](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L85)
+[jsEngine/api/API.ts:92](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L92)
 
 ***
 
@@ -269,7 +279,7 @@ the vault relative path of the file to import
 
 #### Defined in
 
-[jsEngine/api/API.ts:67](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L67)
+[jsEngine/api/API.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L72)
 
 ***
 
@@ -334,4 +344,4 @@ the initial arguments (for the first render) to pass to the function.
 
 #### Defined in
 
-[jsEngine/api/API.ts:96](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/API.ts#L96)
+[jsEngine/api/API.ts:105](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L105)

@@ -15,7 +15,7 @@ Represents a markdown code block.
 
 ### new CodeBlockElement()
 
-> **new CodeBlockElement**(`language`, `content`): [`CodeBlockElement`](/obsidian-js-engine-plugin-docs/api/classes/codeblockelement/)
+> **new CodeBlockElement**(`apiInstance`, `language`, `content`): [`CodeBlockElement`](/obsidian-js-engine-plugin-docs/api/classes/codeblockelement/)
 
 #### Parameters
 
@@ -27,6 +27,18 @@ Represents a markdown code block.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+
+`apiInstance`
+
+</td>
+<td>
+
+[`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
+
+</td>
+</tr>
 <tr>
 <td>
 
@@ -64,9 +76,23 @@ Represents a markdown code block.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:311](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L311)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:361](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L361)
 
 ## Properties
+
+### apiInstance
+
+> `readonly` **apiInstance**: [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
+
+#### Inherited from
+
+`AbstractMarkdownElementContainer.apiInstance`
+
+#### Defined in
+
+[jsEngine/api/markdown/AbstractMarkdownElement.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElement.ts#L9)
+
+***
 
 ### language
 
@@ -74,7 +100,7 @@ Represents a markdown code block.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:309](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L309)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:359](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L359)
 
 ***
 
@@ -88,7 +114,7 @@ Represents a markdown code block.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L9)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L12)
 
 ## Methods
 
@@ -131,7 +157,7 @@ Represents a markdown code block.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:46](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L46)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:53](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L53)
 
 ***
 
@@ -174,7 +200,7 @@ Represents a markdown code block.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:64](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L64)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:85](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L85)
 
 ***
 
@@ -217,7 +243,7 @@ Represents a markdown code block.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:52](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L52)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:61](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L61)
 
 ***
 
@@ -270,7 +296,50 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L32)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:35](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L35)
+
+***
+
+### addHighlightedText()
+
+> **addHighlightedText**(`text`): `AbstractMarkdownElementContainer`
+
+#### Parameters
+
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+`text`
+
+</td>
+<td>
+
+`string`
+
+</td>
+</tr>
+</tbody>
+</table>
+
+#### Returns
+
+`AbstractMarkdownElementContainer`
+
+#### Inherited from
+
+`AbstractMarkdownElementContainer.addHighlightedText`
+
+#### Defined in
+
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:77](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L77)
 
 ***
 
@@ -313,7 +382,7 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L40)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L45)
 
 ***
 
@@ -356,7 +425,7 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:58](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L58)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:69](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L69)
 
 ***
 
@@ -374,7 +443,7 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:82](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L82)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:109](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L109)
 
 ***
 
@@ -457,7 +526,7 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:88](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L88)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:115](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L115)
 
 ***
 
@@ -512,7 +581,7 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:100](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L100)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:131](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L131)
 
 ***
 
@@ -612,7 +681,7 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:94](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L94)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:123](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L123)
 
 ***
 
@@ -667,7 +736,7 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L76)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:101](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L101)
 
 ***
 
@@ -682,6 +751,7 @@ Error if the element is not allowed in the container.
 <tr>
 <th>Parameter</th>
 <th>Type</th>
+<th>Default value</th>
 </tr>
 </thead>
 <tbody>
@@ -694,6 +764,11 @@ Error if the element is not allowed in the container.
 <td>
 
 `boolean`
+
+</td>
+<td>
+
+`false`
 
 </td>
 </tr>
@@ -710,7 +785,25 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:112](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L112)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:147](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L147)
+
+***
+
+### createOrderedList()
+
+> **createOrderedList**(): [`ListElement`](/obsidian-js-engine-plugin-docs/api/classes/listelement/)
+
+#### Returns
+
+[`ListElement`](/obsidian-js-engine-plugin-docs/api/classes/listelement/)
+
+#### Inherited from
+
+`AbstractMarkdownElementContainer.createOrderedList`
+
+#### Defined in
+
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:155](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L155)
 
 ***
 
@@ -753,7 +846,7 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:70](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L70)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L93)
 
 ***
 
@@ -808,7 +901,7 @@ Error if the element is not allowed in the container.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:106](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L106)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:139](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L139)
 
 ***
 
@@ -828,7 +921,7 @@ Converts the element to a [MarkdownString](../../../../../obsidian-js-engine-plu
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElement.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElement.ts#L21)
+[jsEngine/api/markdown/AbstractMarkdownElement.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElement.ts#L28)
 
 ***
 
@@ -848,4 +941,4 @@ Converts the element to a string.
 
 #### Defined in
 
-[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:322](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L322)
+[jsEngine/api/markdown/AbstractMarkdownElementContainer.ts:368](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/AbstractMarkdownElementContainer.ts#L368)

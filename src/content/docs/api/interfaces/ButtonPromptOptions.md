@@ -5,6 +5,9 @@ prev: false
 title: "ButtonPromptOptions"
 ---
 
+Basic options for a prompt modal.
+This interface is used as a base for other prompt options.
+
 ## Extends
 
 - [`ModalPromptOptions`](/obsidian-js-engine-plugin-docs/api/interfaces/modalpromptoptions/)
@@ -32,13 +35,13 @@ title: "ButtonPromptOptions"
 
 ### buttons
 
-> **buttons**: `object`[]
+> **buttons**: [`ButtonPromptButtonOptions`](/obsidian-js-engine-plugin-docs/api/interfaces/buttonpromptbuttonoptions/)\<`T`\>[]
 
 A list of buttons to display in the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L29)
+[jsEngine/api/PromptAPI.ts:35](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L35)
 
 ***
 
@@ -54,7 +57,7 @@ A list of CSS classes to apply to the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L18)
+[jsEngine/api/PromptAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L24)
 
 ***
 
@@ -66,7 +69,7 @@ Text content to display in the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:25](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L25)
+[jsEngine/api/PromptAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L31)
 
 ***
 
@@ -82,4 +85,4 @@ The title of the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L14)
+[jsEngine/api/PromptAPI.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L20)

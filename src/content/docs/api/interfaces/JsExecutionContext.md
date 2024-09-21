@@ -9,36 +9,36 @@ Context provided to a [JsExecution](../../../../../obsidian-js-engine-plugin-doc
 
 ## Properties
 
-### block
+### block?
 
-> **block**: `undefined` \| [`Block`](/obsidian-js-engine-plugin-docs/api/interfaces/block/)
+> `optional` **block**: [`Block`](/obsidian-js-engine-plugin-docs/api/interfaces/block/)
 
 Currently unused.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:30](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/JsExecution.ts#L30)
+[jsEngine/engine/JsExecution.ts:30](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/engine/JsExecution.ts#L30)
 
 ***
 
-### file
+### file?
 
-> **file**: `undefined` \| `TFile`
+> `optional` **file**: `TFile`
 
 The file that the execution was triggered from.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/JsExecution.ts#L22)
+[jsEngine/engine/JsExecution.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/engine/JsExecution.ts#L22)
 
 ***
 
-### metadata
+### metadata?
 
-> **metadata**: `undefined` \| `CachedMetadata`
+> `optional` **metadata**: `CachedMetadata`
 
 The metadata of the file that the execution was triggered from.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/JsExecution.ts#L26)
+[jsEngine/engine/JsExecution.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/engine/JsExecution.ts#L26)

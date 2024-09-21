@@ -40,4 +40,4 @@ An async JavaScript function.
 
 ## Defined in
 
-[jsEngine/engine/JsExecution.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/JsExecution.ts#L13)
+[jsEngine/engine/JsExecution.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/engine/JsExecution.ts#L13)

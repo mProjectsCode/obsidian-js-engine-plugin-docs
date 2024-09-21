@@ -17,7 +17,7 @@ Obsidian [component](https://docs.obsidian.md/Reference/TypeScript+API/Component
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:80](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/JsExecution.ts#L80)
+[jsEngine/engine/JsExecution.ts:80](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/engine/JsExecution.ts#L80)
 
 ***
 
@@ -29,7 +29,7 @@ The container element that the execution can render to. This can be undefined.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:88](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/JsExecution.ts#L88)
+[jsEngine/engine/JsExecution.ts:88](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/engine/JsExecution.ts#L88)
 
 ***
 
@@ -41,7 +41,7 @@ The context provided. This can be undefined and extended by other properties.
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:84](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/JsExecution.ts#L84)
+[jsEngine/engine/JsExecution.ts:84](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/engine/JsExecution.ts#L84)
 
 ***
 
@@ -54,4 +54,4 @@ If not provided, the one from which the execution globals are constructed is use
 
 #### Defined in
 
-[jsEngine/engine/JsExecution.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/engine/JsExecution.ts#L76)
+[jsEngine/engine/JsExecution.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/engine/JsExecution.ts#L76)

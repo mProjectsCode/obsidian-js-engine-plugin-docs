@@ -11,7 +11,7 @@ A string that should be rendered as markdown by the plugin.
 
 ### new MarkdownString()
 
-> **new MarkdownString**(`content`): [`MarkdownString`](/obsidian-js-engine-plugin-docs/api/classes/markdownstring/)
+> **new MarkdownString**(`apiInstance`, `content`): [`MarkdownString`](/obsidian-js-engine-plugin-docs/api/classes/markdownstring/)
 
 #### Parameters
 
@@ -23,6 +23,18 @@ A string that should be rendered as markdown by the plugin.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+
+`apiInstance`
+
+</td>
+<td>
+
+[`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
+
+</td>
+</tr>
 <tr>
 <td>
 
@@ -44,9 +56,19 @@ A string that should be rendered as markdown by the plugin.
 
 #### Defined in
 
-[jsEngine/api/markdown/MarkdownString.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/MarkdownString.ts#L10)
+[jsEngine/api/markdown/MarkdownString.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/MarkdownString.ts#L14)
 
 ## Properties
+
+### apiInstance
+
+> `readonly` **apiInstance**: [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
+
+#### Defined in
+
+[jsEngine/api/markdown/MarkdownString.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/MarkdownString.ts#L12)
+
+***
 
 ### content
 
@@ -54,4 +76,4 @@ A string that should be rendered as markdown by the plugin.
 
 #### Defined in
 
-[jsEngine/api/markdown/MarkdownString.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/markdown/MarkdownString.ts#L8)
+[jsEngine/api/markdown/MarkdownString.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/markdown/MarkdownString.ts#L11)

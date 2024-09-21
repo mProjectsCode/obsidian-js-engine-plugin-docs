@@ -32,7 +32,7 @@ title: "SuggesterOption"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:57](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L57)
+[jsEngine/api/PromptAPI.ts:65](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L65)
 
 ***
 
@@ -42,4 +42,4 @@ title: "SuggesterOption"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:56](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L56)
+[jsEngine/api/PromptAPI.ts:64](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L64)

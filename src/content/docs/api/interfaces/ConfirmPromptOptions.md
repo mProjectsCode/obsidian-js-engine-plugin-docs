@@ -5,6 +5,9 @@ prev: false
 title: "ConfirmPromptOptions"
 ---
 
+Basic options for a prompt modal.
+This interface is used as a base for other prompt options.
+
 ## Extends
 
 - [`ModalPromptOptions`](/obsidian-js-engine-plugin-docs/api/interfaces/modalpromptoptions/)
@@ -23,7 +26,7 @@ A list of CSS classes to apply to the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L18)
+[jsEngine/api/PromptAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L24)
 
 ***
 
@@ -35,7 +38,7 @@ Text content to display in the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L40)
+[jsEngine/api/PromptAPI.ts:48](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L48)
 
 ***
 
@@ -51,4 +54,4 @@ The title of the modal.
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/1f0648da628182867a83f5d8f76c6abab1f05793/jsEngine/api/PromptAPI.ts#L14)
+[jsEngine/api/PromptAPI.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L20)
