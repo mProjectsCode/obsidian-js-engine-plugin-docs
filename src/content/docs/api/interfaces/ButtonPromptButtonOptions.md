@@ -32,7 +32,7 @@ title: "ButtonPromptButtonOptions"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L39)
+[jsEngine/api/PromptAPI.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L39)
 
 ***
 
@@ -42,7 +42,7 @@ title: "ButtonPromptButtonOptions"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L40)
+[jsEngine/api/PromptAPI.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L40)
 
 ***
 
@@ -52,4 +52,4 @@ title: "ButtonPromptButtonOptions"
 
 #### Defined in
 
-[jsEngine/api/PromptAPI.ts:41](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/PromptAPI.ts#L41)
+[jsEngine/api/PromptAPI.ts:41](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L41)

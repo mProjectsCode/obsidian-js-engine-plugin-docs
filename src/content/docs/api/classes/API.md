@@ -66,7 +66,7 @@ title: "API"
 
 #### Defined in
 
-[jsEngine/api/API.ts:49](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L49)
+[jsEngine/api/API.ts:50](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L50)
 
 ## Properties
 
@@ -78,7 +78,7 @@ Reference to the obsidian app.
 
 #### Defined in
 
-[jsEngine/api/API.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L20)
+[jsEngine/api/API.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L21)
 
 ***
 
@@ -88,7 +88,7 @@ Reference to the obsidian app.
 
 #### Defined in
 
-[jsEngine/api/API.ts:25](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L25)
+[jsEngine/api/API.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L26)
 
 ***
 
@@ -100,7 +100,7 @@ API to interact with js engines internals.
 
 #### Defined in
 
-[jsEngine/api/API.ts:47](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L47)
+[jsEngine/api/API.ts:48](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L48)
 
 ***
 
@@ -112,7 +112,7 @@ API to interact with packaged libraries.
 
 #### Defined in
 
-[jsEngine/api/API.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L38)
+[jsEngine/api/API.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L39)
 
 ***
 
@@ -124,7 +124,7 @@ API to interact with markdown.
 
 #### Defined in
 
-[jsEngine/api/API.ts:30](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L30)
+[jsEngine/api/API.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L31)
 
 ***
 
@@ -136,7 +136,7 @@ API to interact with the plugins message system.
 
 #### Defined in
 
-[jsEngine/api/API.ts:34](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L34)
+[jsEngine/api/API.ts:35](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L35)
 
 ***
 
@@ -148,7 +148,7 @@ Reference the JS Engine plugin.
 
 #### Defined in
 
-[jsEngine/api/API.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L24)
+[jsEngine/api/API.ts:25](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L25)
 
 ***
 
@@ -158,7 +158,7 @@ Reference the JS Engine plugin.
 
 #### Defined in
 
-[jsEngine/api/API.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L43)
+[jsEngine/api/API.ts:44](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L44)
 
 ***
 
@@ -170,7 +170,7 @@ API to query your vault with simple javascript functions.
 
 #### Defined in
 
-[jsEngine/api/API.ts:42](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L42)
+[jsEngine/api/API.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L43)
 
 ***
 
@@ -180,9 +180,33 @@ API to query your vault with simple javascript functions.
 
 #### Defined in
 
-[jsEngine/api/API.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L26)
+[jsEngine/api/API.ts:27](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L27)
 
 ## Methods
+
+### getObsidianModule()
+
+> **getObsidianModule**(): `__module`
+
+Gets the obsidian module.
+This allows you to access all things exported by the obsidian module.
+
+#### Returns
+
+`__module`
+
+#### Example
+
+```js
+const obsidian = engine.getObsidianModule();
+new obsidian.Notice('Hello World!');
+```
+
+#### Defined in
+
+[jsEngine/api/API.ts:109](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L109)
+
+***
 
 ### getPlugin()
 
@@ -228,7 +252,7 @@ the id of the plugin.
 
 #### Defined in
 
-[jsEngine/api/API.ts:92](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L92)
+[jsEngine/api/API.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L93)
 
 ***
 
@@ -279,7 +303,7 @@ the vault relative path of the file to import
 
 #### Defined in
 
-[jsEngine/api/API.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L72)
+[jsEngine/api/API.ts:73](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L73)
 
 ***
 
@@ -344,4 +368,4 @@ the initial arguments (for the first render) to pass to the function.
 
 #### Defined in
 
-[jsEngine/api/API.ts:105](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/API.ts#L105)
+[jsEngine/api/API.ts:120](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L120)

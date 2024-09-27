@@ -42,7 +42,7 @@ title: "QueryAPI"
 
 #### Defined in
 
-[jsEngine/api/QueryAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/QueryAPI.ts#L10)
+[jsEngine/api/QueryAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/QueryAPI.ts#L10)
 
 ## Properties
 
@@ -52,7 +52,7 @@ title: "QueryAPI"
 
 #### Defined in
 
-[jsEngine/api/QueryAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/QueryAPI.ts#L8)
+[jsEngine/api/QueryAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/QueryAPI.ts#L8)
 
 ## Methods
 
@@ -124,7 +124,7 @@ const fileNames = engine.query.files(file => file.path.startsWith("Foo/") ? file
 
 #### Defined in
 
-[jsEngine/api/QueryAPI.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/QueryAPI.ts#L29)
+[jsEngine/api/QueryAPI.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/QueryAPI.ts#L29)
 
 ***
 
@@ -191,4 +191,4 @@ const paths = engine.query.filesWithMetadata((file, cache, tags) => tags.include
 
 #### Defined in
 
-[jsEngine/api/QueryAPI.ts:47](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/QueryAPI.ts#L47)
+[jsEngine/api/QueryAPI.ts:47](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/QueryAPI.ts#L47)

@@ -84,7 +84,7 @@ will underline the failure position in the input string, if set to true
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/LibAPI.ts#L13)
+[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L13)
 
 ***
 
@@ -94,7 +94,7 @@ will underline the failure position in the input string, if set to true
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/LibAPI.ts#L10)
+[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L10)
 
 ***
 
@@ -104,7 +104,7 @@ will underline the failure position in the input string, if set to true
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/LibAPI.ts#L11)
+[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L11)
 
 ***
 
@@ -114,7 +114,7 @@ will underline the failure position in the input string, if set to true
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/LibAPI.ts#L12)
+[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L12)
 
 ***
 
@@ -124,7 +124,7 @@ will underline the failure position in the input string, if set to true
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/LibAPI.ts#L15)
+[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L15)
 
 ***
 
@@ -134,4 +134,4 @@ will underline the failure position in the input string, if set to true
 
 #### Defined in
 
-[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/2a2cfe4836b2dabd89bbe1da5831eff3e3e8be62/jsEngine/api/LibAPI.ts#L14)
+[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L14)
