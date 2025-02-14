@@ -5,6 +5,8 @@ prev: false
 title: "MarkdownAPI"
 ---
 
+Defined in: [jsEngine/api/MarkdownAPI.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L21)
+
 The markdown API provides utilities for creating markdown using js.
 
 ## Constructors
@@ -12,6 +14,8 @@ The markdown API provides utilities for creating markdown using js.
 ### new MarkdownAPI()
 
 > **new MarkdownAPI**(`apiInstance`): [`MarkdownAPI`](/obsidian-js-engine-plugin-docs/api/classes/markdownapi/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L24)
 
 #### Parameters
 
@@ -42,15 +46,13 @@ The markdown API provides utilities for creating markdown using js.
 
 [`MarkdownAPI`](/obsidian-js-engine-plugin-docs/api/classes/markdownapi/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L24)
-
 ## Methods
 
 ### create()
 
 > **create**(`markdown`): [`MarkdownString`](/obsidian-js-engine-plugin-docs/api/classes/markdownstring/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:42](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L42)
 
 Creates a markdown string form a normal string.
 This does not modify the string.
@@ -91,15 +93,13 @@ the string to wrap
 
 [`MarkdownString`](/obsidian-js-engine-plugin-docs/api/classes/markdownstring/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:42](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L42)
-
 ***
 
 ### createBlockQuote()
 
 > **createBlockQuote**(): [`BlockQuoteElement`](/obsidian-js-engine-plugin-docs/api/classes/blockquoteelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:140](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L140)
 
 Creates a new markdown block quote element.
 
@@ -107,15 +107,13 @@ Creates a new markdown block quote element.
 
 [`BlockQuoteElement`](/obsidian-js-engine-plugin-docs/api/classes/blockquoteelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:140](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L140)
-
 ***
 
 ### createBoldText()
 
 > **createBoldText**(`text`): [`TextElement`](/obsidian-js-engine-plugin-docs/api/classes/textelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:64](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L64)
 
 Creates a new markdown text element with bold formatting.
 
@@ -152,15 +150,13 @@ Creates a new markdown text element with bold formatting.
 
 [`TextElement`](/obsidian-js-engine-plugin-docs/api/classes/textelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:64](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L64)
-
 ***
 
 ### createBuilder()
 
 > **createBuilder**(): [`MarkdownBuilder`](/obsidian-js-engine-plugin-docs/api/classes/markdownbuilder/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L31)
 
 Creates a markdown builder.
 
@@ -168,15 +164,13 @@ Creates a markdown builder.
 
 [`MarkdownBuilder`](/obsidian-js-engine-plugin-docs/api/classes/markdownbuilder/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L31)
-
 ***
 
 ### createCallout()
 
 > **createCallout**(`title`, `type`, `args`): [`CalloutElement`](/obsidian-js-engine-plugin-docs/api/classes/calloutelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:151](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L151)
 
 Creates a new markdown callout element.
 
@@ -265,15 +259,13 @@ the callout args, optional
 
 [`CalloutElement`](/obsidian-js-engine-plugin-docs/api/classes/calloutelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:151](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L151)
-
 ***
 
 ### createCode()
 
 > **createCode**(`text`): [`CodeElement`](/obsidian-js-engine-plugin-docs/api/classes/codeelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:108](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L108)
 
 Creates a new markdown code element.
 
@@ -310,15 +302,13 @@ Creates a new markdown code element.
 
 [`CodeElement`](/obsidian-js-engine-plugin-docs/api/classes/codeelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:108](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L108)
-
 ***
 
 ### createCodeBlock()
 
 > **createCodeBlock**(`language`, `content`): [`CodeBlockElement`](/obsidian-js-engine-plugin-docs/api/classes/codeblockelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:177](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L177)
 
 Creates a new markdown code block element.
 
@@ -374,15 +364,13 @@ the content of the code block
 
 [`CodeBlockElement`](/obsidian-js-engine-plugin-docs/api/classes/codeblockelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:177](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L177)
-
 ***
 
 ### createCollapsibleCallout()
 
 > **createCollapsibleCallout**(`title`, `type`, `args`, `collapsed`): [`CalloutElement`](/obsidian-js-engine-plugin-docs/api/classes/calloutelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:165](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L165)
 
 Creates a new markdown collapsible callout element.
 
@@ -493,15 +481,13 @@ whether the callout should be collapsed by default, optional
 
 [`CalloutElement`](/obsidian-js-engine-plugin-docs/api/classes/calloutelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:165](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L165)
-
 ***
 
 ### createCursiveText()
 
 > **createCursiveText**(`text`): [`TextElement`](/obsidian-js-engine-plugin-docs/api/classes/textelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:75](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L75)
 
 Creates a new markdown text element with cursive formatting.
 
@@ -538,15 +524,13 @@ Creates a new markdown text element with cursive formatting.
 
 [`TextElement`](/obsidian-js-engine-plugin-docs/api/classes/textelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:75](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L75)
-
 ***
 
 ### createHeading()
 
 > **createHeading**(`level`, `content`): [`HeadingElement`](/obsidian-js-engine-plugin-docs/api/classes/headingelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:131](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L131)
 
 Creates a new markdown heading element.
 
@@ -602,15 +586,13 @@ the text of the heading
 
 [`HeadingElement`](/obsidian-js-engine-plugin-docs/api/classes/headingelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:131](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L131)
-
 ***
 
 ### createHighlightedText()
 
 > **createHighlightedText**(`text`): [`TextElement`](/obsidian-js-engine-plugin-docs/api/classes/textelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:97](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L97)
 
 Creates a new markdown text element with highlighted formatting.
 
@@ -647,15 +629,13 @@ Creates a new markdown text element with highlighted formatting.
 
 [`TextElement`](/obsidian-js-engine-plugin-docs/api/classes/textelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:97](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L97)
-
 ***
 
 ### createList()
 
 > **createList**(`ordered`): [`ListElement`](/obsidian-js-engine-plugin-docs/api/classes/listelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:200](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L200)
 
 Creates a new markdown list element.
 
@@ -700,15 +680,13 @@ whether the list should be ordered or not (use 1. or -), defaults to unordered
 
 [`ListElement`](/obsidian-js-engine-plugin-docs/api/classes/listelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:200](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L200)
-
 ***
 
 ### createOrderedList()
 
 > **createOrderedList**(): [`ListElement`](/obsidian-js-engine-plugin-docs/api/classes/listelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:209](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L209)
 
 Creates a new ordered markdown list element.
 
@@ -716,15 +694,13 @@ Creates a new ordered markdown list element.
 
 [`ListElement`](/obsidian-js-engine-plugin-docs/api/classes/listelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:209](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L209)
-
 ***
 
 ### createParagraph()
 
 > **createParagraph**(`content`): [`ParagraphElement`](/obsidian-js-engine-plugin-docs/api/classes/paragraphelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:119](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L119)
 
 Creates a new markdown paragraph element.
 
@@ -761,15 +737,13 @@ Creates a new markdown paragraph element.
 
 [`ParagraphElement`](/obsidian-js-engine-plugin-docs/api/classes/paragraphelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:119](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L119)
-
 ***
 
 ### createTable()
 
 > **createTable**(`header`, `body`): [`TableElement`](/obsidian-js-engine-plugin-docs/api/classes/tableelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:189](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L189)
 
 Creates a new markdown table element.
 
@@ -825,15 +799,13 @@ the table body
 
 [`TableElement`](/obsidian-js-engine-plugin-docs/api/classes/tableelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:189](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L189)
-
 ***
 
 ### createText()
 
 > **createText**(`text`): [`TextElement`](/obsidian-js-engine-plugin-docs/api/classes/textelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:53](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L53)
 
 Creates a new markdown text element.
 
@@ -870,15 +842,13 @@ Creates a new markdown text element.
 
 [`TextElement`](/obsidian-js-engine-plugin-docs/api/classes/textelement/)
 
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:53](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L53)
-
 ***
 
 ### createUnderlinedText()
 
 > **createUnderlinedText**(`text`): [`TextElement`](/obsidian-js-engine-plugin-docs/api/classes/textelement/)
+
+Defined in: [jsEngine/api/MarkdownAPI.ts:86](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MarkdownAPI.ts#L86)
 
 Creates a new markdown text element with underline formatting.
 
@@ -914,7 +884,3 @@ Creates a new markdown text element with underline formatting.
 #### Returns
 
 [`TextElement`](/obsidian-js-engine-plugin-docs/api/classes/textelement/)
-
-#### Defined in
-
-[jsEngine/api/MarkdownAPI.ts:86](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/MarkdownAPI.ts#L86)

@@ -5,6 +5,8 @@ prev: false
 title: "LibAPI"
 ---
 
+Defined in: [jsEngine/api/LibAPI.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L21)
+
 The lib API provides in interface to some external libraries packaged into js engine.
 
 ## Constructors
@@ -12,6 +14,8 @@ The lib API provides in interface to some external libraries packaged into js en
 ### new LibAPI()
 
 > **new LibAPI**(`apiInstance`): [`LibAPI`](/obsidian-js-engine-plugin-docs/api/classes/libapi/)
+
+Defined in: [jsEngine/api/LibAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L24)
 
 #### Parameters
 
@@ -42,15 +46,13 @@ The lib API provides in interface to some external libraries packaged into js en
 
 [`LibAPI`](/obsidian-js-engine-plugin-docs/api/classes/libapi/)
 
-#### Defined in
-
-[jsEngine/api/LibAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L24)
-
 ## Methods
 
 ### itertools()
 
 > **itertools**(): `__module`
+
+Defined in: [jsEngine/api/LibAPI.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L45)
 
 Get the [itertools-ts](https://github.com/Smoren/itertools-ts) library.
 
@@ -58,22 +60,16 @@ Get the [itertools-ts](https://github.com/Smoren/itertools-ts) library.
 
 `__module`
 
-#### Defined in
-
-[jsEngine/api/LibAPI.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L45)
-
 ***
 
 ### parsinom()
 
 > **parsinom**(): [`LibParsiNOM`](/obsidian-js-engine-plugin-docs/api/interfaces/libparsinom/)
 
+Defined in: [jsEngine/api/LibAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L31)
+
 Get the [ParsiNOM](https://github.com/mProjectsCode/parsiNOM) library.
 
 #### Returns
 
 [`LibParsiNOM`](/obsidian-js-engine-plugin-docs/api/interfaces/libparsinom/)
-
-#### Defined in
-
-[jsEngine/api/LibAPI.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L31)

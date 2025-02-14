@@ -5,6 +5,8 @@ prev: false
 title: "JsExecutionGlobalsConstructionOptions"
 ---
 
+Defined in: [jsEngine/engine/JsExecution.ts:131](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L131)
+
 Interface for constructing [JsExecutionGlobals](../../../../../obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobals).
 
 ## Properties
@@ -13,11 +15,9 @@ Interface for constructing [JsExecutionGlobals](../../../../../obsidian-js-engin
 
 > **component**: `Component`
 
+Defined in: [jsEngine/engine/JsExecution.ts:140](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L140)
+
 Obsidian [component](https://docs.obsidian.md/Reference/TypeScript+API/Component) for lifecycle management.
-
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:80](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L80)
 
 ***
 
@@ -25,23 +25,19 @@ Obsidian [component](https://docs.obsidian.md/Reference/TypeScript+API/Component
 
 > `optional` **container**: [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement)
 
+Defined in: [jsEngine/engine/JsExecution.ts:148](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L148)
+
 The container element that the execution can render to. This can be undefined.
-
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:88](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L88)
 
 ***
 
 ### context
 
-> **context**: [`JsExecutionContext`](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutioncontext/) & [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`string`, `unknown`\>
+> **context**: [`ExecutionContext`](/obsidian-js-engine-plugin-docs/api/type-aliases/executioncontext/) & [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`string`, `unknown`\>
+
+Defined in: [jsEngine/engine/JsExecution.ts:144](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L144)
 
 The context provided. This can be undefined and extended by other properties.
-
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:84](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L84)
 
 ***
 
@@ -49,9 +45,7 @@ The context provided. This can be undefined and extended by other properties.
 
 > `optional` **engine**: [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
 
+Defined in: [jsEngine/engine/JsExecution.ts:136](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L136)
+
 Optional API instance.
 If not provided, the one from which the execution globals are constructed is used.
-
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L76)

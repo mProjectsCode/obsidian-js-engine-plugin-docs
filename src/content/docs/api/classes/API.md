@@ -5,11 +5,15 @@ prev: false
 title: "API"
 ---
 
+Defined in: [jsEngine/api/API.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L18)
+
 ## Constructors
 
 ### new API()
 
 > **new API**(`app`, `plugin`, `instanceId`): [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
+
+Defined in: [jsEngine/api/API.ts:51](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L51)
 
 #### Parameters
 
@@ -64,21 +68,15 @@ title: "API"
 
 [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
 
-#### Defined in
-
-[jsEngine/api/API.ts:50](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L50)
-
 ## Properties
 
 ### app
 
 > `readonly` **app**: `App`
 
+Defined in: [jsEngine/api/API.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L22)
+
 Reference to the obsidian app.
-
-#### Defined in
-
-[jsEngine/api/API.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L21)
 
 ***
 
@@ -86,9 +84,7 @@ Reference to the obsidian app.
 
 > `readonly` **instanceId**: [`InstanceId`](/obsidian-js-engine-plugin-docs/api/classes/instanceid/)
 
-#### Defined in
-
-[jsEngine/api/API.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L26)
+Defined in: [jsEngine/api/API.ts:27](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L27)
 
 ***
 
@@ -96,11 +92,9 @@ Reference to the obsidian app.
 
 > `readonly` **internal**: [`InternalAPI`](/obsidian-js-engine-plugin-docs/api/classes/internalapi/)
 
+Defined in: [jsEngine/api/API.ts:49](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L49)
+
 API to interact with js engines internals.
-
-#### Defined in
-
-[jsEngine/api/API.ts:48](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L48)
 
 ***
 
@@ -108,11 +102,9 @@ API to interact with js engines internals.
 
 > `readonly` **lib**: [`LibAPI`](/obsidian-js-engine-plugin-docs/api/classes/libapi/)
 
+Defined in: [jsEngine/api/API.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L40)
+
 API to interact with packaged libraries.
-
-#### Defined in
-
-[jsEngine/api/API.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L39)
 
 ***
 
@@ -120,11 +112,9 @@ API to interact with packaged libraries.
 
 > `readonly` **markdown**: [`MarkdownAPI`](/obsidian-js-engine-plugin-docs/api/classes/markdownapi/)
 
+Defined in: [jsEngine/api/API.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L32)
+
 API to interact with markdown.
-
-#### Defined in
-
-[jsEngine/api/API.ts:31](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L31)
 
 ***
 
@@ -132,11 +122,9 @@ API to interact with markdown.
 
 > `readonly` **message**: [`MessageAPI`](/obsidian-js-engine-plugin-docs/api/classes/messageapi/)
 
+Defined in: [jsEngine/api/API.ts:36](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L36)
+
 API to interact with the plugins message system.
-
-#### Defined in
-
-[jsEngine/api/API.ts:35](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L35)
 
 ***
 
@@ -144,11 +132,9 @@ API to interact with the plugins message system.
 
 > `readonly` **plugin**: `JsEnginePlugin`
 
+Defined in: [jsEngine/api/API.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L26)
+
 Reference the JS Engine plugin.
-
-#### Defined in
-
-[jsEngine/api/API.ts:25](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L25)
 
 ***
 
@@ -156,9 +142,7 @@ Reference the JS Engine plugin.
 
 > `readonly` **prompt**: [`PromptAPI`](/obsidian-js-engine-plugin-docs/api/classes/promptapi/)
 
-#### Defined in
-
-[jsEngine/api/API.ts:44](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L44)
+Defined in: [jsEngine/api/API.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L45)
 
 ***
 
@@ -166,11 +150,9 @@ Reference the JS Engine plugin.
 
 > `readonly` **query**: [`QueryAPI`](/obsidian-js-engine-plugin-docs/api/classes/queryapi/)
 
+Defined in: [jsEngine/api/API.ts:44](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L44)
+
 API to query your vault with simple javascript functions.
-
-#### Defined in
-
-[jsEngine/api/API.ts:43](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L43)
 
 ***
 
@@ -178,15 +160,15 @@ API to query your vault with simple javascript functions.
 
 > `readonly` **validators**: `Validators`
 
-#### Defined in
-
-[jsEngine/api/API.ts:27](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L27)
+Defined in: [jsEngine/api/API.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L28)
 
 ## Methods
 
 ### getObsidianModule()
 
 > **getObsidianModule**(): `__module`
+
+Defined in: [jsEngine/api/API.ts:110](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L110)
 
 Gets the obsidian module.
 This allows you to access all things exported by the obsidian module.
@@ -202,15 +184,13 @@ const obsidian = engine.getObsidianModule();
 new obsidian.Notice('Hello World!');
 ```
 
-#### Defined in
-
-[jsEngine/api/API.ts:109](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L109)
-
 ***
 
 ### getPlugin()
 
 > **getPlugin**(`pluginId`): `undefined` \| `Plugin`
+
+Defined in: [jsEngine/api/API.ts:94](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L94)
 
 Gets a plugin by its id. A plugin id can be found by looking at its manifest.
 If the plugin is not enabled, this will return undefined.
@@ -250,15 +230,13 @@ the id of the plugin.
 
 `undefined` \| `Plugin`
 
-#### Defined in
-
-[jsEngine/api/API.ts:93](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L93)
-
 ***
 
 ### importJs()
 
 > **importJs**(`path`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`unknown`\>
+
+Defined in: [jsEngine/api/API.ts:74](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L74)
 
 Loads an ECMAScript module from a vault relative path.
 Everything you import via this function will be loaded as an ECMAScript module.
@@ -301,15 +279,59 @@ the vault relative path of the file to import
 
 [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`unknown`\>
 
-#### Defined in
+***
 
-[jsEngine/api/API.ts:73](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L73)
+### parseLink()
+
+> **parseLink**(`link`): `undefined` \| `MarkdownLink`
+
+Defined in: [jsEngine/api/API.ts:149](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L149)
+
+Parses a markdown link.
+This link can be a markdown link or a wiki link.
+
+#### Parameters
+
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+`link`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+the link to parse.
+
+</td>
+</tr>
+</tbody>
+</table>
+
+#### Returns
+
+`undefined` \| `MarkdownLink`
 
 ***
 
 ### reactive()
 
 > **reactive**(`fn`, ...`initialArgs`): [`ReactiveComponent`](/obsidian-js-engine-plugin-docs/api/classes/reactivecomponent/)
+
+Defined in: [jsEngine/api/API.ts:121](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L121)
 
 Creates a reactive component.
 Reactive components are useful for creating dynamic content.
@@ -366,6 +388,66 @@ the initial arguments (for the first render) to pass to the function.
 
 [`ReactiveComponent`](/obsidian-js-engine-plugin-docs/api/classes/reactivecomponent/)
 
-#### Defined in
+***
 
-[jsEngine/api/API.ts:120](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/API.ts#L120)
+### resolveLinkToTFile()
+
+> **resolveLinkToTFile**(`link`, `sourcePath`): `undefined` \| `TFile`
+
+Defined in: [jsEngine/api/API.ts:135](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/API.ts#L135)
+
+Gets the target file of a link.
+This link can be a markdown link or a wiki link.
+If the link target is not found, this will return undefined.
+
+#### Parameters
+
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+`link`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+the link to get the target file of.
+
+</td>
+</tr>
+<tr>
+<td>
+
+`sourcePath`
+
+</td>
+<td>
+
+`string`
+
+</td>
+<td>
+
+the path of the file that contains the link. This is needed to resolve relative links.
+
+</td>
+</tr>
+</tbody>
+</table>
+
+#### Returns
+
+`undefined` \| `TFile`

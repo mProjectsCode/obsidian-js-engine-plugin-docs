@@ -5,6 +5,8 @@ prev: false
 title: "InstanceId"
 ---
 
+Defined in: [jsEngine/api/InstanceId.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L13)
+
 Identifies an instance of the API.
 
 For the API passed into a JsExecution this is the id of the JsExecution itself.
@@ -13,7 +15,9 @@ For the API passed into a JsExecution this is the id of the JsExecution itself.
 
 ### new InstanceId()
 
-> **new InstanceId**(`name`, `id`): [`InstanceId`](/obsidian-js-engine-plugin-docs/api/classes/instanceid/)
+> **new InstanceId**(`name`, `id`, `executionContext`?): [`InstanceId`](/obsidian-js-engine-plugin-docs/api/classes/instanceid/)
+
+Defined in: [jsEngine/api/InstanceId.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L18)
 
 #### Parameters
 
@@ -49,6 +53,18 @@ For the API passed into a JsExecution this is the id of the JsExecution itself.
 
 </td>
 </tr>
+<tr>
+<td>
+
+`executionContext`?
+
+</td>
+<td>
+
+[`ExecutionContext`](/obsidian-js-engine-plugin-docs/api/type-aliases/executioncontext/)
+
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -56,19 +72,21 @@ For the API passed into a JsExecution this is the id of the JsExecution itself.
 
 [`InstanceId`](/obsidian-js-engine-plugin-docs/api/classes/instanceid/)
 
-#### Defined in
-
-[jsEngine/api/InstanceId.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/InstanceId.ts#L15)
-
 ## Properties
+
+### executionContext
+
+> `readonly` **executionContext**: `undefined` \| [`ExecutionContext`](/obsidian-js-engine-plugin-docs/api/type-aliases/executioncontext/)
+
+Defined in: [jsEngine/api/InstanceId.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L16)
+
+***
 
 ### id
 
 > `readonly` **id**: `string`
 
-#### Defined in
-
-[jsEngine/api/InstanceId.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/InstanceId.ts#L13)
+Defined in: [jsEngine/api/InstanceId.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L15)
 
 ***
 
@@ -76,9 +94,7 @@ For the API passed into a JsExecution this is the id of the JsExecution itself.
 
 > `readonly` **name**: `string`
 
-#### Defined in
-
-[jsEngine/api/InstanceId.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/InstanceId.ts#L12)
+Defined in: [jsEngine/api/InstanceId.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L14)
 
 ## Methods
 
@@ -86,19 +102,19 @@ For the API passed into a JsExecution this is the id of the JsExecution itself.
 
 > **toString**(): `string`
 
+Defined in: [jsEngine/api/InstanceId.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L24)
+
 #### Returns
 
 `string`
-
-#### Defined in
-
-[jsEngine/api/InstanceId.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/InstanceId.ts#L20)
 
 ***
 
 ### create()
 
 > `static` **create**(`name`): [`InstanceId`](/obsidian-js-engine-plugin-docs/api/classes/instanceid/)
+
+Defined in: [jsEngine/api/InstanceId.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L28)
 
 #### Parameters
 
@@ -128,7 +144,3 @@ For the API passed into a JsExecution this is the id of the JsExecution itself.
 #### Returns
 
 [`InstanceId`](/obsidian-js-engine-plugin-docs/api/classes/instanceid/)
-
-#### Defined in
-
-[jsEngine/api/InstanceId.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/InstanceId.ts#L24)

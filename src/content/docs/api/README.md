@@ -7,6 +7,7 @@ title: "obsidian-js-engine-plugin"
 
 ## Enumerations
 
+- [ExecutionSource](/obsidian-js-engine-plugin-docs/api/enumerations/executionsource/)
 - [InstanceType](/obsidian-js-engine-plugin-docs/api/enumerations/instancetype/)
 
 ## Classes
@@ -43,17 +44,25 @@ title: "obsidian-js-engine-plugin"
 - [ConfirmPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/confirmpromptoptions/)
 - [EngineExecutionParams](/obsidian-js-engine-plugin-docs/api/interfaces/engineexecutionparams/)
 - [InputPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/inputpromptoptions/)
-- [JsExecutionContext](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutioncontext/)
 - [JsExecutionGlobals](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobals/)
 - [JsExecutionGlobalsConstructionOptions](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobalsconstructionoptions/)
 - [JsExecutionParams](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionparams/)
+- [JSFileExecutionContext](/obsidian-js-engine-plugin-docs/api/interfaces/jsfileexecutioncontext/)
 - [LibParsiNOM](/obsidian-js-engine-plugin-docs/api/interfaces/libparsinom/)
+- [MarkdownCallingJSFileExecutionContext](/obsidian-js-engine-plugin-docs/api/interfaces/markdowncallingjsfileexecutioncontext/)
+- [MarkdownCodeBlockExecutionContext](/obsidian-js-engine-plugin-docs/api/interfaces/markdowncodeblockexecutioncontext/)
+- [MarkdownOtherExecutionContext](/obsidian-js-engine-plugin-docs/api/interfaces/markdownotherexecutioncontext/)
 - [ModalPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/modalpromptoptions/)
 - [NumberInputPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/numberinputpromptoptions/)
 - [SuggesterOption](/obsidian-js-engine-plugin-docs/api/interfaces/suggesteroption/)
 - [SuggesterPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/suggesterpromptoptions/)
+- [UnknownExecutionContext](/obsidian-js-engine-plugin-docs/api/interfaces/unknownexecutioncontext/)
 - [YesNoPromptOptions](/obsidian-js-engine-plugin-docs/api/interfaces/yesnopromptoptions/)
 
 ## Type Aliases
 
+- [ExecuteFileEngineExecutionParams](/obsidian-js-engine-plugin-docs/api/type-aliases/executefileengineexecutionparams/)
+- [ExecuteFileSimpleEngineExecutionParams](/obsidian-js-engine-plugin-docs/api/type-aliases/executefilesimpleengineexecutionparams/)
+- [ExecutionContext](/obsidian-js-engine-plugin-docs/api/type-aliases/executioncontext/)
 - [JsFunc](/obsidian-js-engine-plugin-docs/api/type-aliases/jsfunc/)
+- [TableElementType](/obsidian-js-engine-plugin-docs/api/type-aliases/tableelementtype/)

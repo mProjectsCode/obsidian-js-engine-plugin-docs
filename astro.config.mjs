@@ -68,14 +68,14 @@ export default defineConfig({
 				starlightSiteGraph({
 					graphConfig: {
 						depth: 5,
-						trackVisitedPages: false,
+						visibilityRules: ['!**/api/README.md', '*/api/**'],
 					},
+					trackVisitedPages: 'disable',
 					storageLocation: 'none',
-					contentRoot: './src/content/docs',
-					include_sitemap: ['./api/*/**/*.md'],
-					exclude_sitemap: ['**'],
-					show_graph: ['api/**'],
-					hide_graph: ['**', ''],
+					sitemapConfig: {
+						contentRoot: './src/content/docs',
+						pageInclusionRules: ['!**/api/README.md', '**/api/**'],
+					},
 				}),
 			],
 			customCss: ['./src/styles/custom.css'],

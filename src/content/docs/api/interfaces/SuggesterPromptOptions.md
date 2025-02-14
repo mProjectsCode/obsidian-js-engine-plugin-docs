@@ -5,6 +5,8 @@ prev: false
 title: "SuggesterPromptOptions"
 ---
 
+Defined in: [jsEngine/api/PromptAPI.ts:58](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L58)
+
 ## Type Parameters
 
 <table>
@@ -30,9 +32,7 @@ title: "SuggesterPromptOptions"
 
 > **options**: [`SuggesterOption`](/obsidian-js-engine-plugin-docs/api/interfaces/suggesteroption/)\<`T`\>[]
 
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:60](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L60)
+Defined in: [jsEngine/api/PromptAPI.ts:60](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L60)
 
 ***
 
@@ -40,6 +40,4 @@ title: "SuggesterPromptOptions"
 
 > `optional` **placeholder**: `string`
 
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:59](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L59)
+Defined in: [jsEngine/api/PromptAPI.ts:59](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L59)

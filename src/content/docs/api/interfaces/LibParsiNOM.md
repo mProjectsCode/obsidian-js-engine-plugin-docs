@@ -5,11 +5,15 @@ prev: false
 title: "LibParsiNOM"
 ---
 
+Defined in: [jsEngine/api/LibAPI.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L9)
+
 ## Properties
 
 ### createParsingErrorMessage()
 
 > **createParsingErrorMessage**: (`str`, `parseFailure`, `verbose`) => `string`
+
+Defined in: [jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L13)
 
 Generate an error message string for a parse failure on a specific string.
 
@@ -82,19 +86,13 @@ will underline the failure position in the input string, if set to true
 
 `string`
 
-#### Defined in
-
-[jsEngine/api/LibAPI.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L13)
-
 ***
 
 ### P
 
 > **P**: *typeof* `P`
 
-#### Defined in
-
-[jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L10)
+Defined in: [jsEngine/api/LibAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L10)
 
 ***
 
@@ -102,9 +100,7 @@ will underline the failure position in the input string, if set to true
 
 > **P\_UTILS**: *typeof* `P_UTILS`
 
-#### Defined in
-
-[jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L11)
+Defined in: [jsEngine/api/LibAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L11)
 
 ***
 
@@ -112,9 +108,7 @@ will underline the failure position in the input string, if set to true
 
 > **Parser**: *typeof* `Parser`
 
-#### Defined in
-
-[jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L12)
+Defined in: [jsEngine/api/LibAPI.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L12)
 
 ***
 
@@ -122,9 +116,7 @@ will underline the failure position in the input string, if set to true
 
 > **ParserContext**: *typeof* `ParserContext`
 
-#### Defined in
-
-[jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L15)
+Defined in: [jsEngine/api/LibAPI.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L15)
 
 ***
 
@@ -132,6 +124,4 @@ will underline the failure position in the input string, if set to true
 
 > **ParsingError**: *typeof* `ParsingError`
 
-#### Defined in
-
-[jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/LibAPI.ts#L14)
+Defined in: [jsEngine/api/LibAPI.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/LibAPI.ts#L14)

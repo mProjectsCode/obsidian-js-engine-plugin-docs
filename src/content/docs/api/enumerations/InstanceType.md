@@ -5,6 +5,8 @@ prev: false
 title: "InstanceType"
 ---
 
+Defined in: [jsEngine/api/InstanceId.ts:3](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L3)
+
 ## Enumeration Members
 
 <table>
@@ -19,7 +21,7 @@ title: "InstanceType"
 <tr>
 <td>
 
-`JS_EXECUTION`
+<a id="js_execution"></a> `JS_EXECUTION`
 
 </td>
 <td>
@@ -29,14 +31,14 @@ title: "InstanceType"
 </td>
 <td>
 
-[jsEngine/api/InstanceId.ts:2](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/InstanceId.ts#L2)
+[jsEngine/api/InstanceId.ts:4](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L4)
 
 </td>
 </tr>
 <tr>
 <td>
 
-`PLUGIN`
+<a id="plugin"></a> `PLUGIN`
 
 </td>
 <td>
@@ -46,7 +48,7 @@ title: "InstanceType"
 </td>
 <td>
 
-[jsEngine/api/InstanceId.ts:3](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/InstanceId.ts#L3)
+[jsEngine/api/InstanceId.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L5)
 
 </td>
 </tr>

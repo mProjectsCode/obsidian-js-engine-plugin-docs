@@ -5,11 +5,15 @@ prev: false
 title: "PromptAPI"
 ---
 
+Defined in: [jsEngine/api/PromptAPI.ts:98](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L98)
+
 ## Constructors
 
 ### new PromptAPI()
 
 > **new PromptAPI**(`apiInstance`): [`PromptAPI`](/obsidian-js-engine-plugin-docs/api/classes/promptapi/)
+
+Defined in: [jsEngine/api/PromptAPI.ts:101](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L101)
 
 #### Parameters
 
@@ -40,25 +44,21 @@ title: "PromptAPI"
 
 [`PromptAPI`](/obsidian-js-engine-plugin-docs/api/classes/promptapi/)
 
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:101](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L101)
-
 ## Properties
 
 ### apiInstance
 
 > `readonly` **apiInstance**: [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
 
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:99](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L99)
+Defined in: [jsEngine/api/PromptAPI.ts:99](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L99)
 
 ## Methods
 
 ### button()
 
 > **button**\<`T`\>(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`undefined` \| `T`\>
+
+Defined in: [jsEngine/api/PromptAPI.ts:132](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L132)
 
 Prompts the user with a modal containing a list of buttons.
 Returns the value of the button that was clicked, or undefined if the modal was closed.
@@ -135,15 +135,13 @@ const ret = await engine.prompt.button({
 });
 ```
 
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:132](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L132)
-
 ***
 
 ### confirm()
 
 > **confirm**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`boolean`\>
+
+Defined in: [jsEngine/api/PromptAPI.ts:171](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L171)
 
 Prompts the user with a confirm/cancel dialog.
 Returns true if the user confirms, false if the user cancels or otherwise closes the modal.
@@ -188,15 +186,13 @@ const ret = await engine.prompt.confirm({
 });
 ```
 
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:171](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L171)
-
 ***
 
 ### number()
 
 > **number**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`undefined` \| `number`\>
+
+Defined in: [jsEngine/api/PromptAPI.ts:362](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L362)
 
 Prompts the user with a number input dialog.
 Returns the value of the input field, or undefined if the user closes the modal.
@@ -242,15 +238,13 @@ const ret = await engine.prompt.text({
 });
 ```
 
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:362](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L362)
-
 ***
 
 ### suggester()
 
 > **suggester**\<`T`\>(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`undefined` \| `T`\>
+
+Defined in: [jsEngine/api/PromptAPI.ts:248](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L248)
 
 Prompts the user with a fuzzy finder suggester dialog.
 Returns the value of the selected option, or undefined if the user closes the modal.
@@ -321,15 +315,13 @@ const ret = await engine.prompt.suggester({
 });
 ```
 
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:248](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L248)
-
 ***
 
 ### text()
 
 > **text**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`undefined` \| `string`\>
+
+Defined in: [jsEngine/api/PromptAPI.ts:275](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L275)
 
 Prompts the user with a text input dialog.
 Returns the value of the input field, or undefined if the user closes the modal.
@@ -375,15 +367,13 @@ const ret = await engine.prompt.text({
 });
 ```
 
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:275](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L275)
-
 ***
 
 ### textarea()
 
 > **textarea**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`undefined` \| `string`\>
+
+Defined in: [jsEngine/api/PromptAPI.ts:319](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L319)
 
 Prompts the user with a textarea input dialog.
 Returns the value of the input field, or undefined if the user closes the modal.
@@ -430,15 +420,13 @@ const ret = await engine.prompt.textarea({
 });
 ```
 
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:319](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L319)
-
 ***
 
 ### yesNo()
 
 > **yesNo**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`undefined` \| `boolean`\>
+
+Defined in: [jsEngine/api/PromptAPI.ts:207](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L207)
 
 Prompts the user with a yes/no dialog.
 Returns true if the user selects yes, false if the user selects no, and undefined if the user otherwise closes the modal.
@@ -482,7 +470,3 @@ const ret = await engine.prompt.yesNo({
     content: 'Are you sure this is a test? Are you sure that your choice is really meaningless?',
 });
 ```
-
-#### Defined in
-
-[jsEngine/api/PromptAPI.ts:207](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/api/PromptAPI.ts#L207)

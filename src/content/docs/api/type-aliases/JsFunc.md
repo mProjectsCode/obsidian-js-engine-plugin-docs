@@ -7,6 +7,8 @@ title: "JsFunc"
 
 > **JsFunc**: (...`args`) => [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`unknown`\>
 
+Defined in: [jsEngine/engine/JsExecution.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L13)
+
 An async JavaScript function.
 
 ## Parameters
@@ -37,7 +39,3 @@ An async JavaScript function.
 ## Returns
 
 [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`unknown`\>
-
-## Defined in
-
-[jsEngine/engine/JsExecution.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L13)

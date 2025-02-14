@@ -5,6 +5,8 @@ prev: false
 title: "JsExecution"
 ---
 
+Defined in: [jsEngine/engine/JsExecution.ts:162](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L162)
+
 Models the execution of a JavaScript string.
 
 ## Constructors
@@ -12,6 +14,8 @@ Models the execution of a JavaScript string.
 ### new JsExecution()
 
 > **new JsExecution**(`params`): [`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)
+
+Defined in: [jsEngine/engine/JsExecution.ts:182](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L182)
 
 #### Parameters
 
@@ -42,19 +46,13 @@ Models the execution of a JavaScript string.
 
 [`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:122](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L122)
-
 ## Properties
 
 ### app
 
 > `readonly` **app**: `App`
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:103](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L103)
+Defined in: [jsEngine/engine/JsExecution.ts:163](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L163)
 
 ***
 
@@ -62,9 +60,7 @@ Models the execution of a JavaScript string.
 
 > `readonly` **code**: `string`
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:113](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L113)
+Defined in: [jsEngine/engine/JsExecution.ts:173](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L173)
 
 ***
 
@@ -72,9 +68,7 @@ Models the execution of a JavaScript string.
 
 > **functionBuildError**: `undefined` \| [`Error`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:116](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L116)
+Defined in: [jsEngine/engine/JsExecution.ts:176](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L176)
 
 ***
 
@@ -82,9 +76,7 @@ Models the execution of a JavaScript string.
 
 > **functionBuildTime**: `undefined` \| `number`
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:119](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L119)
+Defined in: [jsEngine/engine/JsExecution.ts:179](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L179)
 
 ***
 
@@ -92,9 +84,7 @@ Models the execution of a JavaScript string.
 
 > **functionRunError**: `undefined` \| [`Error`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:117](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L117)
+Defined in: [jsEngine/engine/JsExecution.ts:177](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L177)
 
 ***
 
@@ -102,9 +92,7 @@ Models the execution of a JavaScript string.
 
 > **functionRunTime**: `undefined` \| `number`
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:120](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L120)
+Defined in: [jsEngine/engine/JsExecution.ts:180](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L180)
 
 ***
 
@@ -112,9 +100,7 @@ Models the execution of a JavaScript string.
 
 > `readonly` **globals**: [`JsExecutionGlobals`](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobals/)
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:111](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L111)
+Defined in: [jsEngine/engine/JsExecution.ts:171](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L171)
 
 ***
 
@@ -122,9 +108,7 @@ Models the execution of a JavaScript string.
 
 > `readonly` **plugin**: `JsEnginePlugin`
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:104](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L104)
+Defined in: [jsEngine/engine/JsExecution.ts:164](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L164)
 
 ***
 
@@ -132,9 +116,7 @@ Models the execution of a JavaScript string.
 
 > **result**: `unknown`
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:114](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L114)
+Defined in: [jsEngine/engine/JsExecution.ts:174](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L174)
 
 ***
 
@@ -142,9 +124,7 @@ Models the execution of a JavaScript string.
 
 > `readonly` **uuid**: `string`
 
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:112](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L112)
+Defined in: [jsEngine/engine/JsExecution.ts:172](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L172)
 
 ## Methods
 
@@ -152,15 +132,13 @@ Models the execution of a JavaScript string.
 
 > **buildFunction**(): `void`
 
+Defined in: [jsEngine/engine/JsExecution.ts:208](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L208)
+
 Creates the function from the code provided in the constructor.
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:145](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L145)
 
 ***
 
@@ -168,15 +146,13 @@ Creates the function from the code provided in the constructor.
 
 > **getMessages**(): `MessageWrapper`[]
 
+Defined in: [jsEngine/engine/JsExecution.ts:283](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L283)
+
 Returns the messages generated by the function.
 
 #### Returns
 
 `MessageWrapper`[]
-
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:220](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L220)
 
 ***
 
@@ -184,15 +160,13 @@ Returns the messages generated by the function.
 
 > **isSuccessful**(): `boolean`
 
+Defined in: [jsEngine/engine/JsExecution.ts:276](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L276)
+
 Returns true if the function was built and run without errors.
 
 #### Returns
 
 `boolean`
-
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:213](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L213)
 
 ***
 
@@ -200,15 +174,13 @@ Returns true if the function was built and run without errors.
 
 > **openStatsModal**(): `void`
 
+Defined in: [jsEngine/engine/JsExecution.ts:290](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L290)
+
 Opens the execution stats modal for this execution.
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:227](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L227)
 
 ***
 
@@ -216,12 +188,10 @@ Opens the execution stats modal for this execution.
 
 > **runFunction**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
+Defined in: [jsEngine/engine/JsExecution.ts:239](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L239)
+
 Runs the function created by [JsExecution.buildFunction](../../../../../obsidian-js-engine-plugin-docs/api/classes/jsexecution/#buildfunction).
 
 #### Returns
 
 [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
-
-#### Defined in
-
-[jsEngine/engine/JsExecution.ts:176](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/478195ff0950169f74ac27af6df4a8ee89bd131d/jsEngine/engine/JsExecution.ts#L176)
