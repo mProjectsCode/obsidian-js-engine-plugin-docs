@@ -5,7 +5,7 @@ prev: false
 title: "MarkdownOtherExecutionContext"
 ---
 
-Defined in: [jsEngine/engine/JsExecution.ts:60](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L60)
+Defined in: [jsEngine/engine/JsExecution.ts:62](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L62)
 
 ## Properties
 
@@ -13,17 +13,18 @@ Defined in: [jsEngine/engine/JsExecution.ts:60](https://github.com/mProjectsCode
 
 > **executionSource**: [`MarkdownOther`](/obsidian-js-engine-plugin-docs/api/enumerations/executionsource/#markdownother)
 
-Defined in: [jsEngine/engine/JsExecution.ts:61](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L61)
+Defined in: [jsEngine/engine/JsExecution.ts:63](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L63)
 
 ***
 
-### file
+### file?
 
-> **file**: `TFile`
+> `optional` **file**: `TFile`
 
-Defined in: [jsEngine/engine/JsExecution.ts:65](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L65)
+Defined in: [jsEngine/engine/JsExecution.ts:68](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L68)
 
-The file that the code block is in.
+The file that the markdown is associated with.
+Since rendered markdown does not necessarily have an associated file, this can be undefined.
 
 ***
 
@@ -31,6 +32,6 @@ The file that the code block is in.
 
 > `optional` **metadata**: `CachedMetadata`
 
-Defined in: [jsEngine/engine/JsExecution.ts:69](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L69)
+Defined in: [jsEngine/engine/JsExecution.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L72)
 
 The metadata of the file.

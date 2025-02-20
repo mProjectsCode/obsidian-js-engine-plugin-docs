@@ -5,7 +5,7 @@ prev: false
 title: "UnknownExecutionContext"
 ---
 
-Defined in: [jsEngine/engine/JsExecution.ts:80](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L80)
+Defined in: [jsEngine/engine/JsExecution.ts:83](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L83)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [jsEngine/engine/JsExecution.ts:80](https://github.com/mProjectsCode
 
 > **executionSource**: [`Unknown`](/obsidian-js-engine-plugin-docs/api/enumerations/executionsource/#unknown)
 
-Defined in: [jsEngine/engine/JsExecution.ts:81](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L81)
+Defined in: [jsEngine/engine/JsExecution.ts:84](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L84)
 
 ***
 
@@ -21,6 +21,6 @@ Defined in: [jsEngine/engine/JsExecution.ts:81](https://github.com/mProjectsCode
 
 > `optional` **file**: `TFile`
 
-Defined in: [jsEngine/engine/JsExecution.ts:85](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L85)
+Defined in: [jsEngine/engine/JsExecution.ts:88](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L88)
 
 The file that the execution was triggered from.

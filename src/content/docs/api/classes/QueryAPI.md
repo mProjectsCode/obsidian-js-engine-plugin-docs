@@ -5,7 +5,7 @@ prev: false
 title: "QueryAPI"
 ---
 
-Defined in: [jsEngine/api/QueryAPI.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/QueryAPI.ts#L7)
+Defined in: [jsEngine/api/QueryAPI.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/QueryAPI.ts#L7)
 
 ## Constructors
 
@@ -13,7 +13,7 @@ Defined in: [jsEngine/api/QueryAPI.ts:7](https://github.com/mProjectsCode/obsidi
 
 > **new QueryAPI**(`apiInstance`): [`QueryAPI`](/obsidian-js-engine-plugin-docs/api/classes/queryapi/)
 
-Defined in: [jsEngine/api/QueryAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/QueryAPI.ts#L10)
+Defined in: [jsEngine/api/QueryAPI.ts:10](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/QueryAPI.ts#L10)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [jsEngine/api/QueryAPI.ts:10](https://github.com/mProjectsCode/obsid
 
 > `readonly` **apiInstance**: [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
 
-Defined in: [jsEngine/api/QueryAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/QueryAPI.ts#L8)
+Defined in: [jsEngine/api/QueryAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/QueryAPI.ts#L8)
 
 ## Methods
 
@@ -58,7 +58,7 @@ Defined in: [jsEngine/api/QueryAPI.ts:8](https://github.com/mProjectsCode/obsidi
 
 > **files**\<`T`\>(`query`): `T`[]
 
-Defined in: [jsEngine/api/QueryAPI.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/QueryAPI.ts#L29)
+Defined in: [jsEngine/api/QueryAPI.ts:29](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/QueryAPI.ts#L29)
 
 This function will run the `query` callback on every markdown file in the vault and then return a list of the results, with `undefined` filtered out.
 
@@ -128,7 +128,7 @@ const fileNames = engine.query.files(file => file.path.startsWith("Foo/") ? file
 
 > **filesWithMetadata**\<`T`\>(`query`): `T`[]
 
-Defined in: [jsEngine/api/QueryAPI.ts:47](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/QueryAPI.ts#L47)
+Defined in: [jsEngine/api/QueryAPI.ts:47](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/QueryAPI.ts#L47)
 
 This function functions similarly tp [QueryAPI.files](../../../../../obsidian-js-engine-plugin-docs/api/classes/queryapi/#files), but also provides the cache and tags of each file to the `query` callback.
 
@@ -193,7 +193,7 @@ const paths = engine.query.filesWithMetadata((file, cache, tags) => tags.include
 
 > **incomingLinks**(`file`): `object`[]
 
-Defined in: [jsEngine/api/QueryAPI.ts:92](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/QueryAPI.ts#L92)
+Defined in: [jsEngine/api/QueryAPI.ts:92](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/QueryAPI.ts#L92)
 
 #### Parameters
 
@@ -230,7 +230,7 @@ Defined in: [jsEngine/api/QueryAPI.ts:92](https://github.com/mProjectsCode/obsid
 
 > **outgoingLinks**(`file`): `object`[]
 
-Defined in: [jsEngine/api/QueryAPI.ts:69](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/QueryAPI.ts#L69)
+Defined in: [jsEngine/api/QueryAPI.ts:69](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/QueryAPI.ts#L69)
 
 #### Parameters
 

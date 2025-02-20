@@ -5,7 +5,7 @@ prev: false
 title: "InstanceType"
 ---
 
-Defined in: [jsEngine/api/InstanceId.ts:3](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L3)
+Defined in: [jsEngine/api/InstanceId.ts:3](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/InstanceId.ts#L3)
 
 ## Enumeration Members
 
@@ -31,7 +31,7 @@ Defined in: [jsEngine/api/InstanceId.ts:3](https://github.com/mProjectsCode/obsi
 </td>
 <td>
 
-[jsEngine/api/InstanceId.ts:4](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L4)
+[jsEngine/api/InstanceId.ts:4](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/InstanceId.ts#L4)
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Defined in: [jsEngine/api/InstanceId.ts:3](https://github.com/mProjectsCode/obsi
 </td>
 <td>
 
-[jsEngine/api/InstanceId.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L5)
+[jsEngine/api/InstanceId.ts:5](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/InstanceId.ts#L5)
 
 </td>
 </tr>

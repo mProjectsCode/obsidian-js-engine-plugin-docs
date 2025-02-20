@@ -5,7 +5,7 @@ prev: false
 title: "ReactiveComponent"
 ---
 
-Defined in: [jsEngine/api/reactive/ReactiveComponent.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/reactive/ReactiveComponent.ts#L12)
+Defined in: [jsEngine/api/reactive/ReactiveComponent.ts:12](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/reactive/ReactiveComponent.ts#L12)
 
 A reactive component is a component that can be refreshed.
 This is useful for rendering dynamic content.
@@ -18,7 +18,7 @@ See [API.reactive](../../../../../obsidian-js-engine-plugin-docs/api/classes/api
 
 > **new ReactiveComponent**(`api`, `_render`, `initialArgs`): [`ReactiveComponent`](/obsidian-js-engine-plugin-docs/api/classes/reactivecomponent/)
 
-Defined in: [jsEngine/api/reactive/ReactiveComponent.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/reactive/ReactiveComponent.ts#L21)
+Defined in: [jsEngine/api/reactive/ReactiveComponent.ts:21](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/reactive/ReactiveComponent.ts#L21)
 
 #### Parameters
 
@@ -79,7 +79,7 @@ Defined in: [jsEngine/api/reactive/ReactiveComponent.ts:21](https://github.com/m
 
 > **refresh**(...`args`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [jsEngine/api/reactive/ReactiveComponent.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/reactive/ReactiveComponent.ts#L32)
+Defined in: [jsEngine/api/reactive/ReactiveComponent.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/reactive/ReactiveComponent.ts#L32)
 
 Refreshes the component by rerunning the render function with the arguments passed into this function.
 

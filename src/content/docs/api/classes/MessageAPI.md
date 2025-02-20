@@ -5,7 +5,7 @@ prev: false
 title: "MessageAPI"
 ---
 
-Defined in: [jsEngine/api/MessageAPI.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MessageAPI.ts#L7)
+Defined in: [jsEngine/api/MessageAPI.ts:7](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/MessageAPI.ts#L7)
 
 ## Constructors
 
@@ -13,7 +13,7 @@ Defined in: [jsEngine/api/MessageAPI.ts:7](https://github.com/mProjectsCode/obsi
 
 > **new MessageAPI**(`apiInstance`): [`MessageAPI`](/obsidian-js-engine-plugin-docs/api/classes/messageapi/)
 
-Defined in: [jsEngine/api/MessageAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MessageAPI.ts#L11)
+Defined in: [jsEngine/api/MessageAPI.ts:11](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/MessageAPI.ts#L11)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [jsEngine/api/MessageAPI.ts:11](https://github.com/mProjectsCode/obs
 
 > `readonly` **apiInstance**: [`API`](/obsidian-js-engine-plugin-docs/api/classes/api/)
 
-Defined in: [jsEngine/api/MessageAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MessageAPI.ts#L8)
+Defined in: [jsEngine/api/MessageAPI.ts:8](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/MessageAPI.ts#L8)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [jsEngine/api/MessageAPI.ts:8](https://github.com/mProjectsCode/obsi
 
 > `readonly` **messageManager**: `MessageManager`
 
-Defined in: [jsEngine/api/MessageAPI.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MessageAPI.ts#L9)
+Defined in: [jsEngine/api/MessageAPI.ts:9](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/MessageAPI.ts#L9)
 
 ## Methods
 
@@ -66,7 +66,7 @@ Defined in: [jsEngine/api/MessageAPI.ts:9](https://github.com/mProjectsCode/obsi
 
 > **createMessage**(`type`, `title`, `content`, `code`): `MessageWrapper`
 
-Defined in: [jsEngine/api/MessageAPI.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MessageAPI.ts#L16)
+Defined in: [jsEngine/api/MessageAPI.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/MessageAPI.ts#L16)
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: [jsEngine/api/MessageAPI.ts:16](https://github.com/mProjectsCode/obs
 
 > **getMessageById**(`id`): `undefined` \| `MessageWrapper`
 
-Defined in: [jsEngine/api/MessageAPI.ts:27](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MessageAPI.ts#L27)
+Defined in: [jsEngine/api/MessageAPI.ts:27](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/MessageAPI.ts#L27)
 
 #### Parameters
 
@@ -197,7 +197,7 @@ Defined in: [jsEngine/api/MessageAPI.ts:27](https://github.com/mProjectsCode/obs
 
 > **getMessagesForInstance**(): `MessageWrapper`[]
 
-Defined in: [jsEngine/api/MessageAPI.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/MessageAPI.ts#L33)
+Defined in: [jsEngine/api/MessageAPI.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/MessageAPI.ts#L33)
 
 #### Returns
 

@@ -5,7 +5,7 @@ prev: false
 title: "JsExecutionParams"
 ---
 
-Defined in: [jsEngine/engine/JsExecution.ts:154](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L154)
+Defined in: [jsEngine/engine/JsExecution.ts:157](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L157)
 
 Parameters used to construct a [JsExecution](../../../../../obsidian-js-engine-plugin-docs/api/classes/jsexecution).
 
@@ -19,7 +19,7 @@ Parameters used to construct a [JsExecution](../../../../../obsidian-js-engine-p
 
 > **app**: `App`
 
-Defined in: [jsEngine/engine/JsExecution.ts:155](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L155)
+Defined in: [jsEngine/engine/JsExecution.ts:158](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L158)
 
 ***
 
@@ -27,7 +27,7 @@ Defined in: [jsEngine/engine/JsExecution.ts:155](https://github.com/mProjectsCod
 
 > **code**: `string`
 
-Defined in: [jsEngine/engine/Engine.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/Engine.ts#L14)
+Defined in: [jsEngine/engine/Engine.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/Engine.ts#L14)
 
 The JavaScript code to execute.
 
@@ -41,7 +41,7 @@ The JavaScript code to execute.
 
 > **component**: `Component`
 
-Defined in: [jsEngine/engine/Engine.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/Engine.ts#L18)
+Defined in: [jsEngine/engine/Engine.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/Engine.ts#L18)
 
 Obsidian Component for lifecycle management.
 
@@ -55,7 +55,7 @@ Obsidian Component for lifecycle management.
 
 > `optional` **container**: [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement)
 
-Defined in: [jsEngine/engine/Engine.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/Engine.ts#L22)
+Defined in: [jsEngine/engine/Engine.ts:22](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/Engine.ts#L22)
 
 Optional container element to render results to.
 
@@ -69,7 +69,7 @@ Optional container element to render results to.
 
 > **context**: [`ExecutionContext`](/obsidian-js-engine-plugin-docs/api/type-aliases/executioncontext/)
 
-Defined in: [jsEngine/engine/Engine.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/Engine.ts#L26)
+Defined in: [jsEngine/engine/Engine.ts:26](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/Engine.ts#L26)
 
 Context about the location the code was executed from.
 
@@ -83,7 +83,7 @@ Context about the location the code was executed from.
 
 > `optional` **contextOverrides**: [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`string`, `unknown`\>
 
-Defined in: [jsEngine/engine/Engine.ts:30](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/Engine.ts#L30)
+Defined in: [jsEngine/engine/Engine.ts:30](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/Engine.ts#L30)
 
 Optional extra context variables to provide to the JavaScript code.
 
@@ -97,4 +97,4 @@ Optional extra context variables to provide to the JavaScript code.
 
 > **plugin**: `JsEnginePlugin`
 
-Defined in: [jsEngine/engine/JsExecution.ts:156](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L156)
+Defined in: [jsEngine/engine/JsExecution.ts:159](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L159)

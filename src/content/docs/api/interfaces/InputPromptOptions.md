@@ -5,7 +5,7 @@ prev: false
 title: "InputPromptOptions"
 ---
 
-Defined in: [jsEngine/api/PromptAPI.ts:68](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L68)
+Defined in: [jsEngine/api/PromptAPI.ts:68](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/PromptAPI.ts#L68)
 
 Basic options for a prompt modal.
 This interface is used as a base for other prompt options.
@@ -20,7 +20,7 @@ This interface is used as a base for other prompt options.
 
 > `optional` **classes**: `string`[]
 
-Defined in: [jsEngine/api/PromptAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L24)
+Defined in: [jsEngine/api/PromptAPI.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/PromptAPI.ts#L24)
 
 A list of CSS classes to apply to the modal.
 
@@ -34,7 +34,7 @@ A list of CSS classes to apply to the modal.
 
 > `optional` **content**: `string`
 
-Defined in: [jsEngine/api/PromptAPI.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L72)
+Defined in: [jsEngine/api/PromptAPI.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/PromptAPI.ts#L72)
 
 Text content to display in the modal.
 
@@ -44,7 +44,7 @@ Text content to display in the modal.
 
 > `optional` **initialValue**: `string`
 
-Defined in: [jsEngine/api/PromptAPI.ts:80](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L80)
+Defined in: [jsEngine/api/PromptAPI.ts:80](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/PromptAPI.ts#L80)
 
 The initial value of the input field that is pre-filled when the modal is opened.
 
@@ -54,7 +54,7 @@ The initial value of the input field that is pre-filled when the modal is opened
 
 > `optional` **placeholder**: `string`
 
-Defined in: [jsEngine/api/PromptAPI.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L76)
+Defined in: [jsEngine/api/PromptAPI.ts:76](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/PromptAPI.ts#L76)
 
 The placeholder text for the input field. This will show when the input field is empty.
 
@@ -64,7 +64,7 @@ The placeholder text for the input field. This will show when the input field is
 
 > **title**: `string`
 
-Defined in: [jsEngine/api/PromptAPI.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/PromptAPI.ts#L20)
+Defined in: [jsEngine/api/PromptAPI.ts:20](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/PromptAPI.ts#L20)
 
 The title of the modal.
 

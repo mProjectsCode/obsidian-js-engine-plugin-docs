@@ -5,7 +5,7 @@ prev: false
 title: "MarkdownCallingJSFileExecutionContext"
 ---
 
-Defined in: [jsEngine/engine/JsExecution.ts:44](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L44)
+Defined in: [jsEngine/engine/JsExecution.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L45)
 
 ## Properties
 
@@ -13,17 +13,18 @@ Defined in: [jsEngine/engine/JsExecution.ts:44](https://github.com/mProjectsCode
 
 > **executionSource**: [`MarkdownCallingJSFile`](/obsidian-js-engine-plugin-docs/api/enumerations/executionsource/#markdowncallingjsfile)
 
-Defined in: [jsEngine/engine/JsExecution.ts:45](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L45)
+Defined in: [jsEngine/engine/JsExecution.ts:46](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L46)
 
 ***
 
-### file
+### file?
 
-> **file**: `TFile`
+> `optional` **file**: `TFile`
 
-Defined in: [jsEngine/engine/JsExecution.ts:49](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L49)
+Defined in: [jsEngine/engine/JsExecution.ts:51](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L51)
 
 The markdown file that the JS File is called from.
+Since rendered markdown does not necessarily have an associated file, this can be undefined.
 
 ***
 
@@ -31,7 +32,7 @@ The markdown file that the JS File is called from.
 
 > **jsFile**: `TFile`
 
-Defined in: [jsEngine/engine/JsExecution.ts:57](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L57)
+Defined in: [jsEngine/engine/JsExecution.ts:59](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L59)
 
 The JS that is being called.
 
@@ -41,6 +42,6 @@ The JS that is being called.
 
 > `optional` **metadata**: `CachedMetadata`
 
-Defined in: [jsEngine/engine/JsExecution.ts:53](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L53)
+Defined in: [jsEngine/engine/JsExecution.ts:55](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L55)
 
 The metadata of the markdown file.

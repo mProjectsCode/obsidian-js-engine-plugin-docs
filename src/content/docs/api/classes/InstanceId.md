@@ -5,7 +5,7 @@ prev: false
 title: "InstanceId"
 ---
 
-Defined in: [jsEngine/api/InstanceId.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L13)
+Defined in: [jsEngine/api/InstanceId.ts:13](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/InstanceId.ts#L13)
 
 Identifies an instance of the API.
 
@@ -17,7 +17,7 @@ For the API passed into a JsExecution this is the id of the JsExecution itself.
 
 > **new InstanceId**(`name`, `id`, `executionContext`?): [`InstanceId`](/obsidian-js-engine-plugin-docs/api/classes/instanceid/)
 
-Defined in: [jsEngine/api/InstanceId.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L18)
+Defined in: [jsEngine/api/InstanceId.ts:18](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/InstanceId.ts#L18)
 
 #### Parameters
 
@@ -78,7 +78,7 @@ Defined in: [jsEngine/api/InstanceId.ts:18](https://github.com/mProjectsCode/obs
 
 > `readonly` **executionContext**: `undefined` \| [`ExecutionContext`](/obsidian-js-engine-plugin-docs/api/type-aliases/executioncontext/)
 
-Defined in: [jsEngine/api/InstanceId.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L16)
+Defined in: [jsEngine/api/InstanceId.ts:16](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/InstanceId.ts#L16)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [jsEngine/api/InstanceId.ts:16](https://github.com/mProjectsCode/obs
 
 > `readonly` **id**: `string`
 
-Defined in: [jsEngine/api/InstanceId.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L15)
+Defined in: [jsEngine/api/InstanceId.ts:15](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/InstanceId.ts#L15)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [jsEngine/api/InstanceId.ts:15](https://github.com/mProjectsCode/obs
 
 > `readonly` **name**: `string`
 
-Defined in: [jsEngine/api/InstanceId.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L14)
+Defined in: [jsEngine/api/InstanceId.ts:14](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/InstanceId.ts#L14)
 
 ## Methods
 
@@ -102,7 +102,7 @@ Defined in: [jsEngine/api/InstanceId.ts:14](https://github.com/mProjectsCode/obs
 
 > **toString**(): `string`
 
-Defined in: [jsEngine/api/InstanceId.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L24)
+Defined in: [jsEngine/api/InstanceId.ts:24](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/InstanceId.ts#L24)
 
 #### Returns
 
@@ -114,7 +114,7 @@ Defined in: [jsEngine/api/InstanceId.ts:24](https://github.com/mProjectsCode/obs
 
 > `static` **create**(`name`): [`InstanceId`](/obsidian-js-engine-plugin-docs/api/classes/instanceid/)
 
-Defined in: [jsEngine/api/InstanceId.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/InstanceId.ts#L28)
+Defined in: [jsEngine/api/InstanceId.ts:28](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/InstanceId.ts#L28)
 
 #### Parameters
 

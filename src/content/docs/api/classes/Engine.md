@@ -5,7 +5,7 @@ prev: false
 title: "Engine"
 ---
 
-Defined in: [jsEngine/engine/Engine.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/Engine.ts#L33)
+Defined in: [jsEngine/engine/Engine.ts:33](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/Engine.ts#L33)
 
 ## Constructors
 
@@ -13,7 +13,7 @@ Defined in: [jsEngine/engine/Engine.ts:33](https://github.com/mProjectsCode/obsi
 
 > **new Engine**(`app`, `plugin`): [`Engine`](/obsidian-js-engine-plugin-docs/api/classes/engine/)
 
-Defined in: [jsEngine/engine/Engine.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/Engine.ts#L40)
+Defined in: [jsEngine/engine/Engine.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/Engine.ts#L40)
 
 #### Parameters
 
@@ -62,7 +62,7 @@ Defined in: [jsEngine/engine/Engine.ts:40](https://github.com/mProjectsCode/obsi
 
 > `readonly` **activeExecutions**: [`Map`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map)\<`string`, [`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)\>
 
-Defined in: [jsEngine/engine/Engine.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/Engine.ts#L38)
+Defined in: [jsEngine/engine/Engine.ts:38](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/Engine.ts#L38)
 
 ## Methods
 
@@ -70,7 +70,7 @@ Defined in: [jsEngine/engine/Engine.ts:38](https://github.com/mProjectsCode/obsi
 
 > **execute**(`params`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)\>
 
-Defined in: [jsEngine/engine/Engine.ts:53](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/Engine.ts#L53)
+Defined in: [jsEngine/engine/Engine.ts:53](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/Engine.ts#L53)
 
 Execute JavaScript code.
 
@@ -113,7 +113,7 @@ Execute JavaScript code.
 
 > **openExecutionStatsModal**(`jsExecution`): `void`
 
-Defined in: [jsEngine/engine/Engine.ts:73](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/Engine.ts#L73)
+Defined in: [jsEngine/engine/Engine.ts:73](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/Engine.ts#L73)
 
 Open the execution stats modal for a given [JsExecution](../../../../../obsidian-js-engine-plugin-docs/api/classes/jsexecution).
 

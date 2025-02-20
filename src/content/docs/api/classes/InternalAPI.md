@@ -5,7 +5,7 @@ prev: false
 title: "InternalAPI"
 ---
 
-Defined in: [jsEngine/api/Internal.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L32)
+Defined in: [jsEngine/api/Internal.ts:32](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L32)
 
 The internal API provides access to some of js engines internals.
 
@@ -15,7 +15,7 @@ The internal API provides access to some of js engines internals.
 
 > **new InternalAPI**(`apiInstance`): [`InternalAPI`](/obsidian-js-engine-plugin-docs/api/classes/internalapi/)
 
-Defined in: [jsEngine/api/Internal.ts:35](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L35)
+Defined in: [jsEngine/api/Internal.ts:35](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L35)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Defined in: [jsEngine/api/Internal.ts:35](https://github.com/mProjectsCode/obsid
 
 > **createExecutionGlobals**(`options`): [`JsExecutionGlobals`](/obsidian-js-engine-plugin-docs/api/interfaces/jsexecutionglobals/)
 
-Defined in: [jsEngine/api/Internal.ts:250](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L250)
+Defined in: [jsEngine/api/Internal.ts:250](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L250)
 
 Creates execution globals.
 
@@ -95,7 +95,7 @@ Creates execution globals.
 
 > **createRenderer**(`container`, `sourcePath`, `component`): [`ResultRenderer`](/obsidian-js-engine-plugin-docs/api/classes/resultrenderer/)
 
-Defined in: [jsEngine/api/Internal.ts:57](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L57)
+Defined in: [jsEngine/api/Internal.ts:57](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L57)
 
 Creates a result renderer.
 
@@ -168,7 +168,7 @@ Creates a result renderer.
 
 > **execute**(`params`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)\>
 
-Defined in: [jsEngine/api/Internal.ts:44](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L44)
+Defined in: [jsEngine/api/Internal.ts:44](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L44)
 
 Executes the given code.
 
@@ -211,7 +211,7 @@ Executes the given code.
 
 > **executeFile**(`path`, `params`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)\>
 
-Defined in: [jsEngine/api/Internal.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L72)
+Defined in: [jsEngine/api/Internal.ts:72](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L72)
 
 Load and execute the given file.
 
@@ -269,7 +269,7 @@ Load and execute the given file.
 
 > **executeFileSimple**(`path`, `params`?): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`JsExecution`](/obsidian-js-engine-plugin-docs/api/classes/jsexecution/)\>
 
-Defined in: [jsEngine/api/Internal.ts:97](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L97)
+Defined in: [jsEngine/api/Internal.ts:97](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L97)
 
 Lead and execute the given file.
 This method also handles the lifetime of the execution.
@@ -329,7 +329,7 @@ The component for the execution is created and destroyed automatically.
 
 > **executeStartupScripts**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [jsEngine/api/Internal.ts:266](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L266)
+Defined in: [jsEngine/api/Internal.ts:266](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L266)
 
 Runs all startup scripts defined in the plugins settings.
 
@@ -343,7 +343,7 @@ Runs all startup scripts defined in the plugins settings.
 
 > **getContextForFile**(`path`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`ExecutionContext`](/obsidian-js-engine-plugin-docs/api/type-aliases/executioncontext/)\>
 
-Defined in: [jsEngine/api/Internal.ts:121](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L121)
+Defined in: [jsEngine/api/Internal.ts:121](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L121)
 
 Gets the execution context for a specific file, throws when the file does not exist.
 
@@ -390,7 +390,7 @@ use [getContextForMarkdownCodeBlock](/obsidian-js-engine-plugin-docs/api/classes
 
 > **getContextForJSFile**(`path`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`JSFileExecutionContext`](/obsidian-js-engine-plugin-docs/api/interfaces/jsfileexecutioncontext/)\>
 
-Defined in: [jsEngine/api/Internal.ts:208](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L208)
+Defined in: [jsEngine/api/Internal.ts:208](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L208)
 
 Gets the execution context for a JS file.
 
@@ -435,7 +435,7 @@ The file path of the JS file.
 
 > **getContextForMarkdownCallingJSFile**(`markdownPath`, `jsPath`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`MarkdownCallingJSFileExecutionContext`](/obsidian-js-engine-plugin-docs/api/interfaces/markdowncallingjsfileexecutioncontext/)\>
 
-Defined in: [jsEngine/api/Internal.ts:167](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L167)
+Defined in: [jsEngine/api/Internal.ts:167](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L167)
 
 Gets the execution context for when a markdown file calls a JS file.
 This adds some extra info about the markdown file into the context, compared to [getContextForJSFile](../../../../../obsidian-js-engine-plugin-docs/api/classes/internalapi/#getcontextforjsfile).
@@ -498,7 +498,7 @@ The file path of the JS file.
 
 > **getContextForMarkdownCodeBlock**(`path`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`MarkdownCodeBlockExecutionContext`](/obsidian-js-engine-plugin-docs/api/interfaces/markdowncodeblockexecutioncontext/)\>
 
-Defined in: [jsEngine/api/Internal.ts:145](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L145)
+Defined in: [jsEngine/api/Internal.ts:145](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L145)
 
 Gets the execution context for a markdown code block.
 
@@ -543,7 +543,7 @@ The file path of the markdown file the code block is in.
 
 > **getContextForMarkdownOther**(`path`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`MarkdownOtherExecutionContext`](/obsidian-js-engine-plugin-docs/api/interfaces/markdownotherexecutioncontext/)\>
 
-Defined in: [jsEngine/api/Internal.ts:189](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L189)
+Defined in: [jsEngine/api/Internal.ts:189](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L189)
 
 Gets the execution context for a markdown code block.
 
@@ -588,7 +588,7 @@ The file path of the markdown file the code block is in.
 
 > **getContextForUnknown**(`path`?): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`UnknownExecutionContext`](/obsidian-js-engine-plugin-docs/api/interfaces/unknownexecutioncontext/)\>
 
-Defined in: [jsEngine/api/Internal.ts:225](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/api/Internal.ts#L225)
+Defined in: [jsEngine/api/Internal.ts:225](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/api/Internal.ts#L225)
 
 Gets an unknown execution context for anything that is not a markdown code block or a JS file.
 

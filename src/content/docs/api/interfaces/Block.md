@@ -5,7 +5,7 @@ prev: false
 title: "Block"
 ---
 
-Defined in: [jsEngine/engine/JsExecution.ts:39](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L39)
+Defined in: [jsEngine/engine/JsExecution.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L40)
 
 ## Properties
 
@@ -13,7 +13,7 @@ Defined in: [jsEngine/engine/JsExecution.ts:39](https://github.com/mProjectsCode
 
 > **from**: `number`
 
-Defined in: [jsEngine/engine/JsExecution.ts:40](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L40)
+Defined in: [jsEngine/engine/JsExecution.ts:41](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L41)
 
 ***
 
@@ -21,4 +21,4 @@ Defined in: [jsEngine/engine/JsExecution.ts:40](https://github.com/mProjectsCode
 
 > **to**: `number`
 
-Defined in: [jsEngine/engine/JsExecution.ts:41](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/8502428515e4bbbda63a1c50981c15858802b7c4/jsEngine/engine/JsExecution.ts#L41)
+Defined in: [jsEngine/engine/JsExecution.ts:42](https://github.com/mProjectsCode/obsidian-js-engine-plugin/blob/fff05749aaa23f9a775003f5828b7e747db4ed95/jsEngine/engine/JsExecution.ts#L42)
